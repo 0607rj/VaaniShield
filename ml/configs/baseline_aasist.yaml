@@ -1,0 +1,22 @@
+# B1: upstream AASIST (clovaai/aasist @ a04c986, unmodified) trained FROM SCRATCH on the same 40-clip pilot split as
+# B0_lfcc_cnn_pilot, with the same training loop, selection rule and evaluation protocol.
+# lr / weight decay follow upstream AASIST.conf (Adam-family, 1e-4, 1e-4); batch 8 because CPU (upstream: 24 on GPU).
+# Not used: upstream pretrained weights (trained on ASVspoof 2019 LA train, which contains every pilot clip).
+exp_id: B1_aasist_pilot
+data:
+  train_manifests: [data/manifests/asvspoof_pilot.csv]
+  crop_samples: 64600
+  num_workers: 0
+model:
+  kind: aasist
+train:
+  seed: 2026
+  epochs: 30
+  batch_size: 8
+  grad_accum: 1
+  lr_head: 0.0001
+  weight_decay: 0.0001
+  amp: false
+  early_stop_patience: 10
+calib:
+  method: none

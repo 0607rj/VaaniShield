@@ -1,0 +1,29 @@
+# DIAGNOSTIC (pause-controlled experiment, team decision D-H4). NOT a final detector; tiny CPU model, 200 training clips.
+# Template used by scripts/pause_controlled_diagnostic.py (it writes one derived config per seed into the run folder).
+exp_id: DIAG_hindi_v2_1_lfcc_train_pauses_kept
+data:
+  train_manifests: [data/manifests/hindi_v2_1_pilot.csv]
+  data_root: null
+  include_sources: []
+  max_clips_per_split: {}
+  preload_audio: true
+  crop_samples: 64600
+  num_workers: 1
+model:
+  kind: lfcc_cnn
+  params: {}
+train:
+  seed: 2026
+  device: cpu
+  epochs: 10
+  batch_size: 8
+  grad_accum: 1
+  lr_head: 0.001
+  weight_decay: 0.0001
+  amp: false
+  early_stop_patience: 3
+calib:
+  method: none
+output:
+  checkpoint_dir: runs/diag/pause_controlled/checkpoints
+  results_dir: runs/diag/pause_controlled/results

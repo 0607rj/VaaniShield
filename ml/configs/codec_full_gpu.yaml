@@ -1,0 +1,24 @@
+# CODEC FULL RUN (GPU / many-core machine; CPU-bound, no GPU needed). Do NOT run on the laptop.
+#   python -m ml.data.build_codec_variants --config ml/configs/codec_full_gpu.yaml [--workers N] [--data-root PATH]
+# Re-running skips files that already exist for the same condition params_hash (resume after interruption).
+# Dev + test only: these are the derived evaluation/calibration conditions (data_flow.md S9). Training codec
+# augmentation (train_aug conditions) is applied online during training, so train clips are not pre-encoded here.
+run_id: CODEC_full_v1
+input_manifests: [data/manifests/vaanishield_v1_full.csv, data/manifests/hinglish_pilot_v1.csv]
+data_root: null
+splits: [dev, test]
+include_sources: [asvspoof2019_la, openslr104_hien, cs_fleurs]   # no Hindi: v1 Hindi is confounded; v2.1 needs a headroom
+                                   # guard before codec steps (research/hindi_v2_1_validation.md §6). Set 2026-10-08, before any results.
+max_clips_per_split: {dev: 3000, test: 6000}   # per input manifest, label-stratified, deterministic. Every dev+test clip x 13
+                                   # conditions would be ~1.2 M files (~100 GB); this cap gives ~9k parents -> ~110k files (~11 GB)
+seed: 2026
+workers: 8
+conditions_file: ml/configs/codec_conditions.yaml
+conditions: []
+skip_unavailable: false            # the full run must include AMR: install ffmpeg with libopencore-amrnb + libvo-amrwbenc,
+                                   # or set true and record the omission in DATASET_CARD.md
+output:
+  audio_subdir: processed/codec_sim
+  manifest: data/manifests/codec_full_v1.csv
+  metadata: data/manifests/codec_full_v1_metadata.jsonl
+  quality: data/manifests/codec_full_v1_quality.csv

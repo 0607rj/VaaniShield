@@ -1,0 +1,21 @@
+# Robustness evaluation of the FULL-trained baselines (GPU machine, after section 7 of docs/GPU_HANDOFF.md).
+#   python -m ml.evaluation.robustness --config ml/configs/robustness_full_gpu.yaml --device cuda
+# Still a DEVELOPMENT run: English + the 200-clip Hinglish pilot only (no Hindi, see below), so these numbers are not
+# the paper's confirmatory results. The banner stays on every output.
+run_id: ROBUST_full_v1
+seed: 2026
+n_per_class: 35                    # per class per language (Hinglish pilot test has 60 per class)
+pools:
+  - {language: en,    manifest: data/manifests/vaanishield_v1_full.csv}
+  # Hindi removed 2026-10-08 (before any results): v1 Hindi is confounded (research/hindi_data_leakage_audit.md) and
+  # Hindi v2.1 needs a class-neutral headroom guard before codec variants (research/hindi_v2_1_validation.md §6).
+  - {language: hi-en, manifest: data/manifests/hinglish_pilot_v1.csv}
+subset_manifest: data/manifests/robust_full_subset.csv
+codec_config: ml/configs/codec_robust_full.yaml
+models:
+  - {name: B0_LFCC_full,   checkpoint: runs/full/checkpoints/FULL_lfcc_cnn_asvspoof_gpu/best.pt}
+  - {name: B1_AASIST_full, checkpoint: runs/full/checkpoints/FULL_aasist_asvspoof_gpu/best.pt}
+  - {name: P1_XLSR_full,   checkpoint: runs/full/checkpoints/FULL_xlsr_frozen_asvspoof_gpu/best.pt}
+device: cuda
+bootstrap_n: 1000
+output_dir: runs/full/robustness/ROBUST_full_v1

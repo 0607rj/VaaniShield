@@ -1,0 +1,20 @@
+# First vertical slice: LFCC + small CNN on the 40-clip ASVspoof 2019 LA pilot (speaker-disjoint split).
+# The single manifest carries the split column; train/dev/test rows are selected from it.
+exp_id: B0_lfcc_cnn_pilot
+data:
+  train_manifests: [data/manifests/asvspoof_pilot.csv]
+  crop_samples: 64600
+  num_workers: 0
+model:
+  kind: lfcc_cnn
+train:
+  seed: 2026
+  epochs: 30
+  batch_size: 8
+  grad_accum: 1
+  lr_head: 0.001
+  weight_decay: 0.0001
+  amp: false
+  early_stop_patience: 10
+calib:
+  method: none

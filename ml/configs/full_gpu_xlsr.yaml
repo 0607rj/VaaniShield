@@ -1,0 +1,39 @@
+# XLS-R FULL (GPU machine only). Frozen XLS-R-300M + learned layer weights + attentive-stats head (P1, H8/H10).
+# Partial fine-tuning is a SEPARATE experiment: copy this file, new exp_id, freeze_encoder: false, unfreeze_top_k: 4.
+# Prerequisites: full manifest data/manifests/vaanishield_v1_full.csv (see docs/LOCAL_VS_GPU_WORKFLOW.md).
+# Run:     python -m ml.training.train --config ml/configs/full_gpu_xlsr.yaml
+# Resume:  python -m ml.training.train --config ml/configs/full_gpu_xlsr.yaml --resume
+# Eval:    python -m ml.evaluation.evaluate --config ml/configs/full_gpu_xlsr.yaml
+exp_id: FULL_xlsr_frozen_asvspoof_gpu
+data:
+  train_manifests: [data/manifests/vaanishield_v1_full.csv]
+  data_root: null
+  include_sources: [asvspoof2019_la]  # Hindi pool stays out until the codec shortcut is fixed
+  max_clips_per_split: {}
+  preload_audio: false
+  crop_samples: 64600
+  num_workers: 8
+model:
+  kind: xlsr_mlp
+  encoder_id: facebook/wav2vec2-xls-r-300m
+  encoder_revision: 1a640f32ac3e39899438a2931f9924c02f080a54
+  freeze_encoder: true
+  unfreeze_top_k: 0
+  truncate_after_layer: null
+  adapter_dim: 128
+train:
+  seed: 2026
+  device: cuda
+  epochs: 30
+  batch_size: 32
+  grad_accum: 2          # effective batch 64; lower batch_size and raise grad_accum if GPU memory is short
+  lr_head: 0.001
+  lr_encoder: 0.000001   # used only when encoder layers are unfrozen
+  weight_decay: 0.0001
+  amp: true              # fp16 autocast on CUDA only (ignored on CPU)
+  early_stop_patience: 5
+calib:
+  method: none
+output:
+  checkpoint_dir: runs/full/checkpoints
+  results_dir: runs/full/results

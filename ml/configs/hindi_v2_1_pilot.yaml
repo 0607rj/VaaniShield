@@ -1,0 +1,27 @@
+# Hindi v2.1 pilot (research/hindi_v2_1_validation.md): v2 + team decisions D-H3..D-H6. NEW immutable version; v1/v2 untouched.
+#   python -m ml.data.build_hindi_v2 --config ml/configs/hindi_v2_1_pilot.yaml
+#   python -m ml.data.hindi_gate --config ml/configs/hindi_gate.yaml --manifest data/manifests/hindi_v2_1_pilot.csv
+build_id: hindi_v2_1_pilot
+v1_manifest: data/manifests/vaanishield_v1.csv          # its 320 IndicSynth clips are the spoof pool (unchanged files)
+indicsynth_metadata_glob: raw/indicsynth_hi/Hindi/*_metadata.csv
+kathbath_train_audio_dir: raw/kathbath_hi/kb_data_clean_m4a/hindi/train/audio
+kathbath_transcripts_dir: raw/kathbath_hi/_transcripts/kb_data_clean_m4a/hindi
+reference_ids: data/manifests/hindi_v2_reference_ids.txt
+codec_matching:                     # spoof only: give fakes the same last lossy stage as Kathbath's capture codec
+  enabled: true
+  encoder: aac
+  sample_rate: 44100
+  bitrate_kbps: 128                 # Kathbath median measured in the audit (127.4-128.2 kb/s)
+holdout_family: freevc              # unseen-family fold (docs/data_flow.md rule 3): FreeVC groups -> test only
+split_shares: {train: 0.6, dev: 0.2, test: 0.2}   # of the clips NOT in held-out groups
+min_duration_s: 1.0
+seed: 2026
+preprocessing: v2.1                  # D-H5: no peak limiter, float32 WAV (no clipping); same linear loudness rule for both classes
+pause_diagnostic:                   # D-H4: pauses KEPT in the primary data; this copy is only for the pause-controlled diagnostic
+  enabled: true
+  audio_dir: processed/hindi_v2_1/diag_pauses_removed
+  manifest: data/manifests/hindi_v2_1_pilot_pauses_removed.csv
+output:
+  audio_dir: processed/hindi_v2_1/pilot
+  manifest: data/manifests/hindi_v2_1_pilot.csv
+  metadata: data/manifests/hindi_v2_1_pilot_metadata.jsonl

@@ -1,0 +1,399 @@
+{
+  "source_id": "openslr104_hien",
+  "events": [
+    {
+      "recorded_at": "2026-10-07T17:09:32.287397+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "ml/data_scripts/acquire_openslr104.py",
+      "source_url": "https://www.openslr.org/104/",
+      "dataset_version": "Hindi-English_test.tar.gz Last-Modified 2021-09-15 (elda mirror); no upstream checksum published",
+      "licence": "\\\"CC-BY-SA-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_openslr104_20261007T170812Z.log",
+      "mode": "inspect",
+      "probes": {
+        "Hindi-English_test.tar.gz": [
+          {
+            "url": "https://openslr.elda.org/resources/104/Hindi-English_test.tar.gz",
+            "final_url_host": "openslr.elda.org",
+            "status": 206,
+            "range_supported": true,
+            "etag": "\"1a75d274-5cc09b9ecc146\"",
+            "last_modified": "Wed, 15 Sep 2021 14:43:49 GMT",
+            "content_type": "application/x-gzip",
+            "probed_at": "2026-10-07T17:08:13.136321+00:00",
+            "total_bytes": 443929204
+          },
+          {
+            "url": "https://openslr.magicdatatech.com/resources/104/Hindi-English_test.tar.gz",
+            "final_url_host": "openslr.magicdatatech.com",
+            "status": 206,
+            "range_supported": true,
+            "etag": "\"1a75d274-5cc09b9ecc146\"",
+            "last_modified": "Wed, 15 Sep 2021 14:43:49 GMT",
+            "content_type": "application/x-gzip",
+            "probed_at": "2026-10-07T17:08:16.139154+00:00",
+            "total_bytes": 443929204
+          },
+          {
+            "url": "https://openslr.trmal.net/resources/104/Hindi-English_test.tar.gz",
+            "final_url_host": "openslr.trmal.net",
+            "status": 206,
+            "range_supported": true,
+            "etag": "\"1a75d274-5cc09b9ecc146\"",
+            "last_modified": "Wed, 15 Sep 2021 14:43:49 GMT",
+            "content_type": "application/x-gzip",
+            "probed_at": "2026-10-07T17:08:18.013936+00:00",
+            "total_bytes": 443929204
+          }
+        ],
+        "Hindi-English_train.tar.gz": [
+          {
+            "url": "https://openslr.elda.org/resources/104/Hindi-English_train.tar.gz",
+            "final_url_host": "openslr.elda.org",
+            "status": 206,
+            "range_supported": true,
+            "etag": "\"1b50f0685-5cc09b825c245\"",
+            "last_modified": "Wed, 15 Sep 2021 14:43:19 GMT",
+            "content_type": "application/x-gzip",
+            "probed_at": "2026-10-07T17:08:18.659098+00:00",
+            "total_bytes": 7332628101
+          },
+          {
+            "url": "https://openslr.magicdatatech.com/resources/104/Hindi-English_train.tar.gz",
+            "final_url_host": "openslr.magicdatatech.com",
+            "status": 206,
+            "range_supported": true,
+            "etag": "\"1b50f0685-5cc09b825c245\"",
+            "last_modified": "Wed, 15 Sep 2021 14:43:19 GMT",
+            "content_type": "application/x-gzip",
+            "probed_at": "2026-10-07T17:08:20.637010+00:00",
+            "total_bytes": 7332628101
+          },
+          {
+            "url": "https://openslr.trmal.net/resources/104/Hindi-English_train.tar.gz",
+            "final_url_host": "openslr.trmal.net",
+            "status": 206,
+            "range_supported": true,
+            "etag": "\"1b50f0685-5cc09b825c245\"",
+            "last_modified": "Wed, 15 Sep 2021 14:43:19 GMT",
+            "content_type": "application/x-gzip",
+            "probed_at": "2026-10-07T17:08:21.294268+00:00",
+            "total_bytes": 7332628101
+          }
+        ]
+      },
+      "archive": "Hindi-English_test.tar.gz",
+      "mirror": "https://openslr.elda.org/resources/104/Hindi-English_test.tar.gz",
+      "files": [],
+      "members_seen_head": [
+        {
+          "name": "test",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "name": "test/fpL6MBSZsci9dyAn.wav",
+          "size": 25056684,
+          "type": "file"
+        },
+        {
+          "name": "test/dNHXkqqVPqWYhzis.wav",
+          "size": 15843244,
+          "type": "file"
+        }
+      ],
+      "compressed_bytes_streamed": 17510400,
+      "stopped": "inspect byte cap 5000000"
+    },
+    {
+      "recorded_at": "2026-10-07T17:12:42.824089+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "ml/data_scripts/acquire_openslr104.py",
+      "source_url": "https://www.openslr.org/104/",
+      "dataset_version": "Hindi-English_test.tar.gz Last-Modified 2021-09-15 (elda mirror); no upstream checksum published",
+      "licence": "\\\"CC-BY-SA-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_openslr104_20261007T171002Z.log",
+      "mode": "pilot",
+      "partial": true,
+      "archive": {
+        "name": "Hindi-English_test.tar.gz",
+        "mirror": "https://openslr.elda.org/resources/104/Hindi-English_test.tar.gz",
+        "bytes": 443929204,
+        "etag": "\"1a75d274-5cc09b9ecc146\"",
+        "last_modified": "Wed, 15 Sep 2021 14:43:49 GMT",
+        "sha256": null,
+        "note": "streamed prefix only; archive integrity NOT verified in pilot mode"
+      },
+      "selection": {
+        "rule": "first 2 wav members in archive order + all text files <= 20000000 bytes seen"
+      },
+      "files": [
+        {
+          "path": "raw/openslr104_hien/test/fpL6MBSZsci9dyAn.wav",
+          "bytes": 25056684,
+          "sha256": "e36e5a33d3e1ae58bddd840b92f8bb0c5e66366055720f450a7cd57c39150835",
+          "member": "test/fpL6MBSZsci9dyAn.wav"
+        },
+        {
+          "path": "raw/openslr104_hien/test/dNHXkqqVPqWYhzis.wav",
+          "bytes": 15843244,
+          "sha256": "23eaf0c831dfc8fd1701ed81b872949594b039089dadacb44eed715deb13e208",
+          "member": "test/dNHXkqqVPqWYhzis.wav"
+        }
+      ],
+      "members_seen_head": [
+        {
+          "name": "test",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "name": "test/fpL6MBSZsci9dyAn.wav",
+          "size": 25056684,
+          "type": "file"
+        },
+        {
+          "name": "test/dNHXkqqVPqWYhzis.wav",
+          "size": 15843244,
+          "type": "file"
+        },
+        {
+          "name": "test/FV8hkymGWcy53lrf.wav",
+          "size": 11404524,
+          "type": "file"
+        },
+        {
+          "name": "test/VU6OA7HUqTpQNtm2.wav",
+          "size": 21152044,
+          "type": "file"
+        },
+        {
+          "name": "test/nImMxiSAAmCMR3yi.wav",
+          "size": 15839084,
+          "type": "file"
+        }
+      ],
+      "compressed_bytes_streamed": 54016000,
+      "stopped": "collected 2 wav and passed byte cap 40000000",
+      "summary": {
+        "n_files": 2,
+        "bytes": 40899928
+      }
+    },
+    {
+      "recorded_at": "2026-10-07T18:18:05.571347+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "scripts/acquire_openslr104.py",
+      "source_url": "https://www.openslr.org/104/",
+      "dataset_version": "Hindi-English_test.tar.gz Last-Modified 2021-09-15 (elda mirror); no upstream checksum published",
+      "licence": "\\\"CC-BY-SA-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_openslr104_20261007T175527Z.log",
+      "mode": "full",
+      "partial": false,
+      "archives": [
+        {
+          "name": "Hindi-English_test.tar.gz",
+          "mirror": "https://openslr.elda.org/resources/104/Hindi-English_test.tar.gz",
+          "url": "https://openslr.elda.org/resources/104/Hindi-English_test.tar.gz",
+          "bytes": 443929204,
+          "sha256": "93e358b3bf8233a897fcd353c1f4f98fdda6b8c01b7eed17a70c7dd26e984b37",
+          "etag": "\"1a75d274-5cc09b9ecc146\"",
+          "last_modified": "Wed, 15 Sep 2021 14:43:49 GMT",
+          "note": "no upstream checksum published; sha256 is ours"
+        }
+      ],
+      "files": [
+        {
+          "path": "raw/openslr104_hien/test/fpL6MBSZsci9dyAn.wav",
+          "bytes": 25056684,
+          "sha256": "e36e5a33d3e1ae58bddd840b92f8bb0c5e66366055720f450a7cd57c39150835"
+        },
+        {
+          "path": "raw/openslr104_hien/test/dNHXkqqVPqWYhzis.wav",
+          "bytes": 15843244,
+          "sha256": "23eaf0c831dfc8fd1701ed81b872949594b039089dadacb44eed715deb13e208"
+        },
+        {
+          "path": "raw/openslr104_hien/test/FV8hkymGWcy53lrf.wav",
+          "bytes": 11404524,
+          "sha256": "c346560666aabd25fe41cd1ec9af94c5d957acaebe82fe3854dd3a77d03a5682"
+        },
+        {
+          "path": "raw/openslr104_hien/test/VU6OA7HUqTpQNtm2.wav",
+          "bytes": 21152044,
+          "sha256": "82aafe60dce59987aada5979d1ae97cc6bf06c103271bfc7cbde0bc83c897ac6"
+        },
+        {
+          "path": "raw/openslr104_hien/test/nImMxiSAAmCMR3yi.wav",
+          "bytes": 15839084,
+          "sha256": "43fcc10ad88ec2c03741600acc78fc867e284b224d0b16ff3865512046ccf0ef"
+        },
+        {
+          "path": "raw/openslr104_hien/test/406yMKxIdSDHRf8H.wav",
+          "bytes": 20162284,
+          "sha256": "d9e51317ee9438b4c5b0989f0f3a078d8cd224b6daecf78f638c7aad016186e4"
+        },
+        {
+          "path": "raw/openslr104_hien/test/nJfFvNUB8tQkaGgp.wav",
+          "bytes": 23136044,
+          "sha256": "579ad0fe3c0341ae4010e810bdf0fd5e9933e17cc5021faaa9e2fca26d969a25"
+        },
+        {
+          "path": "raw/openslr104_hien/test/4xyIm2P6Xzlin341.wav",
+          "bytes": 28848364,
+          "sha256": "9f494a93049f7146ea5e49fd8c442172338e8dfb48c110c68699ae5e3a2b4f70"
+        },
+        {
+          "path": "raw/openslr104_hien/test/UO5ZLDtkc8QMi9Hk.wav",
+          "bytes": 10977324,
+          "sha256": "7e9e9cc78bdb7e3851b5e2ab74163e8feed9e99d588a65555d3dce880ac68688"
+        },
+        {
+          "path": "raw/openslr104_hien/test/HgEJsLGKNWSFl8T7.wav",
+          "bytes": 22121644,
+          "sha256": "c19543027f9c87e4e064381d70a32dd1107ce9f499946cffa094d4ea43fe16ac"
+        },
+        {
+          "path": "raw/openslr104_hien/test/K5BlLYB9ynemLTVa.wav",
+          "bytes": 13707564,
+          "sha256": "1b775f242b713c026ab2b2f168700b29d487e9effab13d26a4bcefd975e3ec0b"
+        },
+        {
+          "path": "raw/openslr104_hien/test/RRrEfkw4Rh5TdJkS.wav",
+          "bytes": 20656044,
+          "sha256": "76755bc89dd3f9aeb5d76dab070d61f6d86d67d95e9d0397e522b3c739381593"
+        },
+        {
+          "path": "raw/openslr104_hien/test/x8iijxWeCf26KNpC.wav",
+          "bytes": 14688044,
+          "sha256": "74f51376f61ab55a2cb372187fe66c8a4fa7aca45fcd176b9e2d9cf7eb2d42bf"
+        },
+        {
+          "path": "raw/openslr104_hien/test/LPGZ2Jo8uBX4sx76.wav",
+          "bytes": 18981164,
+          "sha256": "cb734c7514c8fd817c3e4e2c08577cd649f8258f0d0cd26762dcd5ed6fe94ef2"
+        },
+        {
+          "path": "raw/openslr104_hien/test/4oLp3bc9OSJbDrwM.wav",
+          "bytes": 14400364,
+          "sha256": "1d0dcf4aace91aa10d0e05b3e4241a9f13c6f03c5196794bb8ce39d142e5c22a"
+        },
+        {
+          "path": "raw/openslr104_hien/test/transcripts/spkr_list",
+          "bytes": 210,
+          "sha256": "456e0f54a786ed03a01bdb01dee84fefa1b35fe76cd83fa25d983d5f740b3e78"
+        },
+        {
+          "path": "raw/openslr104_hien/test/transcripts/wav.scp",
+          "bytes": 1140,
+          "sha256": "707981a0797938082b445943312e6058662b1a403b2f66561d68874be0d6d37e"
+        },
+        {
+          "path": "raw/openslr104_hien/test/transcripts/segments",
+          "bytes": 180782,
+          "sha256": "96b2361d799a8518ebcbb2bf050c1a77815231cef6d0e49f580d7bec3214a9a9"
+        },
+        {
+          "path": "raw/openslr104_hien/test/transcripts/text",
+          "bytes": 496416,
+          "sha256": "ad6c95221a187278f89638540ecd742d63b7f9c6fe9bc36c797a778be7b5769f"
+        },
+        {
+          "path": "raw/openslr104_hien/test/transcripts/spk2utt",
+          "bytes": 91154,
+          "sha256": "6f0173781449f1604b8ef6ecf2921b195cfd396acdf5539483492b507da7c051"
+        },
+        {
+          "path": "raw/openslr104_hien/test/transcripts/utt2spk",
+          "bytes": 112896,
+          "sha256": "ad9e6bcaa8949260a138a096cc781f541a16159c27fc61b67958597967e94ac8"
+        },
+        {
+          "path": "raw/openslr104_hien/test/n3lwFhZkSdbJkOa0.wav",
+          "bytes": 22536364,
+          "sha256": "ec4ec784bf4ae5fdf27de885f4bd557ceafe5fddba88b3a9c14c06ea51002319"
+        },
+        {
+          "path": "raw/openslr104_hien/test/w5Jyq3XMbb3WwiKQ.wav",
+          "bytes": 13216044,
+          "sha256": "158e3c08a0d4fe8d586c92a82e363f7e1331a6911127f7ea0b3fa1cc50260fe2"
+        },
+        {
+          "path": "raw/openslr104_hien/test/ZQC2TFqLsvNDq9bP.wav",
+          "bytes": 15777004,
+          "sha256": "1f553f545148daca288481a17d94241c4b3d1cd16d8f16e06ba4261e25bd1665"
+        },
+        {
+          "path": "raw/openslr104_hien/test/swLUjPHatcTk0wf8.wav",
+          "bytes": 29424044,
+          "sha256": "fc44288a72f3ac710be61ab4f0f8afe96067a83ebed27da51b42f21c0f0cb10f"
+        },
+        {
+          "path": "raw/openslr104_hien/test/lHGLSlYIb1clRBRF.wav",
+          "bytes": 15296044,
+          "sha256": "7fe51b6b2bc3f8e2102f4b43fb4ac729e8fb45138cc93ef4c387cbab271cbfc8"
+        },
+        {
+          "path": "raw/openslr104_hien/test/aVTioioyNUVPGF4t.wav",
+          "bytes": 26880706,
+          "sha256": "04702554063912651955ad486346e2864c53ae87f04bd14eacb5718dcfd9b30c"
+        },
+        {
+          "path": "raw/openslr104_hien/test/Bmcrju1ByfdrXE9P.wav",
+          "bytes": 18977004,
+          "sha256": "73a33952a27eddd30fc92c32aca35dc56426f19c936021afd0017c2e8c1b2f34"
+        },
+        {
+          "path": "raw/openslr104_hien/test/TkzR0GrQyK0vSTuj.wav",
+          "bytes": 18018298,
+          "sha256": "3600cb9bd09d7f5b0eddf676830c209a92388588cb33e833cc59153b4fb60b8a"
+        },
+        {
+          "path": "raw/openslr104_hien/test/kvxzesc5pGxL6dnk.wav",
+          "bytes": 19655084,
+          "sha256": "1a8d93577766b5b5757cdd75c9464a2bf94372e08c9f16635fea7e1fa47338a3"
+        },
+        {
+          "path": "raw/openslr104_hien/test/Psh5UDSFbhWLZ3gk.wav",
+          "bytes": 28721324,
+          "sha256": "cd4103e8d8ba136fb4fcea3a51d1b76d192c28479dc016b291ac97ba33fd2d39"
+        },
+        {
+          "path": "raw/openslr104_hien/test/5baFeyjOxK8JQnNG.wav",
+          "bytes": 21120392,
+          "sha256": "6e1a79547eac4038dc3548261a77b111801d05364244e1168b132942f34066cb"
+        },
+        {
+          "path": "raw/openslr104_hien/test/kGQKLyQ1HtnUNL1d.wav",
+          "bytes": 20160684,
+          "sha256": "854e646eac609bc66089708b22a8b1c9c7659e43a44315109afdb3864125cae5"
+        },
+        {
+          "path": "raw/openslr104_hien/test/jFTbEEy3BCO5axj5.wav",
+          "bytes": 24288044,
+          "sha256": "8499b16469e33d47195e794b705c37f77bf819334f783cd5e4778803a2ed8936"
+        },
+        {
+          "path": "raw/openslr104_hien/test/NhV290ew2hDJfVqc.wav",
+          "bytes": 20608044,
+          "sha256": "e5b8043d34418ad0b3f1b366bd1f197743d0737047619fc434e90738d5f360df"
+        },
+        {
+          "path": "raw/openslr104_hien/test/K8YJLqIcMPJ5GftE.wav",
+          "bytes": 26191724,
+          "sha256": "86c2e73cf983fe805fb6dd28cb75f437991bf84542c499f3e23a93eecef83d9b"
+        }
+      ],
+      "summary": {
+        "n_files": 36,
+        "bytes": 598727822
+      }
+    }
+  ]
+}

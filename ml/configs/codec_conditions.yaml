@@ -1,0 +1,20 @@
+# Channel conditions shared by codec_pilot.yaml and codec_full_gpu.yaml (TD-13). Changing ANY field except
+# description/role changes the condition's params_hash and therefore its output folder, so old files are never reused.
+# role: train_aug = may be used for training augmentation; eval_heldout = test/dev-only (the ">=1 codec unseen in training" condition).
+# Bitrates are generic speech-codec operating points. They are NOT claimed to equal what any messaging app uses
+# (real-app round-trips are a separate, recorded condition: transform app:<app>:<mode>).
+conditions:
+  - {id: opus_voip_8k,  kind: codec, role: train_aug,    encoder: libopus,    container: ogg,  bitrate: 8000,  options: {application: voip}, description: "Opus 8 kb/s VoIP mode (low-rate voice message)"}
+  - {id: opus_voip_16k, kind: codec, role: train_aug,    encoder: libopus,    container: ogg,  bitrate: 16000, options: {application: voip}, description: "Opus 16 kb/s VoIP mode"}
+  - {id: opus_voip_32k, kind: codec, role: train_aug,    encoder: libopus,    container: ogg,  bitrate: 32000, options: {application: voip}, description: "Opus 32 kb/s VoIP mode"}
+  - {id: mp3_16k,       kind: codec, role: train_aug,    encoder: libmp3lame, container: mp3,  bitrate: 16000, description: "MP3 16 kb/s CBR at 16 kHz (MPEG-2 L3)"}
+  - {id: mp3_32k,       kind: codec, role: train_aug,    encoder: libmp3lame, container: mp3,  bitrate: 32000, description: "MP3 32 kb/s CBR at 16 kHz"}
+  - {id: aac_24k,       kind: codec, role: eval_heldout, encoder: aac,        container: adts, bitrate: 24000, description: "AAC-LC 24 kb/s (FFmpeg native encoder); held out of training"}
+  - {id: aac_48k,       kind: codec, role: eval_heldout, encoder: aac,        container: adts, bitrate: 48000, description: "AAC-LC 48 kb/s; held out of training"}
+  - {id: g711_mulaw,    kind: codec, role: train_aug,    encoder: pcm_mulaw,  container: wav,  codec_sample_rate: 8000, description: "G.711 mu-law, 8 kHz narrowband telephony (64 kb/s). NOT AMR"}
+  - {id: g722,          kind: codec, role: eval_heldout, encoder: g722,       container: wav,  description: "G.722 wideband telephony (64 kb/s); held out of training"}
+  - {id: resample_8k,   kind: resample, role: train_aug, codec_sample_rate: 8000,  description: "16k -> 8k -> 16k (band-limit to 4 kHz, no codec)"}
+  - {id: resample_22k,  kind: resample, role: train_aug, codec_sample_rate: 22050, description: "16k -> 22.05k -> 16k (resampler chain only)"}
+  # Need a system ffmpeg with libopencore-amrnb / libvo-amrwbenc. Recorded as 'unavailable' where missing (e.g. the laptop).
+  - {id: amr_nb_12k2,   kind: codec, role: train_aug,    backend: ffmpeg_cli, encoder: libopencore_amrnb, container: amr, codec_sample_rate: 8000, bitrate: 12200, description: "AMR-NB 12.2 kb/s (GSM narrowband)"}
+  - {id: amr_wb_12k65,  kind: codec, role: eval_heldout, backend: ffmpeg_cli, encoder: libvo_amrwbenc,    container: amr, bitrate: 12650, description: "AMR-WB 12.65 kb/s; held out of training"}

@@ -1,0 +1,17 @@
+# Codec variants of the FULL robustness subset (written by ml.evaluation.robustness --config ml/configs/robustness_full_gpu.yaml).
+run_id: CODEC_robust_full_v1
+input_manifests: [data/manifests/robust_full_subset.csv]
+data_root: null
+splits: [test]
+include_sources: []
+max_clips_per_split: {}
+seed: 2026
+workers: 8
+conditions_file: ml/configs/codec_conditions.yaml
+conditions: []
+skip_unavailable: false            # AMR expected on the GPU machine (see docs/GPU_HANDOFF.md 4b)
+output:
+  audio_subdir: processed/codec_sim
+  manifest: data/manifests/robust_full_codec.csv
+  metadata: data/manifests/robust_full_codec_metadata.jsonl
+  quality: data/manifests/robust_full_codec_quality.csv

@@ -1,0 +1,31 @@
+# HINGLISH PILOT (200 clips): verifies the Hindi-English dataset + protocol end-to-end on CPU. NOT a performance result.
+# Build/validate first (DATASET_CARD.md §Hinglish pilot), then:
+#   python -m ml.training.train      --config ml/configs/pilot_hinglish_lfcc.yaml
+#   python -m ml.evaluation.evaluate --config ml/configs/pilot_hinglish_lfcc.yaml --split test
+exp_id: PILOT_hinglish_lfcc_cnn_cpu
+data:
+  train_manifests: [data/manifests/hinglish_pilot_v1.csv]
+  data_root: null
+  include_sources: []          # all pilot sources
+  max_clips_per_split: {}      # all 200 clips (train 60 / dev 20 / test 120)
+  preload_audio: true
+  crop_samples: 64600
+  num_workers: 1
+model:
+  kind: lfcc_cnn
+  params: {}
+train:
+  seed: 2026
+  device: cpu
+  epochs: 10
+  batch_size: 8
+  grad_accum: 1
+  lr_head: 0.001
+  weight_decay: 0.0001
+  amp: false
+  early_stop_patience: 3
+calib:
+  method: none
+output:
+  checkpoint_dir: runs/pilot/checkpoints
+  results_dir: runs/pilot/results

@@ -1,0 +1,17 @@
+# Codec variants of the robustness smoke subset (built by ml.evaluation.robustness; can also be run directly).
+run_id: CODEC_robust_smoke_v1
+input_manifests: [data/manifests/robust_smoke_subset.csv]
+data_root: null
+splits: [test]
+include_sources: []
+max_clips_per_split: {}
+seed: 2026
+workers: 1
+conditions_file: ml/configs/codec_conditions.yaml
+conditions: []
+skip_unavailable: true
+output:
+  audio_subdir: processed/codec_sim
+  manifest: data/manifests/robust_smoke_codec.csv
+  metadata: data/manifests/robust_smoke_codec_metadata.jsonl
+  quality: data/manifests/robust_smoke_codec_quality.csv

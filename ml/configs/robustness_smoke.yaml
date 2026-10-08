@@ -1,0 +1,19 @@
+# SMOKE / DEVELOPMENT robustness run: verifies evaluation, metrics, plots and outputs. NOT final results.
+#   python -m ml.evaluation.robustness --config ml/configs/robustness_smoke.yaml
+run_id: ROBUST_smoke_v1
+seed: 2026
+n_per_class: 6                     # test clips per class per language (tiny on purpose)
+pools:                             # test split only
+  - {language: en,    manifest: data/manifests/vaanishield_v1.csv}        # ASVspoof 2019 LA eval
+  - {language: hi,    manifest: data/manifests/vaanishield_v1.csv}        # Kathbath real vs IndicSynth (codec-confounded, DATASET_CARD)
+  - {language: hi-en, manifest: data/manifests/hinglish_pilot_v1.csv}     # OpenSLR/CS-FLEURS real vs XTTS/MMS
+subset_manifest: data/manifests/robust_smoke_subset.csv
+codec_config: ml/configs/codec_robust_smoke.yaml
+models:                            # existing smoke/pilot checkpoints; thresholds = their own dev thresholds
+  - {name: B0_LFCC_smoke,      checkpoint: runs/smoke/checkpoints/SMOKE_lfcc_cnn_cpu/best.pt}
+  - {name: B1_AASIST_pilot,    checkpoint: runs/B1_aasist_pilot/best.pt}
+  - {name: P1_XLSR_smoke,      checkpoint: runs/smoke/checkpoints/SMOKE_xlsr_frozen_cpu/best.pt}
+  - {name: B0_LFCC_hinglish60, checkpoint: runs/pilot/checkpoints/PILOT_hinglish_lfcc_cnn_cpu/best.pt}
+device: cpu
+bootstrap_n: 200
+output_dir: runs/robustness/ROBUST_smoke_v1

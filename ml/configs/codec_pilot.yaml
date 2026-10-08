@@ -1,0 +1,18 @@
+# CODEC PILOT (laptop): 12 parent clips x every condition. Verifies the pipeline; not a dataset.
+#   python -m ml.data.build_codec_variants --config ml/configs/codec_pilot.yaml
+run_id: CODEC_pilot_v1
+input_manifests: [data/manifests/hinglish_pilot_v1.csv]
+data_root: null                    # null -> $VAANI_DATA_ROOT or <repo>/data ; or --data-root
+splits: [train, dev, test]
+include_sources: []
+max_clips_per_split: {train: 4, dev: 4, test: 4}   # label-stratified, deterministic (seed)
+seed: 2026
+workers: 1
+conditions_file: ml/configs/codec_conditions.yaml
+conditions: []                     # all
+skip_unavailable: true             # laptop has no AMR encoder; recorded as 'unavailable'
+output:
+  audio_subdir: processed/codec_sim
+  manifest: data/manifests/codec_pilot_v1.csv
+  metadata: data/manifests/codec_pilot_v1_metadata.jsonl
+  quality: data/manifests/codec_pilot_v1_quality.csv

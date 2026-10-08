@@ -1,0 +1,6 @@
+# Deep-learning stack. On Windows/macOS PyPI wheels are CPU-only; on Linux (Colab/Kaggle) they are CUDA builds.
+# On Colab/Kaggle prefer the image's preinstalled torch (see README "Colab/Kaggle"); versions are recorded per run.
+# torchaudio is deliberately NOT used (DEC-14): its latest release (2.11.0) lags torch (2.14.x) and its wheels are
+# ABI-tied to torch. Audio I/O = soundfile, resampling = soxr (via librosa), LFCC = torch.stft.
+torch>=2.5
+transformers>=4.45

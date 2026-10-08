@@ -1,0 +1,215 @@
+{
+  "manifest": "data\\manifests\\hinglish_pilot_v1.csv",
+  "checks": {
+    "required_fields_present": {
+      "ok": true,
+      "rows_missing_fields": []
+    },
+    "split_complete_and_both_classes": {
+      "ok": true,
+      "counts": {
+        "train": {
+          "spoof": 30,
+          "bonafide": 30
+        },
+        "dev": {
+          "spoof": 10,
+          "bonafide": 10
+        },
+        "test": {
+          "spoof": 60,
+          "bonafide": 60
+        }
+      },
+      "rows_without_split": []
+    },
+    "no_duplicate_leakage": {
+      "ok": true,
+      "file_duplicate_groups": 0,
+      "audio_duplicate_groups": 0,
+      "cross_split": [],
+      "note": "exact duplicates only; near-duplicates (same text/speaker, different recording) not checked"
+    },
+    "no_speaker_leakage": {
+      "ok": true,
+      "speakers_per_split": {
+        "train": 16,
+        "dev": 6,
+        "test": 8
+      },
+      "overlaps": {}
+    },
+    "no_derived_rows_crossing_splits": {
+      "ok": true,
+      "n_derived_rows": 50,
+      "n_external_parents": 25,
+      "problems": [],
+      "note": ""
+    },
+    "generator_leakage": {
+      "ok": true,
+      "generator_input_problems": [],
+      "n_generator_input_problems": 0,
+      "transcripts_crossing_splits": 0,
+      "spoof_families_per_split": {
+        "train": {
+          "xtts": 30
+        },
+        "dev": {
+          "xtts": 10
+        },
+        "test": {
+          "concatenative": 50,
+          "xtts": 10
+        }
+      },
+      "families_unseen_in_train": {
+        "dev": [],
+        "test": [
+          "concatenative"
+        ]
+      },
+      "note": "unseen families in dev/test are by design for ASVspoof (official eval attacks); they are an evaluation condition, not leakage"
+    }
+  },
+  "shortcuts": {
+    "warnings": [
+      "source openslr104_hien is single-class (bonafide); USED FOR TRAINING",
+      "language 'hi-en' train split: source_dataset perfectly separates the classes (bonafide={'openslr104_hien': 30}, spoof={'cs_fleurs': 30})"
+    ],
+    "attribute_by_label": {
+      "hi-en:codec": {
+        "bonafide": {
+          "pcm_s16le": 100
+        },
+        "spoof": {
+          "pcm_s16le": 50,
+          "pcm_32": 50
+        }
+      },
+      "hi-en:sample_rate_orig": {
+        "bonafide": {
+          "16000": 100
+        },
+        "spoof": {
+          "16000": 100
+        }
+      },
+      "hi-en:source_dataset": {
+        "bonafide": {
+          "openslr104_hien": 50,
+          "cs_fleurs": 50
+        },
+        "spoof": {
+          "cs_fleurs": 100
+        }
+      },
+      "hi-en:train:split:codec": {
+        "bonafide": {
+          "pcm_s16le": 30
+        },
+        "spoof": {
+          "pcm_s16le": 30
+        }
+      },
+      "hi-en:train:split:sample_rate_orig": {
+        "bonafide": {
+          "16000": 30
+        },
+        "spoof": {
+          "16000": 30
+        }
+      },
+      "hi-en:train:split:source_dataset": {
+        "bonafide": {
+          "openslr104_hien": 30
+        },
+        "spoof": {
+          "cs_fleurs": 30
+        }
+      }
+    },
+    "mean_duration_s": {
+      "hi-en:bonafide": 8.22,
+      "hi-en:spoof": 13.31
+    }
+  },
+  "distributions": {
+    "class_by_split": {
+      "train": {
+        "spoof": 30,
+        "bonafide": 30
+      },
+      "dev": {
+        "spoof": 10,
+        "bonafide": 10
+      },
+      "test": {
+        "spoof": 60,
+        "bonafide": 60
+      }
+    },
+    "class_by_source": {
+      "cs_fleurs": {
+        "spoof": 100,
+        "bonafide": 50
+      },
+      "openslr104_hien": {
+        "bonafide": 50
+      }
+    },
+    "language_by_split": {
+      "train": {
+        "hi-en": 60
+      },
+      "dev": {
+        "hi-en": 20
+      },
+      "test": {
+        "hi-en": 120
+      }
+    },
+    "language_by_class": {
+      "bonafide": {
+        "hi-en": 100
+      },
+      "spoof": {
+        "hi-en": 100
+      }
+    },
+    "source_by_split": {
+      "train": {
+        "cs_fleurs": 30,
+        "openslr104_hien": 30
+      },
+      "dev": {
+        "cs_fleurs": 10,
+        "openslr104_hien": 10
+      },
+      "test": {
+        "cs_fleurs": 110,
+        "openslr104_hien": 10
+      }
+    },
+    "codec_by_source": {
+      "cs_fleurs": {
+        "pcm_s16le": 100,
+        "pcm_32": 50
+      },
+      "openslr104_hien": {
+        "pcm_s16le": 50
+      }
+    },
+    "speakers_by_split": {
+      "train": 16,
+      "dev": 6,
+      "test": 8
+    },
+    "hours_by_split": {
+      "train": 0.14,
+      "dev": 0.05,
+      "test": 0.4
+    },
+    "total_clips": 200
+  }
+}

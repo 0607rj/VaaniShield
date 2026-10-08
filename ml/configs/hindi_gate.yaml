@@ -1,0 +1,19 @@
+# Hindi dataset gate (ml/data/hindi_gate.py). Structure follows team decision D-H6:
+#   A. ACCEPTANCE GATE  (pass/fail): nuisance + leakage properties
+#   B. DIAGNOSTIC PROBES (reported only): metadata / nuisance / pause / waveform / spectral classifiers
+#
+# Team decision D-H3: every numeric limit below is a PROVISIONAL ENGINEERING ACCEPTANCE CRITERION. None of them is
+# defined in the project guide, dataset guide, synopsis or experiment protocol, and none is a scientifically established
+# threshold. Change them only before looking at detector results, and record who changed them and why.
+criteria_status: provisional_engineering_acceptance_criteria
+acceptance:
+  metadata_min_eer: 0.40          # file-metadata classifier must be near chance (0.5)
+  duration_min_eer: 0.40          # duration alone must not separate the classes
+  silence_min_eer: 0.40           # edge silence + digital-silence fraction must not separate the classes
+  level_min_eer: 0.40             # active-RMS level alone must not separate the classes
+  loudness_tolerance_db: 0.5      # every clip within this of the loudness target (unless peak-limited)
+  max_limiter_fraction_gap: 0.01  # peak-limited fraction may differ between classes by at most this
+  max_abs_dc: 0.001               # |mean sample value| after the DC high-pass
+  class_ratio_range: [0.5, 2.0]   # spoof/real clips per split
+protocol:
+  holdout_family: freevc          # in test only; dev families must be a subset of train families

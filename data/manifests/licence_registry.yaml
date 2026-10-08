@@ -1,0 +1,142 @@
+# Machine-readable licence registry (read by every ml/data_scripts/acquire_*.py and license_audit.py).
+# Human-readable detail + evidence: LICENSES_REGISTER.md. Keep both in sync (license_audit checks ids).
+# licence_status: verified | conflict | needs_verification   (never guess; see the register for evidence)
+# All checks performed 2026-10-07 against the official pages listed.
+registry_version: 1
+checked_on: "2026-10-07"
+sources:
+  asvspoof2019_la:
+    name: "ASVspoof 2019 Logical Access"
+    licence_short: \"ODC-By-1.0\"
+    url: "https://datashare.ed.ac.uk/handle/10283/3336"
+    doi: "10.7488/ds/2555"
+    version: "DataShare item, Date Available 2019-06-04"
+    licence: "ODC-By 1.0 (Open Data Commons Attribution License)"
+    licence_status: verified
+    licence_evidence: "README.txt §COPYING and LICENSE_text.txt on the DataShare item"
+    commercial_use: "permitted by ODC-By (attribution required)"
+    redistribution: "permitted under ODC-By with attribution; we still do not redistribute audio (not needed)"
+    role: [train, dev, eval_in_domain]
+    safe_for_training: true
+    safe_for_evaluation: true
+    acquisition_allowed: true
+    language: [en]
+    archive_urls:
+      LA.zip: "https://datashare.ed.ac.uk/bitstreams/a9f87c35-f055-4015-80e2-2fdff0d46269/download"
+      README.txt: "https://datashare.ed.ac.uk/bitstreams/765597d6-633f-418a-96b0-39274a8d56c9/download"
+      LICENSE_text.txt: "https://datashare.ed.ac.uk/bitstreams/60c7de6d-37d3-45c1-b52e-9f18b0338e47/download"
+    archive_bytes: {LA.zip: 7640952520}
+  indicsynth_hi:
+    name: "IndicSynth (Hindi config)"
+    licence_short: \"CC-BY-NC-4.0\"
+    url: "https://huggingface.co/datasets/vdivyasharma/IndicSynth"
+    version: "HF revision c0a10386b723717aff682f757bd67f72983f269f (lastModified 2026-01-12)"
+    hf_repo: "vdivyasharma/IndicSynth"
+    hf_revision: "c0a10386b723717aff682f757bd67f72983f269f"
+    licence: "CC BY-NC 4.0"
+    licence_status: verified
+    licence_evidence: "HF dataset card YAML (license: cc-by-nc-4.0); IndicSynth paper §6 (paper2.pdf)"
+    commercial_use: "NOT permitted (non-commercial)"
+    redistribution: "only under CC BY-NC 4.0 (attribution, non-commercial); we do not redistribute"
+    role: [train, dev, test]
+    safe_for_training: true   # research/non-commercial training only
+    safe_for_evaluation: true
+    acquisition_allowed: true
+    language: [hi]
+    hindi_examples: 205938
+    hindi_download_bytes: 56012925652
+    hindi_shards: 107
+  kathbath_hi:
+    name: "Kathbath / IndicSUPERB (Hindi)"
+    licence_short: \"CONFLICT:CC0-1.0|CC-BY-4.0\"
+    url: "https://github.com/AI4Bharat/IndicSUPERB"
+    version: "objectstore tar Last-Modified 2025-04-09; HF mirror revision 5b9e92849222026d9141acba4e8434fe816396bf"
+    licence: "CONFLICT: CC0 for the packaging (official GitHub README) vs CC-BY-4.0 (HF mirror ai4bharat/Kathbath card); text originates from IndicCorp web crawl not owned by AI4Bharat"
+    licence_status: conflict
+    licence_note: "Needs verification from current dataset terms. Until resolved, comply with the stricter reading (CC-BY-4.0: attribution) and do not redistribute."
+    commercial_use: "Needs verification from current dataset terms."
+    redistribution: "No (until conflict resolved)"
+    role: [train, dev, test]
+    safe_for_training: true    # both readings allow research training with attribution
+    safe_for_evaluation: true
+    acquisition_allowed: true
+    access: "objectstore tars ungated (Hindi not separable: train 85GB all languages); HF mirror gated (auto-approval, requires HF login + HF_TOKEN)"
+    language: [hi]
+  openslr104_hien:
+    name: "OpenSLR SLR104 (MUCS 2021) Hindi-English"
+    licence_short: \"CC-BY-SA-4.0\"
+    url: "https://www.openslr.org/104/"
+    version: "Hindi-English_test.tar.gz Last-Modified 2021-09-15 (elda mirror); no upstream checksum published"
+    licence: "CC BY-SA 4.0"
+    licence_status: verified
+    licence_evidence: "OpenSLR resource page 'License: CC BY-SA 4.0'"
+    commercial_use: "permitted (share-alike, attribution)"
+    redistribution: "permitted under CC BY-SA 4.0 (derivatives share-alike); we do not redistribute"
+    role: [train, dev, test]
+    safe_for_training: true
+    safe_for_evaluation: true
+    acquisition_allowed: true
+    language: [hi-en]
+    archive_urls:
+      Hindi-English_test.tar.gz:
+        - "https://openslr.elda.org/resources/104/Hindi-English_test.tar.gz"
+        - "https://openslr.magicdatatech.com/resources/104/Hindi-English_test.tar.gz"
+        - "https://openslr.trmal.net/resources/104/Hindi-English_test.tar.gz"
+      Hindi-English_train.tar.gz:
+        - "https://openslr.elda.org/resources/104/Hindi-English_train.tar.gz"
+        - "https://openslr.magicdatatech.com/resources/104/Hindi-English_train.tar.gz"
+        - "https://openslr.trmal.net/resources/104/Hindi-English_train.tar.gz"
+    archive_bytes: {Hindi-English_test.tar.gz: 443929204}
+  in_the_wild:
+    name: "In-the-Wild (Müller et al. 2022)"
+    licence_short: \"CONFLICT:Apache-2.0|CC-BY-SA-4.0\"
+    url: "https://huggingface.co/datasets/mueller91/In-The-Wild"
+    version: "HF revision eee168f92c367f8c82ff2cf42b6f61e362fd6211 (lastModified 2025-10-27)"
+    hf_repo: "mueller91/In-The-Wild"
+    hf_revision: "eee168f92c367f8c82ff2cf42b6f61e362fd6211"
+    licence: "CONFLICT: Apache-2.0 (deepfake-total.com/in_the_wild) vs CC-BY-SA-4.0 (HF dataset card)"
+    licence_status: conflict
+    licence_note: "Needs verification from current dataset terms. Both readings permit research evaluation with attribution."
+    commercial_use: "Needs verification from current dataset terms."
+    redistribution: "No (until conflict resolved)"
+    role: [external_eval_only]
+    safe_for_training: false   # by project protocol (never tuned/trained on), not by licence
+    safe_for_evaluation: true
+    acquisition_allowed: true
+    language: [en]
+    archive_bytes: {release_in_the_wild.zip: 8161489023}
+  hinglish_xtts_v2:
+    name: "Hinglish XTTS-v2 (synthetic generator, model weights)"
+    licence_short: \"CPML-derivative-NC\"
+    url: "https://huggingface.co/harrrshall/xtts-v2-hinglish-synthetic"
+    licence: "Coqui Public Model License (CPML) derivative; research / non-commercial (per model card)"
+    licence_status: needs_verification
+    licence_note: "Needs verification from current dataset terms: full CPML text not yet reviewed by the team; card restricts impersonation of real people."
+    commercial_use: "NOT permitted (per model card)"
+    redistribution: "No"
+    role: [spoof_generator]
+    safe_for_training: false   # not acquired; generation only after licence review + consent protocol
+    safe_for_evaluation: false
+    acquisition_allowed: false
+    blocker: "Phase 2A rule: optional generator only after licensing is verified"
+  cs_fleurs:
+    name: "CS-FLEURS (code-switched FLEURS): Hindi-English subsets"
+    licence_short: "CC-BY-NC-4.0"
+    url: "https://huggingface.co/datasets/byan/cs-fleurs"
+    version: "HF revision 0cdbf166c5517ae4b6eb1c54248522eedec53017 (lastModified 2025-09-17)"
+    hf_repo: "byan/cs-fleurs"
+    hf_revision: "0cdbf166c5517ae4b6eb1c54248522eedec53017"
+    licence: "CC BY-NC 4.0"
+    licence_status: verified
+    licence_evidence: "HF dataset card license tag (license:cc-by-nc-4.0), checked 2026-10-08"
+    commercial_use: "NOT permitted (non-commercial)"
+    redistribution: "only under CC BY-NC 4.0; we do not redistribute"
+    role: [train, dev, test]
+    safe_for_training: true    # research / non-commercial only
+    safe_for_evaluation: true
+    acquisition_allowed: true
+    language: [hi-en]
+    subsets_used:
+      read/test: "audio/hin: REAL human read speech, 1 speaker (AD), 233 clips"
+      xtts/train: "audio/cs_hin_eng_n1_resample: XTTS synthetic, 3 voices, 1926 clips"
+      mms/test: "audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14: MMS concatenative synthetic, 1 voice, 265 clips"

@@ -1,0 +1,213 @@
+{
+  "manifest": "data\\manifests\\hindi_v2_1_pilot.csv",
+  "checks": {
+    "required_fields_present": {
+      "ok": true,
+      "rows_missing_fields": []
+    },
+    "split_complete_and_both_classes": {
+      "ok": true,
+      "counts": {
+        "train": {
+          "bonafide": 100,
+          "spoof": 100
+        },
+        "dev": {
+          "bonafide": 25,
+          "spoof": 25
+        },
+        "test": {
+          "bonafide": 195,
+          "spoof": 195
+        }
+      },
+      "rows_without_split": []
+    },
+    "no_duplicate_leakage": {
+      "ok": true,
+      "file_duplicate_groups": 0,
+      "audio_duplicate_groups": 0,
+      "cross_split": [],
+      "note": "exact duplicates only; near-duplicates (same text/speaker, different recording) not checked"
+    },
+    "no_speaker_leakage": {
+      "ok": true,
+      "speakers_per_split": {
+        "train": 4,
+        "dev": 1,
+        "test": 6
+      },
+      "overlaps": {}
+    },
+    "no_derived_rows_crossing_splits": {
+      "ok": true,
+      "n_derived_rows": 313,
+      "n_external_parents": 0,
+      "problems": [],
+      "note": ""
+    },
+    "generator_leakage": {
+      "ok": true,
+      "generator_input_problems": [],
+      "n_generator_input_problems": 0,
+      "transcripts_crossing_splits": 0,
+      "spoof_families_per_split": {
+        "train": {
+          "xtts": 100
+        },
+        "dev": {
+          "xtts": 25
+        },
+        "test": {
+          "freevc": 160,
+          "xtts": 35
+        }
+      },
+      "families_unseen_in_train": {
+        "dev": [],
+        "test": [
+          "freevc"
+        ]
+      },
+      "note": "unseen families in dev/test are by design for ASVspoof (official eval attacks); they are an evaluation condition, not leakage"
+    }
+  },
+  "shortcuts": {
+    "warnings": [
+      "source indicsynth_hi is single-class (spoof); USED FOR TRAINING",
+      "source kathbath_hi is single-class (bonafide); USED FOR TRAINING",
+      "language 'hi': source_dataset perfectly separates the classes (bonafide={'kathbath_hi': 320}, spoof={'indicsynth_hi': 320})",
+      "language 'hi' train split: source_dataset perfectly separates the classes (bonafide={'kathbath_hi': 100}, spoof={'indicsynth_hi': 100})"
+    ],
+    "attribute_by_label": {
+      "hi:codec": {
+        "bonafide": {
+          "pcm_s16le": 320
+        },
+        "spoof": {
+          "pcm_s16le": 320
+        }
+      },
+      "hi:sample_rate_orig": {
+        "bonafide": {
+          "16000": 320
+        },
+        "spoof": {
+          "16000": 320
+        }
+      },
+      "hi:source_dataset": {
+        "bonafide": {
+          "kathbath_hi": 320
+        },
+        "spoof": {
+          "indicsynth_hi": 320
+        }
+      },
+      "hi:train:split:codec": {
+        "bonafide": {
+          "pcm_s16le": 100
+        },
+        "spoof": {
+          "pcm_s16le": 100
+        }
+      },
+      "hi:train:split:sample_rate_orig": {
+        "bonafide": {
+          "16000": 100
+        },
+        "spoof": {
+          "16000": 100
+        }
+      },
+      "hi:train:split:source_dataset": {
+        "bonafide": {
+          "kathbath_hi": 100
+        },
+        "spoof": {
+          "indicsynth_hi": 100
+        }
+      }
+    },
+    "mean_duration_s": {
+      "hi:bonafide": 5.63,
+      "hi:spoof": 5.55
+    }
+  },
+  "distributions": {
+    "class_by_split": {
+      "train": {
+        "bonafide": 100,
+        "spoof": 100
+      },
+      "dev": {
+        "bonafide": 25,
+        "spoof": 25
+      },
+      "test": {
+        "bonafide": 195,
+        "spoof": 195
+      }
+    },
+    "class_by_source": {
+      "indicsynth_hi": {
+        "spoof": 320
+      },
+      "kathbath_hi": {
+        "bonafide": 320
+      }
+    },
+    "language_by_split": {
+      "train": {
+        "hi": 200
+      },
+      "dev": {
+        "hi": 50
+      },
+      "test": {
+        "hi": 390
+      }
+    },
+    "language_by_class": {
+      "bonafide": {
+        "hi": 320
+      },
+      "spoof": {
+        "hi": 320
+      }
+    },
+    "source_by_split": {
+      "train": {
+        "kathbath_hi": 100,
+        "indicsynth_hi": 100
+      },
+      "dev": {
+        "kathbath_hi": 25,
+        "indicsynth_hi": 25
+      },
+      "test": {
+        "kathbath_hi": 195,
+        "indicsynth_hi": 195
+      }
+    },
+    "codec_by_source": {
+      "indicsynth_hi": {
+        "pcm_s16le": 320
+      },
+      "kathbath_hi": {
+        "pcm_s16le": 320
+      }
+    },
+    "speakers_by_split": {
+      "train": 4,
+      "dev": 1,
+      "test": 6
+    },
+    "hours_by_split": {
+      "train": 0.29,
+      "dev": 0.09,
+      "test": 0.62
+    },
+    "total_clips": 640
+  }
+}

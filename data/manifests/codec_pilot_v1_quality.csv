@@ -1,0 +1,14 @@
+condition,n,role,kbps_requested,kbps_actual_mean,delay_ms_median,snr_db_median,lsd_db_median,bw_out_hz_median,bw_ref_hz_median,rms_change_db_median,clipped_frac_max,n_unavailable,reason
+aac_24k,8.0,eval_heldout,24.0,25.8,64.0,17.2,10.765,7500.0,7890.5,-0.065,0.0021375,,
+aac_48k,8.0,eval_heldout,48.0,50.5,64.0,25.665,4.395,7890.5,7890.5,-0.065,0.0004375,,
+amr_nb_12k2,,train_aug,,,,,,,,,,12.0,amr_nb_12k2: no system ffmpeg binary on PATH
+amr_wb_12k65,,eval_heldout,,,,,,,,,,8.0,amr_wb_12k65: no system ffmpeg binary on PATH
+g711_mulaw,12.0,train_aug,,64.1,0.0,24.455,33.985,3844.0,7734.5,-0.015,3.6055308843766336e-05,,
+g722,8.0,eval_heldout,,64.1,1.4,31.064999999999998,6.5,8000.0,7890.5,-0.0,1.8120537817562426e-05,,
+mp3_16k,12.0,train_aug,16.0,16.4,0.0,16.21,31.235,5531.0,7734.5,-0.415,0.0009166666666666666,,
+mp3_32k,12.0,train_aug,32.0,32.6,0.0,19.755000000000003,13.695,7250.0,7734.5,-0.43,0.000125,,
+opus_voip_16k,12.0,train_aug,16.0,15.1,-0.1,9.66,8.125,7531.0,7734.5,-0.225,0.0015833333333333333,,
+opus_voip_32k,12.0,train_aug,32.0,28.6,-0.1,10.225,6.695,7515.5,7734.5,-0.09,0.0023125,,
+opus_voip_8k,12.0,train_aug,8.0,7.8,0.1,7.715,27.77,4484.5,7734.5,-0.655,0.0021875,,
+resample_22k,12.0,train_aug,,,0.0,46.845,3.82,7594.0,7734.5,-0.0,4.206452698439406e-05,,
+resample_8k,12.0,train_aug,,,0.0,24.65,33.86,3844.0,7734.5,-0.02,0.00011417514467192674,,

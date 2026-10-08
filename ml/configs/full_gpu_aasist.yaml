@@ -1,0 +1,36 @@
+# FULL-TRAINING (GPU machine only; do NOT run on the development laptop).
+# Prerequisites on the GPU machine (docs/LOCAL_VS_GPU_WORKFLOW.md):
+#   1. full ASVspoof 2019 LA:  python scripts/acquire_asvspoof.py --full --confirm-large --accept-terms
+#   2. build the FULL manifest: python -m ml.data.build_canonical_manifest --out data/manifests/vaanishield_v1_full.csv
+#   3. check it:                python -m ml.data.check_manifest --manifest data/manifests/vaanishield_v1_full.csv
+# Run:  python -m ml.training.train --config ml/configs/full_gpu_aasist.yaml
+#       python -m ml.evaluation.evaluate --config ml/configs/full_gpu_aasist.yaml
+# Hyper-parameters follow upstream AASIST.conf (batch 24, lr 1e-4, wd 1e-4, 100 epochs). Upstream does not use mixed
+# precision, so amp stays off for fidelity; turn it on only as a separately named experiment.
+exp_id: FULL_aasist_asvspoof_gpu
+data:
+  train_manifests: [data/manifests/vaanishield_v1_full.csv]  # separate file: never overwrites the committed subset manifest
+  data_root: null                     # set VAANI_DATA_ROOT or pass --data-root on the GPU machine
+  include_sources: [asvspoof2019_la]  # Hindi pool stays out until the codec shortcut is fixed
+  max_clips_per_split: {}             # all clips in the manifest
+  preload_audio: false                # read files on demand (full LA does not fit comfortably in RAM)
+  crop_samples: 64600
+  num_workers: 8
+model:
+  kind: aasist
+  params: {variant: AASIST}
+train:
+  seed: 2026
+  device: cuda                        # fail loudly if no GPU is visible (use --device auto to allow CPU)
+  epochs: 100
+  batch_size: 24
+  grad_accum: 1
+  lr_head: 0.0001
+  weight_decay: 0.0001
+  amp: false
+  early_stop_patience: 20
+calib:
+  method: none
+output:
+  checkpoint_dir: runs/full/checkpoints
+  results_dir: runs/full/results

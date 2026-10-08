@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vaanishield"
+version = "0.1.0"
+description = "Code-switch-robust audio deepfake detection for Hindi-English speech under messaging-app compression (research code)."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+# Runtime dependencies are pinned in environment/lock/*.txt (hashed). Lower bounds only here.
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "pandas>=2.2",
+    "pyyaml>=6.0",
+    "pydantic>=2.7",
+    "psutil>=5.9",
+]
+
+[project.optional-dependencies]
+audio = ["soundfile>=0.12", "librosa>=0.10", "soxr>=0.3"]
+torch = ["torch>=2.5", "transformers>=4.45"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["ml*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "torch: needs PyTorch installed (skipped otherwise)",
+    "gpu: needs a CUDA GPU (skipped otherwise)",
+]
+

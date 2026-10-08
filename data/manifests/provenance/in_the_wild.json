@@ -1,0 +1,105 @@
+{
+  "source_id": "in_the_wild",
+  "events": [
+    {
+      "recorded_at": "2026-10-07T17:12:05.134048+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "ml/data_scripts/acquire_inthewild.py",
+      "source_url": "https://huggingface.co/datasets/mueller91/In-The-Wild",
+      "dataset_version": "HF revision eee168f92c367f8c82ff2cf42b6f61e362fd6211 (lastModified 2025-10-27)",
+      "licence": "\\\"CONFLICT:Apache-2.0|CC-BY-SA-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_inthewild_20261007T171152Z.log",
+      "mode": "inspect",
+      "partial": true,
+      "archive": {
+        "name": "release_in_the_wild.zip",
+        "bytes": 8161489023,
+        "etag": "\"ec530d2076f973d40a8e388e559888f1b4fea467db8126c811d34dd508ee106f\""
+      },
+      "zip_listing": {
+        "n_members": 31782,
+        "by_extension": {
+          "wav": 31779,
+          "csv": 1,
+          "txt": 1
+        }
+      },
+      "transfer": {
+        "bytes_fetched": 4261775,
+        "range_requests": 3
+      },
+      "files": [
+        {
+          "path": "raw/in_the_wild/release_in_the_wild/meta.csv",
+          "bytes": 1021512,
+          "sha256": "2e404150eff3cf171b766da81013a93248cbb219682fff420bbadb6b86a18795"
+        }
+      ],
+      "note": "label CSV only; no audio extracted (external test set untouched until Phase 7)"
+    },
+    {
+      "recorded_at": "2026-10-07T17:12:29.568676+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "ml/data_scripts/acquire_inthewild.py",
+      "source_url": "https://huggingface.co/datasets/mueller91/In-The-Wild",
+      "dataset_version": "HF revision eee168f92c367f8c82ff2cf42b6f61e362fd6211 (lastModified 2025-10-27)",
+      "licence": "\\\"CONFLICT:Apache-2.0|CC-BY-SA-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_inthewild_20261007T171213Z.log",
+      "mode": "inspect",
+      "partial": true,
+      "archive": {
+        "name": "release_in_the_wild.zip",
+        "bytes": 8161489023,
+        "etag": "\"ec530d2076f973d40a8e388e559888f1b4fea467db8126c811d34dd508ee106f\""
+      },
+      "zip_listing": {
+        "n_members": 31782,
+        "by_extension": {
+          "wav": 31779,
+          "csv": 1,
+          "txt": 1
+        }
+      },
+      "transfer": {
+        "bytes_fetched": 4786063,
+        "range_requests": 4
+      },
+      "files": [
+        {
+          "path": "raw/in_the_wild/release_in_the_wild/meta.csv",
+          "bytes": 1021512,
+          "sha256": "2e404150eff3cf171b766da81013a93248cbb219682fff420bbadb6b86a18795"
+        },
+        {
+          "path": "raw/in_the_wild/release_in_the_wild/attribution.txt",
+          "bytes": 87,
+          "sha256": "f4c443da6e08d39ac88df3e8362a3ce425b9061a52c852414878d477cf3a37ee"
+        }
+      ],
+      "note": "label CSV only; no audio extracted (external test set untouched until Phase 7)"
+    },
+    {
+      "recorded_at": "2026-10-07T17:21:48.316707+00:00",
+      "mode": "relocate",
+      "note": "repository simplification: data/external/ removed; files moved unchanged (same sha256) to data/raw/in_the_wild/",
+      "moved": [
+        {
+          "from": "external/in_the_wild/release_in_the_wild/meta.csv",
+          "to": "raw/in_the_wild/release_in_the_wild/meta.csv"
+        },
+        {
+          "from": "external/in_the_wild/release_in_the_wild/meta.csv",
+          "to": "raw/in_the_wild/release_in_the_wild/meta.csv"
+        },
+        {
+          "from": "external/in_the_wild/release_in_the_wild/attribution.txt",
+          "to": "raw/in_the_wild/release_in_the_wild/attribution.txt"
+        }
+      ]
+    }
+  ]
+}

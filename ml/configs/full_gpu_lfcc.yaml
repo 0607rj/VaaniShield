@@ -1,0 +1,35 @@
+# FULL-TRAINING B0 (LFCC-CNN, 14k params; GPU machine only). Same data and protocol as full_gpu_aasist.yaml.
+# lr 1e-3 and weight decay 1e-4 from the pilot B0 recipe; batch 32 and 50 epochs chosen for full data (not tuned).
+# Prerequisites on the GPU machine (docs/LOCAL_VS_GPU_WORKFLOW.md):
+#   1. full ASVspoof 2019 LA:  python scripts/acquire_asvspoof.py --full --confirm-large --accept-terms
+#   2. build the FULL manifest: python -m ml.data.build_canonical_manifest --out data/manifests/vaanishield_v1_full.csv
+#   3. check it:                python -m ml.data.check_manifest --manifest data/manifests/vaanishield_v1_full.csv
+# Run:  python -m ml.training.train --config ml/configs/full_gpu_lfcc.yaml
+#       python -m ml.evaluation.evaluate --config ml/configs/full_gpu_lfcc.yaml
+exp_id: FULL_lfcc_cnn_asvspoof_gpu
+data:
+  train_manifests: [data/manifests/vaanishield_v1_full.csv]  # separate file: never overwrites the committed subset manifest
+  data_root: null                     # set VAANI_DATA_ROOT or pass --data-root on the GPU machine
+  include_sources: [asvspoof2019_la]  # Hindi pool stays out until the codec shortcut is fixed
+  max_clips_per_split: {}             # all clips in the manifest
+  preload_audio: false                # read files on demand (full LA does not fit comfortably in RAM)
+  crop_samples: 64600
+  num_workers: 8
+model:
+  kind: lfcc_cnn
+  params: {}
+train:
+  seed: 2026
+  device: cuda                        # fail loudly if no GPU is visible (use --device auto to allow CPU)
+  epochs: 50
+  batch_size: 32
+  grad_accum: 1
+  lr_head: 0.001
+  weight_decay: 0.0001
+  amp: false
+  early_stop_patience: 10
+calib:
+  method: none
+output:
+  checkpoint_dir: runs/full/checkpoints
+  results_dir: runs/full/results

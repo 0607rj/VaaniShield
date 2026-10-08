@@ -1,0 +1,4268 @@
+{
+  "source_id": "indicsynth_hi",
+  "events": [
+    {
+      "recorded_at": "2026-10-07T17:10:34.687323+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "ml/data_scripts/acquire_indicsynth.py",
+      "source_url": "https://huggingface.co/datasets/vdivyasharma/IndicSynth",
+      "dataset_version": "HF revision c0a10386b723717aff682f757bd67f72983f269f (lastModified 2026-01-12)",
+      "licence": "\\\"CC-BY-NC-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_indicsynth_20261007T171019Z.log",
+      "config": "Hindi",
+      "mode": "inspect",
+      "shards": [
+        {
+          "path": "Hindi/train-00000-of-00107.parquet",
+          "bytes": 471955804,
+          "lfs_sha256": "8ea4138485cc86d09e5915f761a5d27d5885446b988b857f1f4062813d209d17"
+        },
+        {
+          "path": "Hindi/train-00001-of-00107.parquet",
+          "bytes": 631045145,
+          "lfs_sha256": "2fc75cf9d9beaad7a71a94949a508a03dd8eed5e46a6784ffbc2f47b7c05a708"
+        },
+        {
+          "path": "Hindi/train-00002-of-00107.parquet",
+          "bytes": 509298016,
+          "lfs_sha256": "e4afb3e5b2bf80c8011f8d2252396059e0f7ec6700885b60de1c357e958751ba"
+        },
+        {
+          "path": "Hindi/train-00003-of-00107.parquet",
+          "bytes": 450772018,
+          "lfs_sha256": "b2e7bd5b00d056c9ef1b8d8bac2e684c0e618dcf5aacee3e6d148aa1e86019ae"
+        },
+        {
+          "path": "Hindi/train-00004-of-00107.parquet",
+          "bytes": 415893883,
+          "lfs_sha256": "417dfa3d91c4c7267a6b02e8cfd2232fe171c6b285e9102dbfdae5b8f230740c"
+        },
+        {
+          "path": "Hindi/train-00005-of-00107.parquet",
+          "bytes": 521864162,
+          "lfs_sha256": "242300b3c3bcdb7601495c35ee0e5f670a6b3301021db889660932b2a68d233b"
+        },
+        {
+          "path": "Hindi/train-00006-of-00107.parquet",
+          "bytes": 399221145,
+          "lfs_sha256": "7cefe1895ffbcd0f294da1cf1abb23f6763fc118694c245cf3c54aea9df7d814"
+        },
+        {
+          "path": "Hindi/train-00007-of-00107.parquet",
+          "bytes": 496713243,
+          "lfs_sha256": "c58dadd7f5cac5576e564336a312cb989e48b7680bb74e8cf94969e4db9dda2e"
+        },
+        {
+          "path": "Hindi/train-00008-of-00107.parquet",
+          "bytes": 520979235,
+          "lfs_sha256": "de0c869bee3f013e197ee28d79c1401ae2b5e76dcd0651c0ce79ec2dc1f94fb2"
+        },
+        {
+          "path": "Hindi/train-00009-of-00107.parquet",
+          "bytes": 487075214,
+          "lfs_sha256": "4d53c634cf0bf3040301acfa52c6a899ac6b54b7cb861a916e1ad8e12e4e9d23"
+        },
+        {
+          "path": "Hindi/train-00010-of-00107.parquet",
+          "bytes": 489399350,
+          "lfs_sha256": "faba4e7f878394ebf0fdf513ea6c61f4f15e5f09a95dc50b6281a3616ba6d051"
+        },
+        {
+          "path": "Hindi/train-00011-of-00107.parquet",
+          "bytes": 537819830,
+          "lfs_sha256": "741826f64827eaf07f79dc977a40a6489f416a64720e665f63212e002615908d"
+        },
+        {
+          "path": "Hindi/train-00012-of-00107.parquet",
+          "bytes": 475800168,
+          "lfs_sha256": "606f29aecacef0428d8403429c2a81eabe6be6b93929428c2c20fe77374074f8"
+        },
+        {
+          "path": "Hindi/train-00013-of-00107.parquet",
+          "bytes": 608550772,
+          "lfs_sha256": "20d41fc67b985f3cd5c7fa367b898c14909d6960ac9d08e275f5c72cef39107c"
+        },
+        {
+          "path": "Hindi/train-00014-of-00107.parquet",
+          "bytes": 551792891,
+          "lfs_sha256": "5592953b807b7dfd9a913b9167a76b44c3ba019c47333717d1280f0f80079d71"
+        },
+        {
+          "path": "Hindi/train-00015-of-00107.parquet",
+          "bytes": 495113643,
+          "lfs_sha256": "4981c1f280cca97b91bd6b7a4dfd9a296ab1700d282e0c79de78c3dabd51be01"
+        },
+        {
+          "path": "Hindi/train-00016-of-00107.parquet",
+          "bytes": 550242248,
+          "lfs_sha256": "600945d58e1e3fcf564e842b90da382d03068d0905025d44ee4991c8d9f50c63"
+        },
+        {
+          "path": "Hindi/train-00017-of-00107.parquet",
+          "bytes": 574330290,
+          "lfs_sha256": "30779b425fe3181ef1637d9d32e93515f0a1cdd7432b4c83d114ab1fdb288ff3"
+        },
+        {
+          "path": "Hindi/train-00018-of-00107.parquet",
+          "bytes": 487550425,
+          "lfs_sha256": "7ef756ce6afc8a77f560fcc2cb26afb0b60a6e59a3da16125b56954fb0a8f4aa"
+        },
+        {
+          "path": "Hindi/train-00019-of-00107.parquet",
+          "bytes": 383605903,
+          "lfs_sha256": "7ab723f414ed4f26689f7709f9a3ce94f44cca00cfe3f667768655015ee374c7"
+        },
+        {
+          "path": "Hindi/train-00020-of-00107.parquet",
+          "bytes": 414766618,
+          "lfs_sha256": "3d1065f6a850a5be5e54a8effb2c002d5bac685cd88f424acaa19835f024f382"
+        },
+        {
+          "path": "Hindi/train-00021-of-00107.parquet",
+          "bytes": 425876254,
+          "lfs_sha256": "a67b2c6119c07451172c36ed1bf2e04908dbadd794ffaf0ad1d8355f8447bd2c"
+        },
+        {
+          "path": "Hindi/train-00022-of-00107.parquet",
+          "bytes": 437110498,
+          "lfs_sha256": "45bb56c5642188d537557d109bc4c8e155be5b55c74cde7654a65f79b411dda1"
+        },
+        {
+          "path": "Hindi/train-00023-of-00107.parquet",
+          "bytes": 466218377,
+          "lfs_sha256": "c0bbc2517cbbe8d2693577e72267abfa0fc2d8d40e87c3ee4580053acf26c2cc"
+        },
+        {
+          "path": "Hindi/train-00024-of-00107.parquet",
+          "bytes": 429531049,
+          "lfs_sha256": "89fd6a6f2983c553c865ced58e701687e78db96b2f134146cc70e72f116fdc5c"
+        },
+        {
+          "path": "Hindi/train-00025-of-00107.parquet",
+          "bytes": 546909349,
+          "lfs_sha256": "fcaa8b9ab4d9ffd56f3ef384e5997dba16b7d576025a0b7d6c77879d7e64e4c6"
+        },
+        {
+          "path": "Hindi/train-00026-of-00107.parquet",
+          "bytes": 411431748,
+          "lfs_sha256": "3f6e0f1c3f88844c700d6730febe30c9d64eb6c365b36bfc9d8ea068251f5b6b"
+        },
+        {
+          "path": "Hindi/train-00027-of-00107.parquet",
+          "bytes": 464187962,
+          "lfs_sha256": "61d057e184435ae7ef3d3c8cc11c5b54c50e9e06eaf29b16a7be0f2889d5d6fb"
+        },
+        {
+          "path": "Hindi/train-00028-of-00107.parquet",
+          "bytes": 583720765,
+          "lfs_sha256": "a48f4ab84815a355eac79ee80f8fecaa54b8df8c9a567bc306b46c1b518b80a4"
+        },
+        {
+          "path": "Hindi/train-00029-of-00107.parquet",
+          "bytes": 770143499,
+          "lfs_sha256": "50ad6e6d48c7d3ecc03151e9c787129f10a7af6ce06ee7f5bb6077714d4ddb5c"
+        },
+        {
+          "path": "Hindi/train-00030-of-00107.parquet",
+          "bytes": 565045005,
+          "lfs_sha256": "4cab0a9fb6d6700f8fe9fa8f4b09da18355e8283643cbf00da13bdca74b93521"
+        },
+        {
+          "path": "Hindi/train-00031-of-00107.parquet",
+          "bytes": 587263380,
+          "lfs_sha256": "f929075b1083eb85b0218f5b0c25d01708234b20f3d1c0b21236fe6ee62ed3b7"
+        },
+        {
+          "path": "Hindi/train-00032-of-00107.parquet",
+          "bytes": 459920117,
+          "lfs_sha256": "b622af869b341ac6c97cc14789e1e560c7b1f1212c18a74468c4159033733df7"
+        },
+        {
+          "path": "Hindi/train-00033-of-00107.parquet",
+          "bytes": 648046064,
+          "lfs_sha256": "1d524715f7524cdc3bcdbd8eff84b7c29a1ad9441d234f343137ab4030de5ac0"
+        },
+        {
+          "path": "Hindi/train-00034-of-00107.parquet",
+          "bytes": 579020769,
+          "lfs_sha256": "5c4e0d9c5a68f1800ce8e2d32244a69be8a27d00e5116392baf730f4fc8d20ea"
+        },
+        {
+          "path": "Hindi/train-00035-of-00107.parquet",
+          "bytes": 539850776,
+          "lfs_sha256": "96a0eee93274ea0e69c7f9d9b5f969d49d08e30c0b9ff74b403891e8aee62f98"
+        },
+        {
+          "path": "Hindi/train-00036-of-00107.parquet",
+          "bytes": 521110072,
+          "lfs_sha256": "2a19fb0686a8e5b1bdd12fbcc9f92c09b52027d124164324ec081fe248107b9c"
+        },
+        {
+          "path": "Hindi/train-00037-of-00107.parquet",
+          "bytes": 657048364,
+          "lfs_sha256": "dcb4a6bc8e0696d54590feb3beb6dbbed744fb737c56fc6edc5786ac23417808"
+        },
+        {
+          "path": "Hindi/train-00038-of-00107.parquet",
+          "bytes": 492572683,
+          "lfs_sha256": "88e08fbfe18bf2d2783c99aedc6656d2e29957c82a2d4a495352cf690531df28"
+        },
+        {
+          "path": "Hindi/train-00039-of-00107.parquet",
+          "bytes": 589832279,
+          "lfs_sha256": "2b812195a38bd3051193911edffba65fdae2808708fc563ee291d7118a311517"
+        },
+        {
+          "path": "Hindi/train-00040-of-00107.parquet",
+          "bytes": 494246535,
+          "lfs_sha256": "05732a972f45f41b82e0cfd3357580c23d7a18c2d96b39a72f227684f4b0e5a2"
+        },
+        {
+          "path": "Hindi/train-00041-of-00107.parquet",
+          "bytes": 694641478,
+          "lfs_sha256": "e4471f7ecafd2f72bacc0ad1559f34c956cb730661c44ce4c13cad13ab482601"
+        },
+        {
+          "path": "Hindi/train-00042-of-00107.parquet",
+          "bytes": 650585302,
+          "lfs_sha256": "ea6fb514eb725a84db836837e0b6b269ad029b5e281d80a4fd321df5459d4d81"
+        },
+        {
+          "path": "Hindi/train-00043-of-00107.parquet",
+          "bytes": 574746820,
+          "lfs_sha256": "8ded25adc962a0ef0ce620f232bfa9b4f4fe7b7651b8ab49fa27f49ee91a2d4b"
+        },
+        {
+          "path": "Hindi/train-00044-of-00107.parquet",
+          "bytes": 575859091,
+          "lfs_sha256": "e52bc9aeb943021c647cfa084482b9ee6547167fa2162d1c73440d6e0c5c03e5"
+        },
+        {
+          "path": "Hindi/train-00045-of-00107.parquet",
+          "bytes": 648906927,
+          "lfs_sha256": "4a4ccf55ec755445892180f24cedc2daf0ee5a35bc9d08a6fe274251808cdb51"
+        },
+        {
+          "path": "Hindi/train-00046-of-00107.parquet",
+          "bytes": 502668816,
+          "lfs_sha256": "55d70883d15c1c291a2bc3122a2f72228cdf3e92c1118c8d8ff1278668620f4e"
+        },
+        {
+          "path": "Hindi/train-00047-of-00107.parquet",
+          "bytes": 645837828,
+          "lfs_sha256": "d01c349d8d37b0353fc4a6e3bf48ba53e484c4c15f3352160c1379ef1cab2d7f"
+        },
+        {
+          "path": "Hindi/train-00048-of-00107.parquet",
+          "bytes": 629291881,
+          "lfs_sha256": "6faf270812947ca4b03ad13cad2f0156f56ff2288ecce49919006797edc43415"
+        },
+        {
+          "path": "Hindi/train-00049-of-00107.parquet",
+          "bytes": 544291822,
+          "lfs_sha256": "e217e543953fd5c36d572da6f68cd657e925ab0bc8f0701e4f1e6b1b1de0fa6c"
+        },
+        {
+          "path": "Hindi/train-00050-of-00107.parquet",
+          "bytes": 488877959,
+          "lfs_sha256": "121575a7141ff6bac56685acd3a3328ce7ddcba9256ec89bd17b08e614c47739"
+        },
+        {
+          "path": "Hindi/train-00051-of-00107.parquet",
+          "bytes": 531861323,
+          "lfs_sha256": "41065524e40026e4e304f6a11e4f4e8e30a9bb5b8a9dcf289ae71ccc0f8e251b"
+        },
+        {
+          "path": "Hindi/train-00052-of-00107.parquet",
+          "bytes": 562554209,
+          "lfs_sha256": "d9ba83f471b5f078ab3847969ab8613f7e878519d62f70bae39bce737841d7d0"
+        },
+        {
+          "path": "Hindi/train-00053-of-00107.parquet",
+          "bytes": 574495261,
+          "lfs_sha256": "dc5b296fffb7819174effcb1f8831e6de949126d8e1729bead31e4bc5c83949a"
+        },
+        {
+          "path": "Hindi/train-00054-of-00107.parquet",
+          "bytes": 526058531,
+          "lfs_sha256": "ec163d9657de97fb8bd613236834fc64a468c51356124da1c420d1ee090372a8"
+        },
+        {
+          "path": "Hindi/train-00055-of-00107.parquet",
+          "bytes": 567093278,
+          "lfs_sha256": "ef53bfca7c5303e16e3bf1712d70797016597dab7098db060931a0e5c89f600c"
+        },
+        {
+          "path": "Hindi/train-00056-of-00107.parquet",
+          "bytes": 529082919,
+          "lfs_sha256": "eb956670035779b334caa6ce116398339c93747da8f0f26b71a7272e1961363b"
+        },
+        {
+          "path": "Hindi/train-00057-of-00107.parquet",
+          "bytes": 502205182,
+          "lfs_sha256": "de01065b0c99f75fdc4f2120f1066496f2150fb6825287d44b25302651f85c50"
+        },
+        {
+          "path": "Hindi/train-00058-of-00107.parquet",
+          "bytes": 554745242,
+          "lfs_sha256": "87ad8a93df862fde9d87ff8c2bbccb9c2ef45d570f9500e2cc9b74a6eee8ec7e"
+        },
+        {
+          "path": "Hindi/train-00059-of-00107.parquet",
+          "bytes": 471349074,
+          "lfs_sha256": "7a66e2779190cc836b653f5d9de69a166f6d315a5b3ad96c08b945bc89ebf1e3"
+        },
+        {
+          "path": "Hindi/train-00060-of-00107.parquet",
+          "bytes": 493503117,
+          "lfs_sha256": "f31e530245c1adae9ba1723363b292cd5e75959d44f59ec339973bf53d45b2fc"
+        },
+        {
+          "path": "Hindi/train-00061-of-00107.parquet",
+          "bytes": 534952723,
+          "lfs_sha256": "a7a6b9dc7be56bac6ae3236fe7e72bfe1e9475fcfc0cf0225dd7e48f3e7fefed"
+        },
+        {
+          "path": "Hindi/train-00062-of-00107.parquet",
+          "bytes": 499561813,
+          "lfs_sha256": "d3f5fb79f497e7e22298f66b839a543774f85d085bfb29ca5a41da663b808327"
+        },
+        {
+          "path": "Hindi/train-00063-of-00107.parquet",
+          "bytes": 519283503,
+          "lfs_sha256": "8d052d33109472ffd0aa142c6e14e7f55e2506c9b75c94eee82bbe612c36d8b6"
+        },
+        {
+          "path": "Hindi/train-00064-of-00107.parquet",
+          "bytes": 509906600,
+          "lfs_sha256": "b4290bf7f58b1c7210857579693796bf0316b98bae95441914904590b53705a1"
+        },
+        {
+          "path": "Hindi/train-00065-of-00107.parquet",
+          "bytes": 510724956,
+          "lfs_sha256": "fb6ec9ccde25842fe1a11f94de2d8d13b5329f2b85e436e5f064abf940a45e88"
+        },
+        {
+          "path": "Hindi/train-00066-of-00107.parquet",
+          "bytes": 534959815,
+          "lfs_sha256": "34fade124cebec297c5f6b5a5bb243150f6d433f3b1ca63e7a0b5abb064abc1f"
+        },
+        {
+          "path": "Hindi/train-00067-of-00107.parquet",
+          "bytes": 592192676,
+          "lfs_sha256": "6ad41b714e035611ed8a17993892a1fe8a12bd66ff835ffba4283698d7907607"
+        },
+        {
+          "path": "Hindi/train-00068-of-00107.parquet",
+          "bytes": 508638567,
+          "lfs_sha256": "50a79f7859fd4d8bda319443603190a748d3d71667fdaa993ece0b54ca645be2"
+        },
+        {
+          "path": "Hindi/train-00069-of-00107.parquet",
+          "bytes": 478631328,
+          "lfs_sha256": "b52784254f2c7e3b66fedd9098184931f43adda0c3479dd9bc22cfa9eb2264e1"
+        },
+        {
+          "path": "Hindi/train-00070-of-00107.parquet",
+          "bytes": 481572571,
+          "lfs_sha256": "1090d6e2353db52d451f0e19f9898e915e8e589a9e98bc97e96a19baa15da154"
+        },
+        {
+          "path": "Hindi/train-00071-of-00107.parquet",
+          "bytes": 524672895,
+          "lfs_sha256": "6ec5c6e47673043ca7fb9b414f51c20f47134ad7bfb0e7df8869947471438f99"
+        },
+        {
+          "path": "Hindi/train-00072-of-00107.parquet",
+          "bytes": 498857578,
+          "lfs_sha256": "009a4d299bc90465ea15d9300e98cc13104259034b0f385a7d763e6d92cad6ef"
+        },
+        {
+          "path": "Hindi/train-00073-of-00107.parquet",
+          "bytes": 510479454,
+          "lfs_sha256": "ce9e7db28e4ff233c2e3f26744f86f3f13d21846a2b494551afe3cc3fdb506a3"
+        },
+        {
+          "path": "Hindi/train-00074-of-00107.parquet",
+          "bytes": 538413186,
+          "lfs_sha256": "c3890d4b696e30febb3f84a0f40231d40afccec7376dfeacaadf266efb8b530c"
+        },
+        {
+          "path": "Hindi/train-00075-of-00107.parquet",
+          "bytes": 498892590,
+          "lfs_sha256": "09255d1ae7979139159dde74cbb3c1221447596555f53279554534fa593621ad"
+        },
+        {
+          "path": "Hindi/train-00076-of-00107.parquet",
+          "bytes": 533942596,
+          "lfs_sha256": "e7d6c0be053bc4319efcf7229b08c88798c79aa500e97e7674357d5a5d958a3b"
+        },
+        {
+          "path": "Hindi/train-00077-of-00107.parquet",
+          "bytes": 533584986,
+          "lfs_sha256": "6d73eeb901c27550c9bb2f31fc598c4a29e47d318b8067e482736b9119b9b512"
+        },
+        {
+          "path": "Hindi/train-00078-of-00107.parquet",
+          "bytes": 524124991,
+          "lfs_sha256": "49581b7789a9a9d70d8ed4d8fb778ca08b3b70bd0aa6e94e9b7f40e713c75c7d"
+        },
+        {
+          "path": "Hindi/train-00079-of-00107.parquet",
+          "bytes": 498954542,
+          "lfs_sha256": "bc84382c98016825c9351b4233cfb7aadbc69d1a9bbf90bec1d19a02cebb4923"
+        },
+        {
+          "path": "Hindi/train-00080-of-00107.parquet",
+          "bytes": 550173382,
+          "lfs_sha256": "b1094105cee1009580d17a644268649498e8310180fee2e68c54e4e2b6e12be8"
+        },
+        {
+          "path": "Hindi/train-00081-of-00107.parquet",
+          "bytes": 530919232,
+          "lfs_sha256": "91390135bf98fc5cd4e7293c41820a39d70803835e5628248dc14f7420235dad"
+        },
+        {
+          "path": "Hindi/train-00082-of-00107.parquet",
+          "bytes": 523294514,
+          "lfs_sha256": "6a07a954174f12fd11db403dd19ed2656c1f44615cfc1edc4dabd6633540876d"
+        },
+        {
+          "path": "Hindi/train-00083-of-00107.parquet",
+          "bytes": 518601994,
+          "lfs_sha256": "ca9a97f428c51e4b6ca1d78cd2e8161df912340279149653bacd575e772c074d"
+        },
+        {
+          "path": "Hindi/train-00084-of-00107.parquet",
+          "bytes": 518824952,
+          "lfs_sha256": "e1f37c9bfcb43b785da521ce763eff807fd73968a969b96a77ef86cb9df4fae9"
+        },
+        {
+          "path": "Hindi/train-00085-of-00107.parquet",
+          "bytes": 508802361,
+          "lfs_sha256": "43492fecc1fc06aa11b539ea49609272a724529fcb9fd6bab8b8f6b9b3ee17fd"
+        },
+        {
+          "path": "Hindi/train-00086-of-00107.parquet",
+          "bytes": 505472138,
+          "lfs_sha256": "f7491e87bc31c78d50099b562644f826b568258fef38c145834c55af0930a87f"
+        },
+        {
+          "path": "Hindi/train-00087-of-00107.parquet",
+          "bytes": 463418339,
+          "lfs_sha256": "61559e6755840f8e8551b96aae3bfd96f3200f5cfbd5623ccc0cc1de1d4edeea"
+        },
+        {
+          "path": "Hindi/train-00088-of-00107.parquet",
+          "bytes": 503212952,
+          "lfs_sha256": "054421302bd425fa3989ee951eb3bfd15b78d6791dd6ed478bd3587ba2960633"
+        },
+        {
+          "path": "Hindi/train-00089-of-00107.parquet",
+          "bytes": 479495395,
+          "lfs_sha256": "b89178524296930bec2d7c2dd1a32cf0c67cf352746866a4dce2fa107cb8ad25"
+        },
+        {
+          "path": "Hindi/train-00090-of-00107.parquet",
+          "bytes": 477226987,
+          "lfs_sha256": "2131f7e7c6a6c2fbce77f8c8b98d2b815b78094d2f15dce14d002f66136afdb8"
+        },
+        {
+          "path": "Hindi/train-00091-of-00107.parquet",
+          "bytes": 544742478,
+          "lfs_sha256": "a8fcf4954f31058ba29570f6aa58a9a622678d8fa37b5c03a1c8636254d049ec"
+        },
+        {
+          "path": "Hindi/train-00092-of-00107.parquet",
+          "bytes": 531831147,
+          "lfs_sha256": "f70965be5106d3c1af9dd1cf346b2e38983e2c44ebd5ab8e274bcec2e41c4cb2"
+        },
+        {
+          "path": "Hindi/train-00093-of-00107.parquet",
+          "bytes": 548625989,
+          "lfs_sha256": "e3bb7b902d2d8475fb9f036eba4a0b52f2f0bb197a3a8d46e5634761cacabda9"
+        },
+        {
+          "path": "Hindi/train-00094-of-00107.parquet",
+          "bytes": 529635610,
+          "lfs_sha256": "2498fc0ee82a43e9a3e9be7ac27360856239681cbafeae91f4b3d10b58814193"
+        },
+        {
+          "path": "Hindi/train-00095-of-00107.parquet",
+          "bytes": 452605994,
+          "lfs_sha256": "509c2254600e66c0d6ecf0b1a362f150b91ce02cf0a0da5e06a02f884e5d3a5c"
+        },
+        {
+          "path": "Hindi/train-00096-of-00107.parquet",
+          "bytes": 464385474,
+          "lfs_sha256": "95246b2d43e57dbcb1305b85aab2f15f9b728f4a3b2c533881403d7f1e313ebe"
+        },
+        {
+          "path": "Hindi/train-00097-of-00107.parquet",
+          "bytes": 500150263,
+          "lfs_sha256": "fed603223a68f028952cb170a71e02e0c6c9ecc6164a60d8fff34e346cb188de"
+        },
+        {
+          "path": "Hindi/train-00098-of-00107.parquet",
+          "bytes": 508819250,
+          "lfs_sha256": "8b11fdf8e5469b937a525d07d7265a17fb8b94e887d747c1567b3062c6488054"
+        },
+        {
+          "path": "Hindi/train-00099-of-00107.parquet",
+          "bytes": 485599915,
+          "lfs_sha256": "697c227c1149510ad3fc775aee902dc29f22b060b9979e62f03bd6a9b7e65306"
+        },
+        {
+          "path": "Hindi/train-00100-of-00107.parquet",
+          "bytes": 502395111,
+          "lfs_sha256": "cbaf82bd073b209f259d11419c1b5b653b49c1b7192c13de2b805e877382f645"
+        },
+        {
+          "path": "Hindi/train-00101-of-00107.parquet",
+          "bytes": 543700877,
+          "lfs_sha256": "2c3a05ab6fb55eee9e9c9e347eb03ecb57f9e194c050c9438d33f0b1f443eeb4"
+        },
+        {
+          "path": "Hindi/train-00102-of-00107.parquet",
+          "bytes": 510552188,
+          "lfs_sha256": "645d5027b02938da070d8b6218c9543958c588d5c1022d7f4a1a0a2c25a26062"
+        },
+        {
+          "path": "Hindi/train-00103-of-00107.parquet",
+          "bytes": 505186617,
+          "lfs_sha256": "ecce8fe816d9540fd5f143ae28de04b9d55868f64172332a3ca34e2cf5955a1c"
+        },
+        {
+          "path": "Hindi/train-00104-of-00107.parquet",
+          "bytes": 509777506,
+          "lfs_sha256": "7659e96561baab243a8fd2589a85bee64fc380a26bd70b0d03065947e6f7b1f3"
+        },
+        {
+          "path": "Hindi/train-00105-of-00107.parquet",
+          "bytes": 523617452,
+          "lfs_sha256": "2ac9ca0b7d72357b96b9a105ba202ddd7b110bf6560fd9edd8f2f4bdecca59f9"
+        },
+        {
+          "path": "Hindi/train-00106-of-00107.parquet",
+          "bytes": 527978557,
+          "lfs_sha256": "c2dd64fdf156641eda1a513addac8cc7ac5aff68c851ab29fd21faac1df5d65b"
+        }
+      ],
+      "footers": [
+        {
+          "path": "Hindi/train-00000-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            23438015,
+            25549811,
+            28871411,
+            23894692,
+            29581811,
+            25967104,
+            24973811,
+            27661811,
+            21460171,
+            25914571,
+            25991542,
+            21863492,
+            24129011,
+            25665011,
+            20780452,
+            21067266,
+            25722611,
+            23399411,
+            21325811,
+            5130386
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ]
+        },
+        {
+          "path": "Hindi/train-00053-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            33992945,
+            25601452,
+            33248947,
+            26466504,
+            26209269,
+            25502699,
+            28996084,
+            37607577,
+            31274966,
+            30147796,
+            31381512,
+            28328885,
+            31949991,
+            31565107,
+            31831974,
+            35082549,
+            33642454,
+            22191282,
+            23633176,
+            6874706
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ]
+        },
+        {
+          "path": "Hindi/train-00106-of-00107.parquet",
+          "num_rows": 1924,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            24
+          ],
+          "row_group_bytes": [
+            28374382,
+            28286174,
+            28875459,
+            28846645,
+            28523338,
+            28245422,
+            27564126,
+            27986512,
+            28530071,
+            30524995,
+            31757202,
+            30160874,
+            31084001,
+            32157757,
+            31565855,
+            30806653,
+            31415355,
+            31802559,
+            31376061,
+            8118620
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ]
+        }
+      ],
+      "total_listed_bytes": 56012925652,
+      "transfer": {
+        "bytes_fetched": 1041334
+      },
+      "files": []
+    },
+    {
+      "recorded_at": "2026-10-07T17:13:40.813050+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "ml/data_scripts/acquire_indicsynth.py",
+      "source_url": "https://huggingface.co/datasets/vdivyasharma/IndicSynth",
+      "dataset_version": "HF revision c0a10386b723717aff682f757bd67f72983f269f (lastModified 2026-01-12)",
+      "licence": "\\\"CC-BY-NC-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_indicsynth_20261007T171041Z.log",
+      "config": "Hindi",
+      "mode": "pilot",
+      "partial": true,
+      "hf_revision": "c0a10386b723717aff682f757bd67f72983f269f",
+      "n_shards_listed": 107,
+      "total_listed_bytes": 56012925652,
+      "shards_read": [
+        {
+          "path": "Hindi/train-00000-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            23438015,
+            25549811,
+            28871411,
+            23894692,
+            29581811,
+            25967104,
+            24973811,
+            27661811,
+            21460171,
+            25914571,
+            25991542,
+            21863492,
+            24129011,
+            25665011,
+            20780452,
+            21067266,
+            25722611,
+            23399411,
+            21325811,
+            5130386
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "generators": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00106-of-00107.parquet",
+          "num_rows": 1924,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            24
+          ],
+          "row_group_bytes": [
+            28374382,
+            28286174,
+            28875459,
+            28846645,
+            28523338,
+            28245422,
+            27564126,
+            27986512,
+            28530071,
+            30524995,
+            31757202,
+            30160874,
+            31084001,
+            32157757,
+            31565855,
+            30806653,
+            31415355,
+            31802559,
+            31376061,
+            8118620
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "generators": [
+            "xtts_v2"
+          ]
+        }
+      ],
+      "selection": {
+        "per_generator": 10,
+        "rule": "first N rows of each generator in scan order"
+      },
+      "transfer": {
+        "bytes_fetched": 69856640,
+        "range_requests": 43
+      },
+      "files": [
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___0.wav",
+          "bytes": 210284,
+          "sha256": "4e3db7f7327627c935ac31c4077844b6440749f943482bc5bedfb65204c604b0",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___1.wav",
+          "bytes": 210284,
+          "sha256": "11972aa5ed438d4a57d2cfd750bb69794ed40d2ddc3692ca15d950d90523ae2b",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___10.wav",
+          "bytes": 210284,
+          "sha256": "e797d678d43c880e041d8c2703191cb112c31f613ae871755312e00a45988814",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___11.wav",
+          "bytes": 210284,
+          "sha256": "e2c0f3550daff3c14dbaa220f1b61d1ea772f47b627a7ec1c94f0b8b9ec2a3ab",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___12.wav",
+          "bytes": 210284,
+          "sha256": "30676fb8c2b6e764046922f7c0035100a29851d301dbc13735126edea5390bad",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___13.wav",
+          "bytes": 210284,
+          "sha256": "94d72edb8e913e1ff8a77f46cd436546e6e71c568b76f3be87e08972f7428eec",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___14.wav",
+          "bytes": 210284,
+          "sha256": "ec0b04b24c0172548a6b7053b72ddeda9289ca8dd64e7e59092fd8b3314adc21",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___15.wav",
+          "bytes": 210284,
+          "sha256": "25c202ca4bd1d80bdef8f99c5c0eb19a52a9f564e3450b3e058e02e2713c5d02",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___16.wav",
+          "bytes": 210284,
+          "sha256": "b6e9612549056ec83337d89af3f362f2f24adb133ca344f94d0af277a21cae43",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_1102___17.wav",
+          "bytes": 210284,
+          "sha256": "45ddffcffdc42ca39bb930d82e70fffa24d1b21195fe3f3ba02ca17dc1ad59c6",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-169.wav",
+          "bytes": 280652,
+          "sha256": "1a2f1d892579ea630ddcd60c900965e901f690f737c6154493b329958a5c679b",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-17.wav",
+          "bytes": 267340,
+          "sha256": "1841e2f7675844fb0c98bb53783cea200f0083ba3b2f06c14908e766297510b4",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-170.wav",
+          "bytes": 251468,
+          "sha256": "15854a659080b46a87d6547df26ebf642c62139d852976594f9ecd9c9d1738a7",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-171.wav",
+          "bytes": 169036,
+          "sha256": "4be4ca0760bbc786823814429e20472cd3a9888f78499ecb15b2373598c02c23",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-172.wav",
+          "bytes": 224844,
+          "sha256": "5633d368fd142dfb834bfec8ccdd479b5a48c5e73b68f61087db994334813c91",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-173.wav",
+          "bytes": 305228,
+          "sha256": "eb7385c1a7e56546152d71f8500496d52c554a12fd4130176035c7323bb520ba",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-174.wav",
+          "bytes": 254028,
+          "sha256": "636aa3a61cab90ce13b41101129de31c6b23448929f1c992a24144d85f04e4a6",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-175.wav",
+          "bytes": 220236,
+          "sha256": "9b2e1a1cc0f8c209a4cfdc8c438a6b6506fbabd5e15a7494a0e77e1bbb19bb3a",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-176.wav",
+          "bytes": 280652,
+          "sha256": "66c27c750af08135c57852da88eea615fec472e4b9882440493ad18402d68230",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____961-f-177.wav",
+          "bytes": 184908,
+          "sha256": "6ef45bf6e83bd85a7e75f5dc2982adc320aeb677c736530ac353e5eeb5033bb3",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 0,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/pilot_metadata.csv",
+          "bytes": 4154,
+          "sha256": "b943074b05f9bafd12325f36d5c5b97a1c614551541ad53d8614907dcdc7eba9"
+        }
+      ],
+      "summary": {
+        "n_files": 21,
+        "bytes": 4545386
+      }
+    },
+    {
+      "recorded_at": "2026-10-07T18:09:44.736546+00:00",
+      "git_commit": null,
+      "git_dirty": true,
+      "script": "scripts/acquire_indicsynth.py",
+      "source_url": "https://huggingface.co/datasets/vdivyasharma/IndicSynth",
+      "dataset_version": "HF revision c0a10386b723717aff682f757bd67f72983f269f (lastModified 2026-01-12)",
+      "licence": "\\\"CC-BY-NC-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_indicsynth_20261007T180002Z.log",
+      "config": "Hindi",
+      "mode": "subset",
+      "partial": true,
+      "hf_revision": "c0a10386b723717aff682f757bd67f72983f269f",
+      "n_shards_listed": 107,
+      "shards_read": [
+        {
+          "path": "Hindi/train-00000-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            23438015,
+            25549811,
+            28871411,
+            23894692,
+            29581811,
+            25967104,
+            24973811,
+            27661811,
+            21460171,
+            25914571,
+            25991542,
+            21863492,
+            24129011,
+            25665011,
+            20780452,
+            21067266,
+            25722611,
+            23399411,
+            21325811,
+            5130386
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00010-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            26500121,
+            24541745,
+            26970545,
+            25866505,
+            22957705,
+            23668337,
+            22362606,
+            20346545,
+            22091798,
+            20191001,
+            20911679,
+            25348145,
+            23082545,
+            21344905,
+            22285705,
+            30714624,
+            35332256,
+            35581745,
+            33114516,
+            7976796
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00019-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            21373747,
+            21109747,
+            21039587,
+            21268801,
+            20682547,
+            18983347,
+            18652116,
+            20024905,
+            18349817,
+            19665119,
+            20773747,
+            21013747,
+            21229667,
+            20596083,
+            16476533,
+            22146547,
+            18810547,
+            18800907,
+            17245707,
+            5456845
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00029-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            37666938,
+            47660570,
+            55552696,
+            42508958,
+            43194585,
+            41592589,
+            39732157,
+            40220577,
+            48324760,
+            40605539,
+            42089694,
+            42927733,
+            46737050,
+            30097333,
+            33122537,
+            31963363,
+            30251436,
+            32882998,
+            36886403,
+            6645277
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00039-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            28042161,
+            33155738,
+            25247303,
+            24859460,
+            25715833,
+            29928299,
+            28618770,
+            32692933,
+            29014373,
+            32281410,
+            26615502,
+            34013090,
+            30364986,
+            34512307,
+            33146184,
+            32776629,
+            32904299,
+            35258164,
+            31909017,
+            9042449
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00048-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            31131347,
+            32317551,
+            30891426,
+            28429777,
+            35589288,
+            32093065,
+            33053102,
+            26429067,
+            28114860,
+            26434823,
+            35104503,
+            39302482,
+            37206122,
+            34064425,
+            35865864,
+            28830934,
+            36015625,
+            30977581,
+            38100747,
+            11462551
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "freevc24"
+          ]
+        },
+        {
+          "path": "Hindi/train-00058-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            27399287,
+            29603828,
+            29317130,
+            29997749,
+            29980743,
+            29785558,
+            29429919,
+            30242569,
+            29112975,
+            29199462,
+            29905942,
+            34946722,
+            33894312,
+            34098410,
+            33874353,
+            35169512,
+            33374737,
+            33753620,
+            34108789,
+            8293153
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "xtts_v2"
+          ]
+        },
+        {
+          "path": "Hindi/train-00067-of-00107.parquet",
+          "num_rows": 1925,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            25
+          ],
+          "row_group_bytes": [
+            38448290,
+            40072601,
+            38235603,
+            37212507,
+            37736776,
+            37724516,
+            38502083,
+            39239816,
+            30145184,
+            29674221,
+            30614438,
+            31638640,
+            29512045,
+            30649342,
+            29327473,
+            30150230,
+            30008458,
+            29622630,
+            28282228,
+            6403868
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "xtts_v2"
+          ]
+        },
+        {
+          "path": "Hindi/train-00077-of-00107.parquet",
+          "num_rows": 1924,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            24
+          ],
+          "row_group_bytes": [
+            33774151,
+            32945449,
+            33138063,
+            33651537,
+            33528577,
+            33178214,
+            29455512,
+            28803404,
+            29364222,
+            29240041,
+            28991150,
+            28969831,
+            28929852,
+            30848336,
+            29091368,
+            29997887,
+            26917010,
+            27644853,
+            27896488,
+            6773878
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "xtts_v2"
+          ]
+        },
+        {
+          "path": "Hindi/train-00087-of-00107.parquet",
+          "num_rows": 1924,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            24
+          ],
+          "row_group_bytes": [
+            29439530,
+            28577584,
+            28871750,
+            29613147,
+            24139225,
+            24237695,
+            24894616,
+            24006925,
+            25070586,
+            24591227,
+            23931284,
+            24472499,
+            24178766,
+            24459936,
+            28364522,
+            28861287,
+            28941300,
+            28753226,
+            28904667,
+            7035694
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "xtts_v2"
+          ]
+        },
+        {
+          "path": "Hindi/train-00096-of-00107.parquet",
+          "num_rows": 1924,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            24
+          ],
+          "row_group_bytes": [
+            24926741,
+            26040202,
+            25745900,
+            26824740,
+            25812594,
+            26746320,
+            26162268,
+            26650666,
+            26739951,
+            26072212,
+            26322406,
+            26959100,
+            27566319,
+            27017796,
+            27509420,
+            26957075,
+            27153295,
+            27115962,
+            26732866,
+            6731100
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "xtts_v2"
+          ]
+        },
+        {
+          "path": "Hindi/train-00106-of-00107.parquet",
+          "num_rows": 1924,
+          "num_row_groups": 20,
+          "row_group_rows": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            24
+          ],
+          "row_group_bytes": [
+            28374382,
+            28286174,
+            28875459,
+            28846645,
+            28523338,
+            28245422,
+            27564126,
+            27986512,
+            28530071,
+            30524995,
+            31757202,
+            30160874,
+            31084001,
+            32157757,
+            31565855,
+            30806653,
+            31415355,
+            31802559,
+            31376061,
+            8118620
+          ],
+          "columns": [
+            "audio",
+            "Generative Model",
+            "Source Speaker_ID",
+            "Target Speaker ID",
+            "Gender",
+            "Source Reference Audio",
+            "Target Reference Audio",
+            "TTS Transcript"
+          ],
+          "row_group_used": 10,
+          "generators_in_rows": [
+            "xtts_v2"
+          ]
+        }
+      ],
+      "selection": {
+        "shard_indices": [
+          0,
+          10,
+          19,
+          29,
+          39,
+          48,
+          58,
+          67,
+          77,
+          87,
+          96,
+          106
+        ],
+        "rows_per_shard": 25,
+        "rule": "middle row group of evenly spaced shards"
+      },
+      "transfer": {
+        "bytes_fetched": 333241950,
+        "range_requests": 29
+      },
+      "files": [
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___0.wav",
+          "bytes": 358124,
+          "sha256": "927c77d654072ef5293d15af474cc521f456ff42be80840c2c13e46cc88400cd",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___1.wav",
+          "bytes": 358124,
+          "sha256": "8615f8491dae5dd7fef1d05c4c1e66a7d5f1e12f027ccf3e6230b163f303171c",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___10.wav",
+          "bytes": 358124,
+          "sha256": "90d25e0152ca7dcf8f3410953e8bb70b82c42e314b55ef93afb32b57f56b2238",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___11.wav",
+          "bytes": 358124,
+          "sha256": "ed025cde46ff03bc32f53ec8c75961cd9a79fec59368e51998e148b2635ab813",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___12.wav",
+          "bytes": 358124,
+          "sha256": "9b217f3b5b4c61f4d3ab25528ffb1e21b9b3972c7109bd529a29174910f50246",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___13.wav",
+          "bytes": 358124,
+          "sha256": "6624c42fecc1ad7e177bcc214c24e5c66510519b958f3b962f6e13693485755f",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___14.wav",
+          "bytes": 358124,
+          "sha256": "9614cc9aec530d506f9f498222884cb0ca91484f22ef58ecb0ac9d76382447ad",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___15.wav",
+          "bytes": 358124,
+          "sha256": "c73da2014981b390defeaf3e284b7dd41f0ec6d4bbb27fadbd5440eb650d1c79",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___16.wav",
+          "bytes": 358124,
+          "sha256": "774eee02da05dc9cf46d11afa9e96a4fffce75497c57a7b15614223086e460fb",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___17.wav",
+          "bytes": 358124,
+          "sha256": "04159fb1ff18f6afbf9125a95cba2ffa21e53ff2c8868fafd06d516bbcd781e0",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___18.wav",
+          "bytes": 358124,
+          "sha256": "39a2dcb7a3dc7a4b0ddabe7b079dd301d15694e91fcfb71873ce7c2a1e1ebd1c",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___19.wav",
+          "bytes": 358124,
+          "sha256": "5582b9f10ece8bfdd8a20f8a3e86251f76b53ec9efe42903be351c9ac52c5010",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___2.wav",
+          "bytes": 358124,
+          "sha256": "00377b439356c65bdef6577ef319bb661e4b55cdb7676c26b14b6ff88e0f77ac",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___3.wav",
+          "bytes": 358124,
+          "sha256": "1b97144f68bdca8419d7fdd8f1e59f1e711afd8642adea38cfd374f16d0db84b",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___4.wav",
+          "bytes": 358124,
+          "sha256": "729cbb0160f2050377729c0aa0121c73d4ac311a10ca89a42b4fa583f72c9036",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___5.wav",
+          "bytes": 358124,
+          "sha256": "8f6a30fbe1bb8855aefe59f014262b1baf6629ca9139c7751ef98acb17444489",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___6.wav",
+          "bytes": 358124,
+          "sha256": "a52cc94fde9c7f49b6bc90b43e501982d0b7524f8feb92effc1b368a6302fd57",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___7.wav",
+          "bytes": 358124,
+          "sha256": "db130113df6dc8259f9002257a74901e58c48a9b24493d56fd61d4dcdedf50f7",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___8.wav",
+          "bytes": 358124,
+          "sha256": "f6198cca247f420d7decb34734f3743202023a6ed2e6826647bf5be98bfa25da",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_946___9.wav",
+          "bytes": 358124,
+          "sha256": "ad4c7c890f8d3629dcd7308dcfcc653d50b040733eb5e291b2bfa03526d8e74f",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_961___0.wav",
+          "bytes": 228524,
+          "sha256": "04e11a14dac66bbcc24690e129f5c0690ae9966a7a76b9b4ce9087d21d8480a4",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_961___1.wav",
+          "bytes": 228524,
+          "sha256": "082288b50ff72ecaa8443b083ba32d08b67632a39f020586ed80209341ddf8d5",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_961___10.wav",
+          "bytes": 228524,
+          "sha256": "42a5fe730ee0b2efe0e3a1c1cd995547e53bde7302bb1bc80c6ecb80dce75206",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_961___11.wav",
+          "bytes": 228524,
+          "sha256": "0ed55eb5d30de904b9c5d03fde8957a4ca9b14b7376f907fdbf982c98c327fbb",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_1087____tgt_961___12.wav",
+          "bytes": 228524,
+          "sha256": "1aab91ddb56cbef0a7080969521c9d03cb132a68403d8a562c2b482b1ab291a2",
+          "shard": "Hindi/train-00000-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___18.wav",
+          "bytes": 227564,
+          "sha256": "c05ea9636c3a1f1c11e5291a87fa46652a05d3d2ea4c43ba95d1ba0deb6a15d6",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___19.wav",
+          "bytes": 227564,
+          "sha256": "8a233cbe125c31e8330be085cf2e265b4a33d1f39ea70e1d876bcd6a1a738f51",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___2.wav",
+          "bytes": 227564,
+          "sha256": "748a32ebdf42d4436c8d67fa721b5bb591da995149cb8780e107f6bd14fc87c2",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___3.wav",
+          "bytes": 227564,
+          "sha256": "fb0b590a7015772a8ee8df2fcb23f092ec16426099abb5c27919b633584c0e5e",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___4.wav",
+          "bytes": 227564,
+          "sha256": "d204f944ab0e6a81e47da67e881f8d3f0eb260c58f386796af490469f3913f31",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___5.wav",
+          "bytes": 227564,
+          "sha256": "54522b9a7111f9a793e9118f0dd766ea3e40d9362edcf6f5a16a34ee384f223b",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___6.wav",
+          "bytes": 227564,
+          "sha256": "cf9f96905bd313de707fef49729be02be967cfc6d3842a96abda9813d44a3a3a",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___7.wav",
+          "bytes": 227564,
+          "sha256": "875c1543d9145d9019d7839e3d022f9aa22cbd47f718cf4563bf74c480660aec",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___8.wav",
+          "bytes": 227564,
+          "sha256": "f41fe6ab4858c8dd9eef29c8b5c10bc58fb95c85935d796ba89efbdbccd63d2e",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_394___9.wav",
+          "bytes": 227564,
+          "sha256": "66f00dacf430f0faa83d5de062f3f5639690c7b7a6bc5a3e744e90213badfcce",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___0.wav",
+          "bytes": 186284,
+          "sha256": "073f22dab5c59303e46dd117ed34ec91c5e49ee96329cdecff51a2fa495246f3",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___1.wav",
+          "bytes": 186284,
+          "sha256": "f2b7c1e939d7512e29114e8031855931aa139068835d517d35c697881c9db72d",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___10.wav",
+          "bytes": 186284,
+          "sha256": "619b7002f5e6441265676921bac42392f3a8c45b1f7f220f599c09a88f2872d9",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___11.wav",
+          "bytes": 186284,
+          "sha256": "39dafd09ce41597d464a2fcb9d3bfc7d36ad26e8f0747e4b4278d95f5e4c5607",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___12.wav",
+          "bytes": 186284,
+          "sha256": "9c0558d3a405aa17aedc39c04f071effdd6a8dbe10657e4285cf8b8fe8d61aca",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___13.wav",
+          "bytes": 186284,
+          "sha256": "4d99d717cae9442197c38f953ef9da927f6d83db7cec77567434aaf696f611f3",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___14.wav",
+          "bytes": 186284,
+          "sha256": "7470ed3c6b17618ca823e18d9efc8d72e342f4541f07f8829cf07a9566e44994",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___15.wav",
+          "bytes": 186284,
+          "sha256": "8993e721e197d773b59d6d84ec5b5ab0169bf39408603cf6f83a46158d75f46e",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___16.wav",
+          "bytes": 186284,
+          "sha256": "19f2e2e2cce8f98f687bfed97f0f51bcabf9878dc081714c46708e8d3b8f129d",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___17.wav",
+          "bytes": 186284,
+          "sha256": "f26a097c7c626a141a69d58edc87f188076d1d92d716c66e97a38b764ca56d27",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___18.wav",
+          "bytes": 186284,
+          "sha256": "bdd738eff892a6bc737a0aaac0fa791d384dc24f903d44b388691deeccf8bbc5",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___19.wav",
+          "bytes": 186284,
+          "sha256": "e7aefa4080e243d6ee96e32a673ba161f761c5b279f6ee49259b6a964440fb2a",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___2.wav",
+          "bytes": 186284,
+          "sha256": "049c908bc6017195764fefa993d15d7fa56b9379458f6eb8a09ad81a75ed7d3b",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___3.wav",
+          "bytes": 186284,
+          "sha256": "9158a79423e52ec2791b38c1daeab62bb4f867c3c1dabec71619d14a808a4b41",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_346____tgt_3___4.wav",
+          "bytes": 186284,
+          "sha256": "ce966e9cc9b93e6a7d5e8853b22bd3fd978dedcee7d2cd9d4403ac9714f2d7d6",
+          "shard": "Hindi/train-00010-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_130___5.wav",
+          "bytes": 245804,
+          "sha256": "37b5e18341e9dfc9d9af49050c0a1dedb723fd9016170b85612cf88d97460551",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_130___6.wav",
+          "bytes": 245804,
+          "sha256": "2df48ffdbc41d5cf7caae66661e74d7a23b1ffda31f74293f64764d4e7dbda94",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_130___7.wav",
+          "bytes": 245804,
+          "sha256": "dc8d055bb5fac0327b5f9d9470681f52ce61075ac70a7f74c074d8716c8ccf75",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_130___8.wav",
+          "bytes": 245804,
+          "sha256": "efb2d6cc2b1dcf30f0ebce7abb25e0e3c3cfc4d0ae506914f2128c179a4997b2",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_130___9.wav",
+          "bytes": 245804,
+          "sha256": "6804ddd25b88adedd449bbcd0478a46abae8e34b72491f9097411298b08ce705",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___0.wav",
+          "bytes": 214124,
+          "sha256": "51b2c4fd789272bb16faae3f8e653d0d52c477559946ebef94492cf150cae59c",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___1.wav",
+          "bytes": 214124,
+          "sha256": "f947ded2cd1ed6d4242090c503c8b1492e28051299f63e066f85a8553d759f9f",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___10.wav",
+          "bytes": 214124,
+          "sha256": "e25713c5e5976c53c8d1b17492a76a542474748f7e6dc879593a402834e1a663",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___11.wav",
+          "bytes": 214124,
+          "sha256": "28dc547e91956613159e5fcc0222edc027960395b9728bcbf4464a5bca7d5d5d",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___12.wav",
+          "bytes": 214124,
+          "sha256": "366590d3c5ed4a431c2a2ef2d6fb769499e42c3c2efc2ee39584eda14fca4664",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___13.wav",
+          "bytes": 214124,
+          "sha256": "da7ee5ea0cc647bfe35dad856cfa52b60183dff8be97bfb98ce72bd4fc866f60",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___14.wav",
+          "bytes": 214124,
+          "sha256": "8fba8b68674076377454308545ef2a67b78623673822a2ea49754d78cbcbb9b4",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___15.wav",
+          "bytes": 214124,
+          "sha256": "e0fcbc968085a6b4bfbd369fe7b079d8a5dc51fc47c1658ec967e3b584e59310",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___16.wav",
+          "bytes": 214124,
+          "sha256": "71768d827d35904161cc271193fb5c492f10ebbfe9d7577ede9aa563a20456e8",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___17.wav",
+          "bytes": 214124,
+          "sha256": "226aff953a5782cf77f4b4b3c1c8cd1e7449ab74edac087a832d977374d53900",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___18.wav",
+          "bytes": 214124,
+          "sha256": "7acff06aad9983c88a92dbc8c294e6c8f5e11473de6343a468cf4a5ddfe2e641",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___19.wav",
+          "bytes": 214124,
+          "sha256": "d887d2caa43ff1466d3bd35290dc3e54089e32e677cb5ad8b543d4bf768cab77",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___2.wav",
+          "bytes": 214124,
+          "sha256": "80bd2aa8cde3fd9648ea1a1c504f7c1a990e3a12128d3ed6bc38adb843d18841",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___3.wav",
+          "bytes": 214124,
+          "sha256": "5d8eb3734f04037be1d6e98ab4fae6916b47b03b6f05bfa4157adfc48f02312e",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___4.wav",
+          "bytes": 214124,
+          "sha256": "18e53ebbd31598e23bf8d11517cfe1adfcd331cd83895793611c2adf835ae72a",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___5.wav",
+          "bytes": 214124,
+          "sha256": "bc341f7333f3ce19208348554e6dfbd2e1bb6126e499d67b8bf3091587a1dee1",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___6.wav",
+          "bytes": 214124,
+          "sha256": "e59dbfdda19629b2efc736372408804af78863b9df2901b0b3ebf55505c3b0a8",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___7.wav",
+          "bytes": 214124,
+          "sha256": "586ef35610f3c3917d5029fc07a7a2db358c55c267f63225bbd419e7ec1d375d",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___8.wav",
+          "bytes": 214124,
+          "sha256": "4a41b4333606f1ab7f857e320a35f0b7431d578f626d9ab0efc34962cba87098",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____f____src_579____tgt_164___9.wav",
+          "bytes": 214124,
+          "sha256": "429a9da4a5e5076012407049a5aae40b50fd3f503fbef5920a36f6288d55b1d7",
+          "shard": "Hindi/train-00019-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___19.wav",
+          "bytes": 438764,
+          "sha256": "2379b3c339f486f453496755fb430ea2478c3b00bb185065327051243b8e7145",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___2.wav",
+          "bytes": 438764,
+          "sha256": "19eb8b2e076d42931a39db6a1fc1e4706ebfc13963b60cccd5f48512e72d0fd5",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___20.wav",
+          "bytes": 438764,
+          "sha256": "0323ecbcd2cff2dc87e63535d2cf7b84d3c2c441fef14e7c80327c7179643cce",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___21.wav",
+          "bytes": 438764,
+          "sha256": "b0c8d0e2d9e76573c36ea1851292ece03fc079ab1d597f9c99c4517f17b69fc2",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___3.wav",
+          "bytes": 438764,
+          "sha256": "d13bd9437e203baf8a2d0fee59c684b227f0c1a783b8168e69eec5385639968c",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___4.wav",
+          "bytes": 438764,
+          "sha256": "951aa413697b6bcfea529900ab30e009e52ec382a7efc8457ab2958bfea14be4",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___5.wav",
+          "bytes": 438764,
+          "sha256": "416fcee9b52b5412a84287701eb90b7d966a8f7eff014ecda37c8a20d7ac1769",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___6.wav",
+          "bytes": 438764,
+          "sha256": "0f04b1d19661d4fe11c8162dc37bda2eea0659981c2fe3985ff0d8e168ba8b7f",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___7.wav",
+          "bytes": 438764,
+          "sha256": "a121302d94f761885821d9bddbee80f7e4b04a781fbac814e884a4a854a7ea9b",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___8.wav",
+          "bytes": 438764,
+          "sha256": "e87bebdb48cade03af4300bd083b0b067f4182457d963a07663c56cba405e022",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_662___9.wav",
+          "bytes": 438764,
+          "sha256": "a1f40b9dc55ec571b8c52bc41556c7303e5d7a7aa57a43fcc4f4c551e3ca70fc",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___0.wav",
+          "bytes": 598124,
+          "sha256": "99484f038191f00af4435a5c11aa66ece6a099e45bda859ce40ed82cbb01d9c7",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___1.wav",
+          "bytes": 598124,
+          "sha256": "fcfb23261148c5bd19040f170610657be5a974564a7b6728b5cf68159d17ae18",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___10.wav",
+          "bytes": 598124,
+          "sha256": "3a72927945c943c5d81b07ad44925e7ae32f71b938a85c176cfd2a2e968daa51",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___11.wav",
+          "bytes": 598124,
+          "sha256": "85806b92e9d1619d566bb2b543c7a41433b038cd0c6cf120d1e4e6e39aba7bed",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___12.wav",
+          "bytes": 598124,
+          "sha256": "37b95a9055b906313f929baa97493fb74a7a030e3b759696d9621ff719e548a2",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___13.wav",
+          "bytes": 598124,
+          "sha256": "16b2a5ebed3dc85ea48a74e1dab92e8af83d623d404bcaaf52ad6c6cb39459e9",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___14.wav",
+          "bytes": 598124,
+          "sha256": "087a6201b33f095d53ff2954a979c328360a28d20e3807f324f7175fe34e2d80",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___15.wav",
+          "bytes": 598124,
+          "sha256": "6a33d5ca063231b429f55a9297ab909b8bd2fe17186fd77bd183e8089306eb12",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___16.wav",
+          "bytes": 598124,
+          "sha256": "66833aff9b0dbc4ae7292aabf9c76f0a234cb20158a18f60356ef11d51e2d5d2",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___17.wav",
+          "bytes": 598124,
+          "sha256": "bc12755fc599d89982043d8b7c9e0b3f9883e02b4445cd0956cc524a8313f7d5",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___18.wav",
+          "bytes": 598124,
+          "sha256": "1d3ed45b37d18cee8dd6f67a3b6819cf75c10f6b6a1a9607c4787cc931da5028",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___19.wav",
+          "bytes": 598124,
+          "sha256": "72cd243ee7a21433c54172b44597f3f8e0c9f0ae4f8d4a49845afca50d8fb5d8",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___2.wav",
+          "bytes": 598124,
+          "sha256": "152fd701cba1646ae9944a698c1a1d5d0605d92cc058671335439cf5eee23153",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_1052____tgt_684___20.wav",
+          "bytes": 598124,
+          "sha256": "1e235952770571be5c28edd4d514ba08112f1ab7ffc15e44ff3bb9ec923a6a4e",
+          "shard": "Hindi/train-00029-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___13.wav",
+          "bytes": 189164,
+          "sha256": "42d1e64b697289dd85e6f691fa19981afa0f4f10676c65ecde7b0f838f75afa4",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___14.wav",
+          "bytes": 189164,
+          "sha256": "a7086523d1e3692af5f09861fcceec930ba75289df2c0ddf607914728b2f780c",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___15.wav",
+          "bytes": 189164,
+          "sha256": "9847fd0fac12117b0a23de82b71adebacdd2eb190e6e67311ee2fe1f0cc24eeb",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___16.wav",
+          "bytes": 189164,
+          "sha256": "705e6a88ab3cac7874214eeb43ea8c28b78657855da501c6d60ec7735eca83d5",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___17.wav",
+          "bytes": 189164,
+          "sha256": "ced470571388b587edd05b6a24f7e422f8ae64e77fb676fd63b012b6c8033ca2",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___18.wav",
+          "bytes": 189164,
+          "sha256": "3bf3a1ef329b61a3212ea798827bc6807d2879c3a81cd237a38835ad9472792a",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___19.wav",
+          "bytes": 189164,
+          "sha256": "270a7bd9382213b99a40c9befbbdfe57ad3d3ba11ff137894c9dc7f3cec7c5a5",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___2.wav",
+          "bytes": 189164,
+          "sha256": "deb573f04751beccad10d2c7133736a6df55daed802ea8a1c867a64614613db2",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___20.wav",
+          "bytes": 189164,
+          "sha256": "971e6dce116bf84c82d0636b62411e89a5a09f2c7fabbb6debcc0a3bd7c896de",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___21.wav",
+          "bytes": 189164,
+          "sha256": "d008be027c6764328bd2d4556eeda84a78a7df2bfa4796d5913c8fca77bc5beb",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___3.wav",
+          "bytes": 189164,
+          "sha256": "144693336cab423855ffa26d06a7cfe6abae8b22bcaf4d468638fead247be61b",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___4.wav",
+          "bytes": 189164,
+          "sha256": "d002f4259315bcdb5662dc785ef8600bb99fd24ef7790f0374246f0c72f99237",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___5.wav",
+          "bytes": 189164,
+          "sha256": "8627e21aeac2e54c345efbb6a06b5022a746627b36e8416fded33c610c41ad8e",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___6.wav",
+          "bytes": 189164,
+          "sha256": "f6e31ec7e17dac191996b0174f4c1f91b9f1ffafd51eb5ce1ecd84d78ba248e8",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___7.wav",
+          "bytes": 189164,
+          "sha256": "3f6b24e146a46b2eb4bab377768dd827413b2121a3997466f3f75ae3d8fe9e66",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___8.wav",
+          "bytes": 189164,
+          "sha256": "9d3883c87083021bbf900a066d1f85a811264560409762db30c5b09b795850e4",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_135___9.wav",
+          "bytes": 189164,
+          "sha256": "0a9b011f61933acd5286cdad7151f02f1dfe42e93783cc974ffb1fc41936111c",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___0.wav",
+          "bytes": 265004,
+          "sha256": "74a35e07e31e5ba4962b1fafacfd95a7f69980edbc15da9aaf14359067eb31d5",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___1.wav",
+          "bytes": 265004,
+          "sha256": "4a699c077fd21ce305209deb812b1c467038dfd55948893607386d780581c905",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___10.wav",
+          "bytes": 265004,
+          "sha256": "18b2bbcb3d9353b89b970700d638465d195521aff1d995d3e5c91e056f86476b",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___11.wav",
+          "bytes": 265004,
+          "sha256": "785717dadb1e5423a8f0107b282458703d9b437e6a16f5c300f60780507d51f4",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___12.wav",
+          "bytes": 265004,
+          "sha256": "4f549341d73a747f347d198b8f5cc9797e7e0c91543b42b15eba1318b8788c50",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___13.wav",
+          "bytes": 265004,
+          "sha256": "c9587f130a3b684249f277536fec2aded541aed24604d37a91c1058f0b59050f",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___14.wav",
+          "bytes": 265004,
+          "sha256": "fedc279f96a792c7534e2c0af339cafde35db0729ef71132e9e944ed237fa5cc",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_323____tgt_142___15.wav",
+          "bytes": 265004,
+          "sha256": "64d74d134047e51fc6aec3425f2cec26d8e9556aeadcc1fb0c566739cc49785c",
+          "shard": "Hindi/train-00039-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1052___4.wav",
+          "bytes": 289004,
+          "sha256": "03f7dcf77f080cc871fecbf43abdf9d6ed4f549d81d28b7bdf13260e56b0bd44",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1052___5.wav",
+          "bytes": 289004,
+          "sha256": "e63b3b36b482e6443de9f5e7e8708acd9471f30bca5ba0cdf46a2d5009311b53",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1052___6.wav",
+          "bytes": 289004,
+          "sha256": "fc908049368ac0cbaff85da1b1c8738370e583815d8e2b247f27380190b01e9b",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1052___7.wav",
+          "bytes": 289004,
+          "sha256": "01fc103f8d9523efbf420a05667714cd27723486ec12d8b760750e08f9e2c8f2",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1052___8.wav",
+          "bytes": 289004,
+          "sha256": "040a62b4b90727c2fde4889e3fc269627673dae99b676567c6bd8eb986b020dc",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1052___9.wav",
+          "bytes": 289004,
+          "sha256": "54624a442fe871a4c913b9101af7a4b3de7c1a534b25c21c07bd03a1fa6132ec",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___0.wav",
+          "bytes": 407084,
+          "sha256": "d86ed7adccca138d1b48efb03de46bfbf2f0f231e173152b2533d7b6ea5c9a94",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___1.wav",
+          "bytes": 407084,
+          "sha256": "9ce3f605a5607ae157a96127f562eb39e9cc15c9d2885cc79385e3051c68bd8e",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___10.wav",
+          "bytes": 337004,
+          "sha256": "35759f5d3236047d56db7101ef83a3a8d42755f04cadc0dc3a13ca6c50538526",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___11.wav",
+          "bytes": 337004,
+          "sha256": "7985966a9367df4fe1e14f835c553c89d849d7d80ce9e7b8519c4bd71a90086c",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___12.wav",
+          "bytes": 337004,
+          "sha256": "14d1c43f465e3a179181d8bba76ed7678ca06e659bd5945b41099f049757c714",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___13.wav",
+          "bytes": 337004,
+          "sha256": "d0c99c0a960a45cdd7f37a2e844b22dfe97264ac52de7d56214ee6d89850a614",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___14.wav",
+          "bytes": 337004,
+          "sha256": "07e70176a8419b7d6ea9fb0c7a6948bfbe47d90b3dfb8699ac7bced38ba7b68f",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___15.wav",
+          "bytes": 337004,
+          "sha256": "4852c044aefa9370b0997c0b51ebefaf06bb9343b65b8709748ab471119dca92",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___16.wav",
+          "bytes": 337004,
+          "sha256": "252b8e2bb717f0e0c16a12b028fba3c5622dccb77610693987154fd47a0a5c28",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___17.wav",
+          "bytes": 337004,
+          "sha256": "02cddca53c947f58f856112f83141e7f0a1d41f5654a013553041da342f0805f",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___18.wav",
+          "bytes": 287084,
+          "sha256": "ca45aae5f4c87053868bd68c7ab2b25740888c69654be331112c0e08fec6c052",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___19.wav",
+          "bytes": 287084,
+          "sha256": "1d99d4d2f0cc6b5056a26c1d173ac17f4c9e6e9be6c750c1dcf3a8bd6a14473b",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___2.wav",
+          "bytes": 407084,
+          "sha256": "3b2d0cffab97b5b524ae2679d44439c0535a9be9a631d8ebb085fd1e9a0a047b",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___20.wav",
+          "bytes": 287084,
+          "sha256": "6fd05affa10f893959b6b615db151b2dcd762dbac0efa94057b9edffb3e6a67f",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___21.wav",
+          "bytes": 287084,
+          "sha256": "61c0e6136eb4f0e77ad13f64c4bc65c66123cedc3229c5b7fe2d554e41c753c9",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___3.wav",
+          "bytes": 407084,
+          "sha256": "01aaf5033664bc0e9f88f287fe414bd0eb030425ed470ac38c8a952f5d4d77f0",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___4.wav",
+          "bytes": 407084,
+          "sha256": "38b2ed04d2ba0645ed20a9a5c3ebdc0c5df5692111451b84a02e91f1009fb71c",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___5.wav",
+          "bytes": 407084,
+          "sha256": "d5d644749e281cf1789bb7d86d42def580d779728a7974e4baa7176a3a8a6868",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/freevc24/freevc24____m____src_720____tgt_1054___6.wav",
+          "bytes": 407084,
+          "sha256": "29fde8563df72be0a4ce1a1c9e11581c279bbf89ff817998148f40a9d0b3efa7",
+          "shard": "Hindi/train-00048-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-907.wav",
+          "bytes": 349772,
+          "sha256": "ed22a97d4856e8df34e617d694927f430c1c8c8db00906559bf215ec43bd7b66",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-908.wav",
+          "bytes": 291916,
+          "sha256": "6a192536e09268530c936c45878076c2d4469ea0675b1b33a5c4b3430a59c7fd",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-909.wav",
+          "bytes": 226892,
+          "sha256": "621ede81f38790059c79ff08079fc01bbaae27301bb2589ec6d42ebc36cccf97",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-91.wav",
+          "bytes": 242764,
+          "sha256": "00fd29938174e084e659836c4c4655dbbbf02920981a798cdd6866fc1a5be498",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-910.wav",
+          "bytes": 291916,
+          "sha256": "ab9b7500477f9db8f524a61049b0b89d95f8887a093ff47bd772be4dae34b4a2",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-911.wav",
+          "bytes": 280652,
+          "sha256": "b748214f80b105fa5a3561c90d6a187424e8a78b8e7f607420f31a164f20fac5",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-912.wav",
+          "bytes": 280652,
+          "sha256": "d038e05ec123686b6eee65fb1b2ea68403d5e3d5aba4068b64b5ce689f20266a",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-913.wav",
+          "bytes": 316492,
+          "sha256": "0d96589ed0af0a052d69ac6c6a737eb398aa118af8c79e7590e538c2fd2f93ff",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-914.wav",
+          "bytes": 269388,
+          "sha256": "09b94a98eb5f13963884388533fc481bfa15e2e3a520a41936c2173c630d6b95",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-915.wav",
+          "bytes": 305228,
+          "sha256": "ebe4896e795606532d475e4fe2c8c9203a3445e926192157818aea97a148cbd6",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-916.wav",
+          "bytes": 247372,
+          "sha256": "4a08400ebfabfcbfbb9d64f0e83309d996ffb81513334f019ea46d96e0a962b1",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-917.wav",
+          "bytes": 262732,
+          "sha256": "24f8764f978479bd135187482d6e619a394305764b9007faba0acb88ff939ca9",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-918.wav",
+          "bytes": 305228,
+          "sha256": "718914fddc23f41d8cd987e537fb47fefd7dd07a6f89442326fb1777cd757dcd",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-919.wav",
+          "bytes": 318540,
+          "sha256": "575037e45c70add78a71cecca800acd4f46010dd971a18d4e854668404816f0d",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-92.wav",
+          "bytes": 347724,
+          "sha256": "c9273efc532809cd0340f453d17f656d51904bbd738d1b6cf63ef8be3a132490",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-920.wav",
+          "bytes": 260684,
+          "sha256": "3702cd9f41662327bc9cc1747cb4b4bad89c479d847d226f9f61ae76c1b6f62e",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-921.wav",
+          "bytes": 282700,
+          "sha256": "2dd86145960383c80ebd4947cf6c8b14724b0e1d04274cae036833c6bb14b9c7",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-922.wav",
+          "bytes": 291916,
+          "sha256": "7ba3a57c358678e32d6875768bafd7187d88f0f6be9ddd7a8697acba820dd9f4",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-923.wav",
+          "bytes": 311884,
+          "sha256": "581b26b474791b92b2a68ee057a84beb7a83a5c9e14b6ca4cb2681f7c4835af1",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-924.wav",
+          "bytes": 302668,
+          "sha256": "8eae40008a80226cc5e57551686bfc23f606579e2ce8945f6601bd8938413f37",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-925.wav",
+          "bytes": 200268,
+          "sha256": "6e4d4c2a38d45e6c00dbf6dc025de85a05dbc18821f2fd2996fbf02c336edade",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-926.wav",
+          "bytes": 282700,
+          "sha256": "863b511be68d7f58fff7bb800c6a78dbf8b5bffcd2a73ea8deafeadbc0c52dc2",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-927.wav",
+          "bytes": 347724,
+          "sha256": "439625eb3eac15093076a130ab6cd979aca0faa4913a59fa250de920c0c3ab15",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-928.wav",
+          "bytes": 349772,
+          "sha256": "bb3cbd0b7d89c6b34ef4c03c20b58509c0c777219c7d9d486a16c1d858274461",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____1109-m-929.wav",
+          "bytes": 325196,
+          "sha256": "74f651d90845380fa688971259aebf1ea69362199eb21c3817d55837611218a5",
+          "shard": "Hindi/train-00058-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-267.wav",
+          "bytes": 244812,
+          "sha256": "2fa703626e1085fd4bf5d9c4c9f6c366c1f8e7388592ccc34cc2a6c792ac90b4",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-268.wav",
+          "bytes": 267340,
+          "sha256": "850a91aac39da46a00cfe2921f748f62dfb14a7be07b1d0a5ef2499d01bfa399",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-269.wav",
+          "bytes": 376396,
+          "sha256": "14e459e09f0459efedd06bc524bc74e377fde85cfab27fc8680a82cd1dac85b2",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-27.wav",
+          "bytes": 262732,
+          "sha256": "dfaef7c9893d112329ec884ed31a77e4aa1767369e5cc1fdd392bba29b6a6cbd",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-270.wav",
+          "bytes": 254028,
+          "sha256": "a6da4050ce9392805c83f36e9b6756c77a89bce061ccc55b5c91be9b79a41059",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-271.wav",
+          "bytes": 307276,
+          "sha256": "612cb5147248c44c7d2f400e63ba049520cd02f47e0b1f294f571ca568948abb",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-272.wav",
+          "bytes": 305228,
+          "sha256": "22a2dd74f37f93ebf1870d630cbdf3da6f386e0b120b1db8f155800893d66bed",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-273.wav",
+          "bytes": 285260,
+          "sha256": "9572ae46d2fb9c42bd2490e371b99ed255dd819792144a9a517ccefa93d8fa6f",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-274.wav",
+          "bytes": 354380,
+          "sha256": "a88cc10fad88401a223e87e8a3f310d4141da378d5822746c01ed1c7ea4174fb",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-275.wav",
+          "bytes": 236108,
+          "sha256": "90d52dac90f942b0dcab94849f8124ed27e774dcce7d06e9a56d84c2ac63b1a9",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-276.wav",
+          "bytes": 320588,
+          "sha256": "5f3c8454c28f41301bc999d5fa9ea8cf064dcef1288c350eb2f66ed77e5689dd",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-277.wav",
+          "bytes": 476748,
+          "sha256": "89c22ac3f2cd24127272936c4fe7af26d503a7f54bdd386d506e27a158a4e0ce",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-278.wav",
+          "bytes": 356428,
+          "sha256": "902b94caadb2a53fd19abdf55c74059dc3cae45cdd594d1b37b6162c2ef8f3ed",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-279.wav",
+          "bytes": 291916,
+          "sha256": "201ae9e1d6407db2eef525a13c096131cfce45f09b542f918a2bd6f629d20071",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-28.wav",
+          "bytes": 289356,
+          "sha256": "e15713aa1f22dd03b5680360846499a04307910e92f4b2fa98d650159f3938a8",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-280.wav",
+          "bytes": 293964,
+          "sha256": "edd446cc0591fef9e19eecaaa4c6971258963c1996ec5e5aaf9979777b6fce70",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-281.wav",
+          "bytes": 273996,
+          "sha256": "26f2252c2721ee0c7bc242587e4cefa94414f1b3fa2d80e9d020764d48329099",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-282.wav",
+          "bytes": 354380,
+          "sha256": "5cac38deee92e7597d7c188673586df3807ab887b4d24e1c172e1fb4d76b8b28",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-283.wav",
+          "bytes": 320588,
+          "sha256": "57bdcbaf9a25176e9f312671b23c99c73ebf8cada2a40d4c557046bc0bd73324",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-284.wav",
+          "bytes": 349772,
+          "sha256": "4b98b2f0819633da95f78fc3fe79912a1f636c6e442ee214d0f23a3a381d8755",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-285.wav",
+          "bytes": 336460,
+          "sha256": "d432f6c918e8e01fabb79decc7aba42eec0090edd35ec7f971ce66c7e38182e2",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-286.wav",
+          "bytes": 325196,
+          "sha256": "b431a55fe060d3cc4c8ef12b5c59088e0621014f98b9428a8a3a3f811d147f04",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-287.wav",
+          "bytes": 260684,
+          "sha256": "2aecda17ff06ec5eeb7167fe96f22c288de01730d2ff1ef2273ea13f6668836f",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-288.wav",
+          "bytes": 231500,
+          "sha256": "f8d8274fe185ba102b86ac545a33d5672f44cd996f8ed822a4fdb54c4f77bbec",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____186-m-289.wav",
+          "bytes": 331852,
+          "sha256": "7f5654294142870a3ec2c5364ca95ddbb1d79506469d1342356aae32c2b3273d",
+          "shard": "Hindi/train-00067-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-451.wav",
+          "bytes": 298572,
+          "sha256": "5c921a425cb7acecfa2d1451161e4062c96da616a5061405698bb8f3110ad1c6",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-452.wav",
+          "bytes": 251468,
+          "sha256": "a0ef4e5cff3dcf4a3dbaa1c7351f36878df56245cd0a4eab4b2c3b8c0bda3ee0",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-453.wav",
+          "bytes": 343116,
+          "sha256": "4f93f519002ec9c2a3c47e3f5ffc81380592bd2c37ddd1cbf4a1a9f39e4b240e",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-454.wav",
+          "bytes": 289356,
+          "sha256": "b3da35aabb3001fe64a1f45e1c9479d491b6af00360ab7e09fb572c5068bddac",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-455.wav",
+          "bytes": 238156,
+          "sha256": "790b2c3d2ee7ae4bf4d801a5326989b605e3dfc083c41772bf944f676131fdcd",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-456.wav",
+          "bytes": 224844,
+          "sha256": "210a7b599a180d6f125df1a20940d546953b9de59e49666404de25a2b4afb597",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-457.wav",
+          "bytes": 345164,
+          "sha256": "85dd3e00635cb8983fecddcac7cf433b7b15537433a9827f9bcafc0f442b0264",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-458.wav",
+          "bytes": 233548,
+          "sha256": "252a4754516cde19d73dd9189acabe439a2e6e3db72deeaeff8bca1d1508955d",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-459.wav",
+          "bytes": 240716,
+          "sha256": "7d6695f21cb0885ac985e2c19beaab3f9ba0c98f8ab42c05eccd2da38de36f2c",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-46.wav",
+          "bytes": 222796,
+          "sha256": "3eb3a48ae73886962b5c8e7af5c5f67015c52e691c6ae8f86a955f16250836db",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-460.wav",
+          "bytes": 302668,
+          "sha256": "f633dd5627274bfd71a1b9ab5f857ac5c70a6ff9e2824f91d089d589aa7807bc",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-461.wav",
+          "bytes": 195660,
+          "sha256": "6234ca1f566a34482522494efec042658898f062c46a9fc6da8a413695155886",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-462.wav",
+          "bytes": 200268,
+          "sha256": "7a8d33ba84dd30a9ba2ae59bad5a59309b28165fa1a8ae976dfb74d49264541e",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-463.wav",
+          "bytes": 285260,
+          "sha256": "984042096d839583ccd5a3d9c931279cc6ddf1616c8f8a36662c9a176bbdae41",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-464.wav",
+          "bytes": 349772,
+          "sha256": "3d1e23079dd2ebc7b3cda1e52848f8d600746e4b2cc58fe48fdfd20617a4a4e9",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-465.wav",
+          "bytes": 305228,
+          "sha256": "8d8c33614afc038ac6fd663b31ae9e39ba6a128a2a087e64850ef093ea49c04e",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-466.wav",
+          "bytes": 329804,
+          "sha256": "af77447a4e77bce29b2617f215f1f8f648254b35fa5a8e01d8f0b81877b4c0d6",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-467.wav",
+          "bytes": 318540,
+          "sha256": "ef498272a86a2d4549748aee53a317a9a00a08cbd3c42d113939997b63de70ef",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-468.wav",
+          "bytes": 363084,
+          "sha256": "99877ea1e2a2bcc4b4fb52995f40fe7ef9aec49a2e28bae002a497d10295466d",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-469.wav",
+          "bytes": 343116,
+          "sha256": "4f9ed87364ddb6c17563c2623a4db0a55330bb1ccf4f1f63e00442ffbcfcde47",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-47.wav",
+          "bytes": 293964,
+          "sha256": "ca545641468d5ca076f40bf09a41407d48d29ac11f72ae9ee85f1775f993b8c5",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-470.wav",
+          "bytes": 338508,
+          "sha256": "6b7f3a022313dcf65854ab71d6d25e9b0bdb33672f048986ade3a9aa63e0380f",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-471.wav",
+          "bytes": 258124,
+          "sha256": "e4749a5c06f4e46646398f4ff647fec7a71a1c8fc3a19d06b1d1fba5cd57d1b6",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-472.wav",
+          "bytes": 244812,
+          "sha256": "ca9544bfe4a70f182c3dc6706aa8260dd9834edf4fc68561a42025b1d3d1cdaf",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____367-f-473.wav",
+          "bytes": 254028,
+          "sha256": "16551f67b4638d4edd0b1df0168cf44909ff85a972c43dda9356c051102bd1f6",
+          "shard": "Hindi/train-00077-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-633.wav",
+          "bytes": 291916,
+          "sha256": "4d79586c0170fb9fa677293edca0aa87fa047477805daa615e4100d9de1a6555",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-634.wav",
+          "bytes": 236108,
+          "sha256": "ba3e0d3aac17d4009f7370b3d14aab009d9e64bea1d7dfd116327016a8a00080",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-635.wav",
+          "bytes": 229452,
+          "sha256": "a31e3ee0f1b9e6057f19d557291e81adb4f35e9a216d4de0c89a1c02540a0115",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-636.wav",
+          "bytes": 258124,
+          "sha256": "029123076ba0720f104d9c5fd326edd5e4a8752a6ac3c0e8b5c9a80067f44515",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-637.wav",
+          "bytes": 238156,
+          "sha256": "e3d43bd3f42cc0a4727aa0cc09374a1571876179f8905889c9d517e1e43b04f0",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-638.wav",
+          "bytes": 233548,
+          "sha256": "1e96fe81d460497ed630069f58e786acfdd462aaa3a0e893efc8634f787e6c26",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-639.wav",
+          "bytes": 204876,
+          "sha256": "2f8a64de890f7d0c5be3d179b40e824bb266e2d6a3ececdb65629c951b9566ac",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-64.wav",
+          "bytes": 224844,
+          "sha256": "d0bb1ded0b6cedc549bd2241d78de32aa1d13174d570d77b23e4ae79c31f4126",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-640.wav",
+          "bytes": 220236,
+          "sha256": "cf18c75ea80928f7f342eab8c78e4b7f16e519c3b602d1966e5155faed0e5389",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-641.wav",
+          "bytes": 224844,
+          "sha256": "ba7be47101f88a3ed5c86260b3877e4ccad526c1a8bf58bd9bfcfd71b9fe8273",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-642.wav",
+          "bytes": 244812,
+          "sha256": "031f8d1ee76a39ee4ab3f1dd5c9724d3f329834febc7aec5b5ba7404f4f6b18c",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-643.wav",
+          "bytes": 218188,
+          "sha256": "d61fb85e55e5e5cb7c105d1534dfe1efd1632a8657ecdd39fd525a4b9abae0c0",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-644.wav",
+          "bytes": 280652,
+          "sha256": "2ef7cf84c76768d41bacf589be071777def55503bc8d78d67048d61372dbf072",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-645.wav",
+          "bytes": 178252,
+          "sha256": "73ae992ac139f5983e80f431119603d1dfdf7e6856a12bef55ffa881e5f993ec",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-646.wav",
+          "bytes": 269388,
+          "sha256": "eddeffd80055a577341181d17f12a3e75455f7b888e4559305b000e8a6b2d1a2",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-647.wav",
+          "bytes": 189004,
+          "sha256": "deb9c2ebc74f61b6f869b279d213f7c2a11f69b8383ae3cc000baccf9def5958",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-648.wav",
+          "bytes": 258124,
+          "sha256": "4b866ad8dc06e73e188ba299a0d0597a0f96a11bf441140c8b7da4c417f1ec2a",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-649.wav",
+          "bytes": 233548,
+          "sha256": "69e8763b1cb23d12451a92e650fa3ce2b112419ed2d490b803feac2f15a9bceb",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-65.wav",
+          "bytes": 198220,
+          "sha256": "1277b2238dc659565040d735d0bdfe97a99df2135f69ed5b11bcaa971859f243",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-650.wav",
+          "bytes": 291916,
+          "sha256": "92d9621b37adafeb10bc59488ad677f1a7469c0aa5c2ede5212a093f8358a988",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-651.wav",
+          "bytes": 202828,
+          "sha256": "66969cf732e9c5b4dae6a413c09ba80f0759ea1c7783bf996730bf065dabd083",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-652.wav",
+          "bytes": 293964,
+          "sha256": "40c9e49b1536b61a88b489a1a56c7c47e133df12a0860087ce15462799212ddf",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-653.wav",
+          "bytes": 204876,
+          "sha256": "0270900cb07074443bb259b49bcf7657423b9bb59f286d37269dc537c12d3a08",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-654.wav",
+          "bytes": 206924,
+          "sha256": "139fdab35db5cbf7816ffd2192c80c90001eede2ce5ac918bc4f38fea3700e7c",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____553-f-655.wav",
+          "bytes": 204876,
+          "sha256": "9dcd10da4eba0df65dccb8ebef15bc9936cd3863ac9cc1040fc58695b620a60e",
+          "shard": "Hindi/train-00087-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-888.wav",
+          "bytes": 226892,
+          "sha256": "61ae1b3322e273708d727dcc1cebb1f65339fa8ebeab67c967241697fc211b9c",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-889.wav",
+          "bytes": 209484,
+          "sha256": "9b37d2cc07d6b8f675605f3993cda70d827c0a631639b506c5070474d39fbd80",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-89.wav",
+          "bytes": 271436,
+          "sha256": "294937f7b6a26af508efcaff6cc56e1bb12773c76bf058f956f5cce446cc096a",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-890.wav",
+          "bytes": 236108,
+          "sha256": "3e748ec25f1221824a620cc2f36300818130a28f3db20af7fb41943018f39057",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-891.wav",
+          "bytes": 182348,
+          "sha256": "e6d7294d469aa6ebcdfcfab1bc15eaa70eb83ebeb30549cc359460f4264ea90d",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-892.wav",
+          "bytes": 271436,
+          "sha256": "7d946059091c35171c7412839d6700a132d91ccc2b4b991ab6c23df8aaa00f99",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-893.wav",
+          "bytes": 206924,
+          "sha256": "e95dc18de32494c92801d7e4e32a7ead6d98653fbaf8f2306409619cb90f7483",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-894.wav",
+          "bytes": 238156,
+          "sha256": "bd8773a34306dad4e31742d8f5cf515bd51081de9e74e30f99bd8186d0588a07",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-895.wav",
+          "bytes": 320588,
+          "sha256": "2f007176cf92da586aba608315c3f58afb3b2fb17daab951a2a2a3b49c43d83b",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-896.wav",
+          "bytes": 218188,
+          "sha256": "8ff49aad324d06184b668fb2b813220204f271222be977da569d1cf11dfadfe2",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-897.wav",
+          "bytes": 244812,
+          "sha256": "9ad9d561c3f45c7dcc0ba84d466a386f37b1b26a5bc911259c0cb78b226e1474",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-898.wav",
+          "bytes": 195660,
+          "sha256": "944078d41631ea2db6511ec09ec3844abae554dabc106c94629a4062e1a6f31b",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-899.wav",
+          "bytes": 264780,
+          "sha256": "551f1486448e52f782128c849b7fd76382130d88545c95bc4f5353e179afcd45",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-9.wav",
+          "bytes": 222796,
+          "sha256": "71d32641c9db521416c0a010018cfa91b3b2328499d5a534a42231262593efb6",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-90.wav",
+          "bytes": 285260,
+          "sha256": "d5731c002ae9decd2cb7de81185b6a77970f6b242b2a4e407afc1c48bdfb5109",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-900.wav",
+          "bytes": 256076,
+          "sha256": "1481a940d83f0deabf1e91eb63b33bfbe37e7b0de6a3729a9344f0d28c32475b",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-901.wav",
+          "bytes": 206924,
+          "sha256": "84eb6c6f4f8be724cfd3bc9768388b7c149856093811cea1c3211e43cac452c5",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-902.wav",
+          "bytes": 305228,
+          "sha256": "7b409f8cbee4aa9237dcf117bb6c72e9e23bc3433897f776e88e7c43fe295cb6",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-903.wav",
+          "bytes": 182348,
+          "sha256": "6cc47e399cd51f6b72a810e727b0ddb37d2fbc07be73b467c73b4d81059fbdae",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-904.wav",
+          "bytes": 300620,
+          "sha256": "43672283720d32a5423ad17c8714c4b7b1459365abacd057c6f22dbfbffdf582",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-905.wav",
+          "bytes": 291916,
+          "sha256": "d66b1fba2be68c495bc8ab526a61180c8b501f66d55c54d4dd1e105621e0b4d0",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-906.wav",
+          "bytes": 280652,
+          "sha256": "5c27b83d9b47517eceb114fc8af0189d1eb6aa5385bccb38e5d31698f63a6e09",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-907.wav",
+          "bytes": 251468,
+          "sha256": "ea8e5c95df37d5c9f4840e62908fd3d74ad21f6eaca7f3d5431aac82dc38e9e5",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-908.wav",
+          "bytes": 229452,
+          "sha256": "32824a3b2048c1eb834399ef73399c0dace087bc1b2eed340d26ce8194555e2d",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____736-f-909.wav",
+          "bytes": 249420,
+          "sha256": "947bcc778834f7b974462b1ac03e2e2d92583dbbb0d344587de849644931b88f",
+          "shard": "Hindi/train-00096-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-167.wav",
+          "bytes": 496716,
+          "sha256": "77efb6788199c4dcd1caef8f8aa552158b41330ff384f7d145e170e34cc8d424",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 0
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-168.wav",
+          "bytes": 318540,
+          "sha256": "f0c52e768025d98e7adc08aec226f27408d5ad62743d703cadecf19bfc9eb397",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 1
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-169.wav",
+          "bytes": 349772,
+          "sha256": "173e2cf6052f002eb40e01729c1c8f27f4233a65354d1ca7899e074b0d1f8ab9",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 2
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-17.wav",
+          "bytes": 309324,
+          "sha256": "55429d87e3f66038b617ac23f58a941350f1176ea584820ebc2194782127e6ad",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 3
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-170.wav",
+          "bytes": 358476,
+          "sha256": "cd991d4890f381809227f9f7310129f7cd6b97b2b518d2ac993920fa6775e5ab",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 4
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-171.wav",
+          "bytes": 278604,
+          "sha256": "8863adda2ca71b01556ffcc4eb117c3a9872516052f03c94ff9ea8ef1215ac94",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 5
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-172.wav",
+          "bytes": 396364,
+          "sha256": "44f235fbb2a178f2d848bc1d2d9291a8366d5de61fd7c2e2439665428723cbf4",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 6
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-173.wav",
+          "bytes": 298572,
+          "sha256": "acf02ceaae49fb130c5b22a24455d7088dda2c618abba0da30870a7102311e19",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 7
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-174.wav",
+          "bytes": 365132,
+          "sha256": "e675484541783c912e7ff066ac70c3d70dbb24d4f73154faff2b396030faa6f3",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 8
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-175.wav",
+          "bytes": 329804,
+          "sha256": "d0b57787cb08187533bce91cd2ad0cb352071a1be2ae83f16af9d8a91475f164",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 9
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-176.wav",
+          "bytes": 316492,
+          "sha256": "f2620d0c20262f8a30bdf6125f00097869eb680461a64314df74fe590c863f44",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 10
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-177.wav",
+          "bytes": 313932,
+          "sha256": "9f90cf480ba778f7501fc2dadf07bfe71cdf029f51f251048da48e899f8359fd",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 11
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-178.wav",
+          "bytes": 278604,
+          "sha256": "dd87b60364359ed134b023bec41e21b5db1e2d2f22cdc2c8aa976f18abff0d80",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 12
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-179.wav",
+          "bytes": 278604,
+          "sha256": "084564aeca1b23afb4ee827346e5766c324faf6836ed148e1b77498cf586a78f",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 13
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-18.wav",
+          "bytes": 313932,
+          "sha256": "623482e71e9a1fcdfbe77ea8bd3339ccb59aa23687acf5ba9db77180dd204e30",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 14
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-180.wav",
+          "bytes": 256076,
+          "sha256": "d38b8848426b13ce5516f9a3c74513d8bceb8ee683b94c4abb7afce2c986a368",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 15
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-181.wav",
+          "bytes": 244812,
+          "sha256": "03d272854dcce7c5fcc46585848500dc8c64aceb5fae3da098c0ed94b0829572",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 16
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-182.wav",
+          "bytes": 302668,
+          "sha256": "b67c68f77a6f09fc3fe95684ebb548fbd3f2b0adf84a2194203f18606199c53c",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 17
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-183.wav",
+          "bytes": 280652,
+          "sha256": "71980287d6072448310d257ca7f280eec9fd4aaf29028686cda182f85b106a50",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 18
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-184.wav",
+          "bytes": 318540,
+          "sha256": "3205c77ed6a7fe3a71818cab7ec73cf5fd08d6ea04a29bb070e3d9fbba39f8b2",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 19
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-185.wav",
+          "bytes": 331852,
+          "sha256": "945dafa4ffae11262b0dc938bce172bb3875d8ac4c4bd6f31c1da435338d5d33",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 20
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-186.wav",
+          "bytes": 291916,
+          "sha256": "86768414c105d53ea88f9b4e2bf357a285a4d2b0feed9267fe700b56a4f52160",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 21
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-187.wav",
+          "bytes": 278604,
+          "sha256": "55d7a28f0f0dbe6f6ce3779669527a56cf5d489f2d92482cc1b857a4dd1d9a7b",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 22
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-188.wav",
+          "bytes": 282700,
+          "sha256": "00cf3439c658bd63102cee065d2ecbe6075909fb6479f886013845da1781c9bc",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 23
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/audio/xtts_v2/xtts_v2____977-m-189.wav",
+          "bytes": 403020,
+          "sha256": "78e8450881b712c50ed5051e8b5986566b6a2e68b2f944869d402921ed360bb2",
+          "shard": "Hindi/train-00106-of-00107.parquet",
+          "row_group": 10,
+          "row_in_group": 24
+        },
+        {
+          "path": "raw/indicsynth_hi/Hindi/subset_metadata.csv",
+          "bytes": 63744,
+          "sha256": "e3a8d60870431cd598074e83c7d8b44dd0c21e2f7138f0b80a671e7ea9b93e43"
+        }
+      ],
+      "summary": {
+        "n_files": 301,
+        "bytes": 87964880
+      }
+    }
+  ]
+}
