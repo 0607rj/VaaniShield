@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="head">
+    <div class="brand">🛡️ Vaani<b>Shield</b></div>
+    <span id="status" class="status">…</span>
+  </div>
+  <p class="muted">Is this voice real or AI-generated?</p>
+
+  <button id="scan" class="btn">🎧 Start listening to this tab</button>
+  <p class="hint" id="hint">Click, play the voice on the page, then press Stop &amp; check.</p>
+
+  <label class="btn ghost file">📁 Check an audio/video file
+    <input type="file" id="file" accept="audio/*,video/*,.flac,.opus,.m4a">
+  </label>
+
+  <div id="out" class="out" hidden></div>
+
+  <details>
+    <summary>Settings</summary>
+    <label>Server <input id="server" type="text"></label>
+  </details>
+  <p class="tiny">Tip: right-click any video or audio → “Check this voice with VaaniShield”.</p>
+<script src="popup.js"></script>
+</body>
+</html>

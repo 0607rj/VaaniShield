@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VaaniShield — Is that voice real?</title>
+<meta name="description" content="VaaniShield detects AI-cloned voices on WhatsApp Web, Instagram, YouTube and any website.">
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">AI voice-clone detector</span>
+      <h1>That voice sounds like family.<br><span class="hl">Is it?</span></h1>
+      <p class="lead">VaaniShield listens to any voice on your screen — in Hindi, English, Hinglish or 100+ other languages — and tells you if it was made by AI.</p>
+      <div class="cta-row">
+        <a class="btn" href="/try">Check a voice <span class="arrow">→</span></a>
+        <a class="btn alt" href="/extension">Add to browser</a>
+      </div>
+    </div>
+
+    <!-- hero illustration: scam voice note on a phone, caught by the shield -->
+    <svg viewBox="0 0 540 520" role="img" aria-label="A phone receives a voice note asking for money; VaaniShield marks it as a fake voice">
+      <circle cx="270" cy="270" r="230" fill="#f3eee5"/>
+      <!-- sound arcs -->
+      <g fill="none" stroke="#ff8a1f" stroke-width="5" stroke-linecap="round" opacity=".9">
+        <path d="M92 230a60 60 0 0 0 0 84"/><path d="M66 206a96 96 0 0 0 0 132"/>
+      </g>
+      <!-- phone -->
+      <rect x="150" y="40" width="236" height="448" rx="38" fill="#16133a"/>
+      <rect x="162" y="56" width="212" height="416" rx="28" fill="#fff"/>
+      <rect x="236" y="66" width="64" height="8" rx="4" fill="#16133a"/>
+      <!-- chat header -->
+      <circle cx="194" cy="104" r="16" fill="#e6e6fb"/>
+      <path d="M186 112a8 8 0 0 1 16 0" fill="#3b3bd6"/><circle cx="194" cy="99" r="5" fill="#3b3bd6"/>
+      <rect x="218" y="94" width="86" height="9" rx="4.5" fill="#16133a"/>
+      <rect x="218" y="109" width="54" height="7" rx="3.5" fill="#c9c5dc"/>
+      <line x1="162" y1="134" x2="374" y2="134" stroke="#efeaf6" stroke-width="2"/>
+      <!-- text bubble (Hinglish) -->
+      <rect x="178" y="152" width="172" height="62" rx="16" fill="#f3eee5"/>
+      <text x="192" y="178" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" fill="#16133a">Beta, phone kho gaya…</text>
+      <text x="192" y="199" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" fill="#16133a" font-weight="600">Jaldi ₹20,000 bhejo 🙏</text>
+      <!-- voice note bubble -->
+      <rect x="178" y="230" width="182" height="58" rx="18" fill="#e6e6fb"/>
+      <circle cx="204" cy="259" r="15" fill="#3b3bd6"/><path d="M199 251v16l13-8z" fill="#fff"/>
+      <g class="wave-anim" fill="#3b3bd6">
+        <rect x="228" y="250" width="4" height="18" rx="2"/><rect x="236" y="244" width="4" height="30" rx="2"/><rect x="244" y="252" width="4" height="14" rx="2"/>
+        <rect x="252" y="240" width="4" height="38" rx="2"/><rect x="260" y="248" width="4" height="22" rx="2"/><rect x="268" y="243" width="4" height="32" rx="2"/>
+        <rect x="276" y="252" width="4" height="14" rx="2"/><rect x="284" y="246" width="4" height="26" rx="2"/><rect x="292" y="250" width="4" height="18" rx="2"/>
+        <rect x="300" y="242" width="4" height="34" rx="2"/><rect x="308" y="251" width="4" height="16" rx="2"/><rect x="316" y="247" width="4" height="24" rx="2"/>
+        <rect x="324" y="253" width="4" height="12" rx="2"/><rect x="332" y="249" width="4" height="20" rx="2"/>
+      </g>
+      <!-- scanning beam over the voice note -->
+      <g class="scan-line"><rect x="182" y="222" width="3" height="74" rx="1.5" fill="#ff8a1f"/></g>
+      <!-- reply placeholder lines -->
+      <rect x="230" y="312" width="120" height="40" rx="14" fill="#3b3bd6" opacity=".12"/>
+      <rect x="178" y="370" width="150" height="10" rx="5" fill="#efeaf6"/>
+      <rect x="178" y="390" width="110" height="10" rx="5" fill="#efeaf6"/>
+      <!-- shield verdict tag -->
+      <g class="pop">
+        <rect x="300" y="300" width="214" height="104" rx="22" fill="#fff" stroke="#16133a" stroke-width="3"/>
+        <path d="M336 322l22 8.5v16c0 13-9 23.3-22 27.5-13-4.2-22-14.5-22-27.5v-16z" fill="#e5484d"/>
+        <path d="M328 339l16 16M344 339l-16 16" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+        <text x="372" y="345" font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#e5484d">FAKE</text>
+        <text x="372" y="368" font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#4b4870">AI-cloned voice</text>
+        <rect x="318" y="384" width="178" height="7" rx="3.5" fill="#fde4e4"/><rect x="318" y="384" width="166" height="7" rx="3.5" fill="#e5484d"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <div class="reveal" style="max-width:760px">
+      <span class="eyebrow">The problem</span>
+      <h2>Cloning a voice now takes seconds.<br>Hearing the difference doesn’t.</h2>
+      <p class="lead" style="margin-top:18px">Fake voice notes ask families for money, fake clips put words in leaders’ mouths. Ears alone can’t tell.</p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="big">≤2%</div><p>error rate on our English, Hindi and Hinglish test sets</p></div>
+      <div class="stat"><div class="big">0.2 s</div><p>to check a clip on a laptop GPU</p></div>
+      <div class="stat"><div class="big">Any site</div><p>WhatsApp Web, Instagram, YouTube, X, Facebook…</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <div class="reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>Play. Listen. Know.</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <svg viewBox="0 0 230 170" aria-hidden="true">
+          <rect x="14" y="14" width="202" height="142" rx="16" fill="#fff" stroke="#16133a" stroke-width="3"/>
+          <line x1="14" y1="40" x2="216" y2="40" stroke="#16133a" stroke-width="3"/>
+          <circle cx="32" cy="27" r="4.5" fill="#e5484d"/><circle cx="46" cy="27" r="4.5" fill="#ff8a1f"/><circle cx="60" cy="27" r="4.5" fill="#0e9f6e"/>
+          <rect x="34" y="56" width="162" height="76" rx="12" fill="#e6e6fb"/>
+          <circle cx="115" cy="94" r="22" fill="#3b3bd6"/><path d="M108 82v24l19-12z" fill="#fff"/>
+          <rect x="34" y="140" width="110" height="6" rx="3" fill="#16133a" opacity=".15"/><rect x="34" y="140" width="62" height="6" rx="3" fill="#ff8a1f"/>
+        </svg>
+        <span class="num">01</span><h3>Play any voice</h3><p>A voice note, a reel, a video — on any website.</p>
+      </div>
+      <div class="step reveal">
+        <svg viewBox="0 0 230 170" aria-hidden="true">
+          <g fill="none" stroke="#ff8a1f" stroke-width="4" stroke-linecap="round">
+            <path d="M40 70a26 26 0 0 0 0 36"/><path d="M24 58a46 46 0 0 0 0 60"/>
+            <path d="M190 70a26 26 0 0 1 0 36"/><path d="M206 58a46 46 0 0 1 0 60"/>
+          </g>
+          <path d="M115 24l52 20v38c0 32-22 56-52 66-30-10-52-34-52-66V44z" fill="#3b3bd6"/>
+          <g class="wave-anim" fill="#fff">
+            <rect x="89" y="78" width="7" height="22" rx="3.5"/><rect x="102" y="66" width="7" height="46" rx="3.5"/><rect x="115" y="58" width="7" height="62" rx="3.5"/><rect x="128" y="70" width="7" height="38" rx="3.5"/><rect x="141" y="80" width="7" height="18" rx="3.5"/>
+          </g>
+        </svg>
+        <span class="num">02</span><h3>VaaniShield listens</h3><p>One click. It hears the tiny artefacts AI leaves in speech.</p>
+      </div>
+      <div class="step reveal">
+        <svg viewBox="0 0 230 170" aria-hidden="true">
+          <rect x="22" y="30" width="186" height="50" rx="25" fill="#dcf3ea"/>
+          <circle cx="47" cy="55" r="15" fill="#0e9f6e"/><path d="M40 55l5 5 10-11" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="72" y="62" font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-size="21" font-weight="800" fill="#0e9f6e">REAL VOICE</text>
+          <rect x="22" y="96" width="186" height="50" rx="25" fill="#fde4e4"/>
+          <circle cx="47" cy="121" r="15" fill="#e5484d"/><path d="M41 115l12 12M53 115l-12 12" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+          <text x="72" y="128" font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-size="21" font-weight="800" fill="#e5484d">AI CLONE</text>
+        </svg>
+        <span class="num">03</span><h3>Know in a second</h3><p>A clear answer, with how sure it is.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap center">
+    <div class="reveal">
+      <span class="eyebrow">Works where voices travel</span>
+      <h2>One extension. Every platform.</h2>
+    </div>
+    <div class="platforms reveal">
+      <div class="platform"><svg viewBox="0 0 64 64"><path d="M32 8a24 24 0 0 0-20.6 36.3L8 56l12-3.2A24 24 0 1 0 32 8z" fill="none" stroke="#16133a" stroke-width="3.5" stroke-linejoin="round"/><g fill="#3b3bd6"><rect x="21" y="27" width="4" height="10" rx="2"/><rect x="28" y="22" width="4" height="20" rx="2"/><rect x="35" y="25" width="4" height="14" rx="2"/><rect x="42" y="29" width="4" height="6" rx="2"/></g></svg>WhatsApp Web</div>
+      <div class="platform"><svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="44" rx="13" fill="none" stroke="#16133a" stroke-width="3.5"/><circle cx="32" cy="32" r="10" fill="none" stroke="#3b3bd6" stroke-width="3.5"/><circle cx="44.5" cy="19.5" r="2.8" fill="#ff8a1f"/></svg>Instagram</div>
+      <div class="platform"><svg viewBox="0 0 64 64"><rect x="6" y="14" width="52" height="36" rx="11" fill="none" stroke="#16133a" stroke-width="3.5"/><path d="M27 23v18l15-9z" fill="#3b3bd6"/></svg>YouTube</div>
+      <div class="platform"><svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="44" rx="12" fill="none" stroke="#16133a" stroke-width="3.5"/><path d="M22 22l20 20M42 22L22 42" stroke="#3b3bd6" stroke-width="3.5" stroke-linecap="round"/></svg>X</div>
+      <div class="platform"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22" fill="none" stroke="#16133a" stroke-width="3.5"/><path d="M35 50V34h6l1-6h-7v-4c0-2 1-3 3-3h4v-6h-5c-6 0-8 3-8 8v5h-5v6h5v16" fill="none" stroke="#3b3bd6" stroke-width="3.5" stroke-linejoin="round"/></svg>Facebook</div>
+      <div class="platform"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22" fill="none" stroke="#16133a" stroke-width="3.5"/><path d="M10 32h44M32 10c7 7 7 37 0 44M32 10c-7 7-7 37 0 44" fill="none" stroke="#3b3bd6" stroke-width="3"/></svg>Any website</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="split reveal">
+      <div>
+        <span class="eyebrow">Speaks your language</span>
+        <h3 style="font-size:clamp(30px,4vw,46px)">Hindi. English. Hinglish.<br><span class="hl">And 100+ more.</span></h3>
+        <p>Trained on real and fake speech in over a hundred languages — Tamil, Telugu, Bengali, Marathi, Gujarati, Punjabi, Urdu and many more. Switch languages mid-sentence; it keeps listening.</p>
+        <p class="hint" style="margin-top:14px">Most tested on English and Hinglish.</p>
+      </div>
+      <svg viewBox="0 0 500 380" role="img" aria-label="Greetings in many Indian languages around a shield">
+        <circle cx="250" cy="195" r="160" fill="#f3eee5"/>
+        <path d="M250 120l58 22v40c0 36-25 62-58 74-33-12-58-38-58-74v-40z" fill="#3b3bd6"/>
+        <g class="wave-anim" fill="#fff"><rect x="222" y="168" width="8" height="24" rx="4"/><rect x="236" y="156" width="8" height="48" rx="4"/><rect x="250" y="148" width="8" height="64" rx="4"/><rect x="264" y="160" width="8" height="40" rx="4"/></g>
+        <g font-family="Nirmala UI, Noto Sans, Mangal, Segoe UI, sans-serif" font-weight="600" text-anchor="middle">
+          <rect x="34" y="40" width="128" height="44" rx="22" fill="#3b3bd6"/><text x="98" y="69" font-size="20" fill="#fff">नमस्ते</text>
+          <rect x="190" y="18" width="120" height="44" rx="22" fill="#16133a"/><text x="250" y="47" font-size="19" fill="#fff">Hello</text>
+          <rect x="336" y="44" width="148" height="44" rx="22" fill="#ff8a1f"/><text x="410" y="72" font-size="17" fill="#fff">Kya haal hai?</text>
+          <rect x="10" y="150" width="128" height="44" rx="22" fill="#fff" stroke="#16133a" stroke-width="2.5"/><text x="74" y="178" font-size="18" fill="#16133a">வணக்கம்</text>
+          <rect x="362" y="150" width="128" height="44" rx="22" fill="#fff" stroke="#16133a" stroke-width="2.5"/><text x="426" y="178" font-size="18" fill="#16133a">నమస్తే</text>
+          <rect x="30" y="262" width="128" height="44" rx="22" fill="#e6e6fb"/><text x="94" y="290" font-size="18" fill="#3b3bd6">নমস্কার</text>
+          <rect x="186" y="300" width="128" height="44" rx="22" fill="#16133a"/><text x="250" y="328" font-size="18" fill="#fff">નમસ્તે</text>
+          <rect x="342" y="262" width="140" height="44" rx="22" fill="#e6e6fb"/><text x="412" y="290" font-size="17" fill="#3b3bd6">ਸਤ ਸ੍ਰੀ ਅਕਾਲ</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="split reveal">
+      <svg viewBox="0 0 480 360" role="img" aria-label="An elderly parent listening to a phone, protected by a shield">
+        <circle cx="240" cy="190" r="150" fill="#f3eee5"/>
+        <!-- person -->
+        <circle cx="200" cy="140" r="44" fill="#ffd9b0"/>
+        <path d="M156 132c0-30 20-48 44-48s44 18 44 44c-12-14-28-18-44-18-18 0-32 8-44 22z" fill="#d9d4e8"/>
+        <rect x="171" y="146" width="22" height="4" rx="2" fill="#16133a"/><rect x="207" y="146" width="22" height="4" rx="2" fill="#16133a"/>
+        <path d="M193 148h14" stroke="#16133a" stroke-width="3"/>
+        <path d="M188 166q12 6 24 0" fill="none" stroke="#16133a" stroke-width="3" stroke-linecap="round"/>
+        <path d="M120 330c0-62 36-104 80-104s80 42 80 104z" fill="#3b3bd6"/>
+        <!-- phone at ear -->
+        <rect x="234" y="112" width="30" height="54" rx="8" fill="#16133a" transform="rotate(16 249 139)"/>
+        <!-- voice coming in -->
+        <g fill="none" stroke="#e5484d" stroke-width="4" stroke-linecap="round"><path d="M290 112a30 30 0 0 1 0 42"/><path d="M308 98a52 52 0 0 1 0 70"/></g>
+        <!-- shield -->
+        <path d="M372 150l46 18v32c0 28-19 48-46 57-27-9-46-29-46-57v-32z" fill="#0e9f6e"/>
+        <path d="M354 202l13 13 24-26" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <span class="eyebrow">For families</span>
+        <h3>“Mummy, it’s me.”<br>But is it?</h3>
+        <p>Scammers clone a child’s voice from a few public clips. VaaniShield checks the voice note before anyone sends money.</p>
+      </div>
+    </div>
+
+    <div class="split flip reveal">
+      <svg viewBox="0 0 480 360" role="img" aria-label="A viral video of a speaker flagged as AI-generated">
+        <circle cx="240" cy="190" r="150" fill="#f3eee5"/>
+        <rect x="70" y="70" width="300" height="200" rx="20" fill="#16133a"/>
+        <rect x="84" y="84" width="272" height="150" rx="10" fill="#e6e6fb"/>
+        <!-- speaker at podium -->
+        <circle cx="220" cy="134" r="24" fill="#ffd9b0"/>
+        <path d="M170 234c0-40 22-64 50-64s50 24 50 64z" fill="#3b3bd6"/>
+        <rect x="190" y="194" width="60" height="40" rx="4" fill="#16133a"/>
+        <rect x="216" y="184" width="8" height="14" rx="3" fill="#16133a"/>
+        <!-- progress bar -->
+        <rect x="84" y="248" width="272" height="6" rx="3" fill="#4e4a8a"/><rect x="84" y="248" width="150" height="6" rx="3" fill="#ff8a1f"/>
+        <!-- share counts -->
+        <g font-family="Inter, Segoe UI, sans-serif" font-size="14" fill="#16133a" font-weight="600">
+          <path d="M392 108c-6-8-20-6-20 5 0 9 20 21 20 21s20-12 20-21c0-11-14-13-20-5z" fill="#e5484d"/>
+          <text x="384" y="156">2.1M</text>
+          <path d="M378 186l14-12v7c10 0 18 5 20 16-5-6-11-8-20-8v7z" fill="#3b3bd6"/>
+          <text x="382" y="222">48K</text>
+        </g>
+        <!-- flag -->
+        <g class="pop"><rect x="96" y="96" width="132" height="34" rx="17" fill="#e5484d"/>
+        <text x="113" y="119" font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-size="15" font-weight="800" fill="#fff">⚠ AI VOICE</text></g>
+      </svg>
+      <div>
+        <span class="eyebrow">For everyone online</span>
+        <h3>Viral clip?<br>Check before you share.</h3>
+        <p>Fake speeches spread faster than fact-checks. Right-click the video and get an answer in a second.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark tight">
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap">
+    <h2 style="max-width:16ch">Hear a voice. Check it. Then trust it.</h2>
+    <div class="cta-row" style="margin:0">
+      <a class="btn" style="background:#ff8a1f" href="/try">Try it now <span class="arrow">→</span></a>
+      <a class="btn alt" style="color:#fff;box-shadow:inset 0 0 0 1.5px #fff" href="/extension">Get the extension</a>
+    </div>
+  </div>
+</section>
+
+<script src="/static/site.js"></script>
+</body>
+</html>

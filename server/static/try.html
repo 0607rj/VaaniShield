@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Try it — VaaniShield</title>
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+
+<section class="page-head" style="padding-bottom:0">
+  <div class="wrap" style="grid-template-columns:1fr">
+    <div class="center">
+      <span class="eyebrow">Try it</span>
+      <h1>Is this voice real?</h1>
+      <p class="lead">Drop a clip or record one. <span id="status" class="status-dot">connecting…</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="analyzer">
+    <label class="drop" id="drop">
+      <input type="file" id="file" accept="audio/*,video/*,.flac,.opus,.m4a,.ogg">
+      <svg viewBox="0 0 84 84" aria-hidden="true">
+        <circle cx="42" cy="42" r="40" fill="#e6e6fb"/>
+        <g class="wave-anim" fill="#3b3bd6"><rect x="22" y="36" width="5" height="12" rx="2.5"/><rect x="31" y="28" width="5" height="28" rx="2.5"/><rect x="40" y="22" width="5" height="40" rx="2.5"/><rect x="49" y="30" width="5" height="24" rx="2.5"/><rect x="58" y="36" width="5" height="12" rx="2.5"/></g>
+      </svg>
+      <span class="t" id="dropText">Drop an audio or video file</span>
+      <span class="hint">MP3 · M4A · OGG · WAV · WebM · MP4 · FLAC</span>
+    </label>
+
+    <div class="or">or</div>
+
+    <div class="actions">
+      <button id="rec" class="btn alt rec">● Start recording</button>
+    </div>
+    <p class="hint center" id="recHint" style="margin-top:12px">Speak as long as you like, then press stop.</p>
+
+    <audio id="player" class="player" controls hidden></audio>
+    <div class="actions" style="margin-top:28px"><button id="go" class="btn" disabled>Check this voice <span class="arrow">→</span></button></div>
+
+    <!-- live pipeline: every step is a real stage; details come from the server's measurements -->
+    <ol class="pipeline" id="pipeline" hidden>
+      <li data-step="upload">
+        <span class="node"><svg viewBox="0 0 24 24"><path d="M12 16V4m0 0-5 5m5-5 5 5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <b>Upload</b><small data-detail>—</small><span class="bar"><i></i></span>
+      </li>
+      <li data-step="decode">
+        <span class="node"><svg viewBox="0 0 24 24"><path d="M3 12h2l2-6 3 12 3-9 2 5 2-2h4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <b>Decode</b><small data-detail>to 16 kHz mono</small>
+      </li>
+      <li data-step="slice">
+        <span class="node"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="5" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="10" y="6" width="5" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="17" y="6" width="4" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></span>
+        <b>Slice</b><small data-detail>into short windows</small>
+      </li>
+      <li data-step="model">
+        <span class="node"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2.4"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 7l3 3.5M7 17l3-3.5M14 10.5 17 7M14 13.5l3 3.5"/></g></svg></span>
+        <b>Neural network</b><small data-detail>listens for AI traces</small>
+      </li>
+      <li data-step="verdict">
+        <span class="node"><svg viewBox="0 0 24 24"><path d="M12 3l7 2.7V11c0 4.4-3 7.8-7 9-4-1.2-7-4.6-7-9V5.7z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <b>Verdict</b><small data-detail>AI or human</small>
+      </li>
+    </ol>
+
+    <div class="result" id="result">
+      <div class="verdict">
+        <svg class="gauge" viewBox="0 0 150 150" aria-hidden="true">
+          <circle cx="75" cy="75" r="62" fill="none" stroke="#0e9f6e" stroke-width="14" opacity=".9"/>
+          <circle id="arc" cx="75" cy="75" r="62" fill="none" stroke="#e5484d" stroke-width="14"
+                  stroke-dasharray="389.6" stroke-dashoffset="389.6" transform="rotate(-90 75 75)" style="transition:stroke-dashoffset .9s ease"/>
+          <text id="gpct" x="75" y="80" text-anchor="middle" font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#16133a">0%</text>
+          <text x="75" y="100" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#8a87a8">AI-generated</text>
+        </svg>
+        <div>
+          <div class="label" id="label">—</div>
+          <div class="why" id="why"></div>
+        </div>
+      </div>
+
+      <div class="split-bar" aria-label="AI-generated versus human share">
+        <div class="ai" id="sbAi"><span>AI-generated <b id="sbAiPct">0%</b></span></div>
+        <div class="human" id="sbHu"><span>Human <b id="sbHuPct">0%</b></span></div>
+      </div>
+
+      <h3 class="tl-title">Second by second</h3>
+      <div class="tl-wrap">
+        <div class="tl-line"><span>50%</span></div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+      <div class="tl-axis"><span id="tlStart">0 s</span><span class="hint">each bar = one slice · red = sounds AI-made</span><span id="tlEnd">—</span></div>
+
+      <div class="facts" id="facts"></div>
+      <p class="note" id="note"></p>
+    </div>
+  </div>
+</section>
+
+<script src="/static/site.js"></script>
+<script src="/static/try.js"></script>
+</body>
+</html>

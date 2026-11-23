@@ -958,6 +958,964 @@
         "n_files": 150,
         "bytes": 83649750
       }
+    },
+    {
+      "recorded_at": "2026-10-11T04:30:20.099509+00:00",
+      "git_commit": "413002f03503840b6a3dc837e6533377b8c5b067",
+      "git_dirty": true,
+      "script": "scripts/acquire_csfleurs.py",
+      "source_url": "https://huggingface.co/datasets/byan/cs-fleurs",
+      "dataset_version": "HF revision 0cdbf166c5517ae4b6eb1c54248522eedec53017 (lastModified 2025-09-17)",
+      "licence": "CC-BY-NC-4.0",
+      "terms_acknowledged": true,
+      "log_file": "acquire_csfleurs_20261011T043014Z.log",
+      "mode": "metadata",
+      "partial": true,
+      "plan": null,
+      "files": [
+        {
+          "path": "raw/cs_fleurs/read/test/metadata.jsonl",
+          "bytes": 1814169,
+          "sha256": "1ed381025ed51c368e591e263eace85a6e4e59a215d3f8888ca07c1e188fd709",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/metadata.jsonl"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/metadata.jsonl",
+          "bytes": 14603917,
+          "sha256": "1219f57e419fd05b59bfdd86ee465c54cf4458e55d4820b847deff92035f726a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/metadata.jsonl"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/metadata.jsonl",
+          "bytes": 5916835,
+          "sha256": "48c065a79260058951ba2f25e58c865bea313874beb15fc07db7e72b6bc63f37",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/metadata.jsonl"
+        }
+      ],
+      "summary": {
+        "n_files": 3,
+        "bytes": 22334921
+      }
+    },
+    {
+      "recorded_at": "2026-10-11T04:32:01.517162+00:00",
+      "git_commit": "413002f03503840b6a3dc837e6533377b8c5b067",
+      "git_dirty": true,
+      "script": "scripts/acquire_csfleurs.py",
+      "source_url": "https://huggingface.co/datasets/byan/cs-fleurs",
+      "dataset_version": "HF revision 0cdbf166c5517ae4b6eb1c54248522eedec53017 (lastModified 2025-09-17)",
+      "licence": "CC-BY-NC-4.0",
+      "terms_acknowledged": true,
+      "log_file": "acquire_csfleurs_20261011T043027Z.log",
+      "mode": "plan_files",
+      "partial": true,
+      "plan": "data/manifests/hinglish_pilot_plan.csv",
+      "files": [
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.0.wav",
+          "bytes": 1573060,
+          "sha256": "214c82a5ad6a2e609050175a3ee276ae8b39e5a8cff5fb13f9921487b53067bd",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.103.wav",
+          "bytes": 1191108,
+          "sha256": "d7c991a4dd2e33707ffeccdfdaa1a7870ca36fe39c71b7537816afe7642ec3b1",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.103.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.12.wav",
+          "bytes": 817660,
+          "sha256": "52d101054e743d37c950aa9d3abc83cf9300e73c28a2559904161b76c639aa6a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.12.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.130.wav",
+          "bytes": 982244,
+          "sha256": "5de90351ac80f28726d7fcb5c9142900d07111764e3e1963555b8d2933b772c0",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.130.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.135.wav",
+          "bytes": 2642548,
+          "sha256": "12b8fc3a95adacbd78e91d3cc2b7bf96e0af1b6ceeb11d51456c0a70416e30b4",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.135.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.136.wav",
+          "bytes": 1195484,
+          "sha256": "552a4bdb989a4ad7ed096e4804ef756c46bb7086ab9450a98b69ca1d1426f82e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.136.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.145.wav",
+          "bytes": 689908,
+          "sha256": "5a788164b08138b9ce5bd892950374c234309363589b57bd9d64aa571dbf9eed",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.145.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.153.wav",
+          "bytes": 866564,
+          "sha256": "5be31c57ab91f8a969ab7be0678079895e2c155f907a306962e6825b0a3906b3",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.153.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.16.wav",
+          "bytes": 1295588,
+          "sha256": "6333559fd0aee443019d58acb46789413fa17151bd767fe2fa3f44e10b5118f6",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.16.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.162.wav",
+          "bytes": 711692,
+          "sha256": "c1bac6ef0468b947b79ae0b56d73a058b9c142a84a80c4ea40041bb36ea3f7fd",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.162.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.166.wav",
+          "bytes": 849652,
+          "sha256": "d6bc803a569c14a53b87d0cb0bb40ac237aa3bc298c60d25ffcf36980835063e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.166.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.179.wav",
+          "bytes": 775396,
+          "sha256": "7d850dac54b635824749bccc0b7e07323f0f01811aae644b2dd9cb60d10206a8",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.179.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.183.wav",
+          "bytes": 611588,
+          "sha256": "18c751dbf9dcb5b91df6273c6c751812c59d00dca6f46877b72caf338238fcc5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.183.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.187.wav",
+          "bytes": 1456604,
+          "sha256": "b5efaa352b492c627691aa3c945733172a7f936b5b56e69386868bf43087ad6f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.187.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.188.wav",
+          "bytes": 434716,
+          "sha256": "7df35fd060c9f698acade80473da9b221fb21e76bb376275213073327ab79bd5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.188.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.204.wav",
+          "bytes": 794604,
+          "sha256": "1db6cccd53d4a5c1e9a1d2e2c591e9f1ce857b15055d5cb24902f4f0068be9ad",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.204.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.206.wav",
+          "bytes": 1023980,
+          "sha256": "14c3f036dff6ee9e194dfbc2cc94e3f436681df37a5b8816475771a78409a470",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.206.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.207.wav",
+          "bytes": 441356,
+          "sha256": "3aea0c87a88d867da024eaaa7a0f5daa16ab1e9bfcb5052548ca4b3e16c8ec02",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.207.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.21.wav",
+          "bytes": 682492,
+          "sha256": "a4be2bac44a4f08f248c50c71f2a3f6fbcb10c873f714461aef61a8f194d940a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.21.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.210.wav",
+          "bytes": 812260,
+          "sha256": "8a07412270a43741f227c7f2fc6d97508d1a2c60392ee7013cc24cbbc5ad93df",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.210.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.211.wav",
+          "bytes": 1018332,
+          "sha256": "baa35e13a8e94e39f5c9daef87416a13f4a711f990530a32f52c898633771186",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.211.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.215.wav",
+          "bytes": 916708,
+          "sha256": "c7ca7de74c3233a2921312c289bf98290b409427b1cb2dca7ce33e275e8faa3b",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.215.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.220.wav",
+          "bytes": 1255124,
+          "sha256": "a5283f31e382def3d3b7003655a01e4fcf706b06383b2ef2bd7214807d2bd6d8",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.220.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.229.wav",
+          "bytes": 699404,
+          "sha256": "5c2a36d2294a56c8e18f87dbf87ad8c2df0bbc7f9717e4504da89c2aafb31e49",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.229.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.235.wav",
+          "bytes": 1127124,
+          "sha256": "ae4bc2e8106341b525b3fc634fbe986d64ba13cd4afc8451ec6ea7c4465ce589",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.235.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.236.wav",
+          "bytes": 633868,
+          "sha256": "01c254355f6b3bfdb746c60b01ad3961facc066649bde961bbb7334d8eab50d3",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.236.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.238.wav",
+          "bytes": 1142236,
+          "sha256": "d60f42883b88edf0fe2c59e2a095cd61904b16aa863f810af01183fc438ecad6",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.238.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.257.wav",
+          "bytes": 711940,
+          "sha256": "cfc73c1098191a4182351308a7dffd4f2d6b76855376a6dcecf0b3ebc3b40b06",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.257.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.259.wav",
+          "bytes": 1469636,
+          "sha256": "5a32b68cd8335016a0ea0294c1ffac6d3d65c3de61daf34b672bc8d48d7e6597",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.259.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.263.wav",
+          "bytes": 1048276,
+          "sha256": "5e492e5d7b59c8aa85e2fc4c76700bc378209eb2e3ccb8b99d7555feb430a36e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.263.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.29.wav",
+          "bytes": 1436340,
+          "sha256": "0003a19be1cfc71a16f720daabda9c96b869c2c31074830d3cc22aac9fc5c579",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.29.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.30.wav",
+          "bytes": 882916,
+          "sha256": "e5267402b4a13fa8d40793fc2e76df4415b1d9102027686aec955eb33dc7a884",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.30.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.33.wav",
+          "bytes": 763636,
+          "sha256": "20cd2404d0456a37a84f317c11224eee711b8f77999cfdf0a195e6330e1e1ed5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.33.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.34.wav",
+          "bytes": 1109716,
+          "sha256": "c8b52fa19b0c7016f1fa02cbecf133bc3d9e93bc441332136e4b4013090d47b9",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.34.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.35.wav",
+          "bytes": 1782452,
+          "sha256": "3f086c4b3e1970b18852bb656c8653189439b81daaf473c051d91fbf3ab27c30",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.35.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.39.wav",
+          "bytes": 662788,
+          "sha256": "141e51deffab4ce8fed1123b982ff155f61dd063f4c2f8c06fe07b4215156431",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.39.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.4.wav",
+          "bytes": 902900,
+          "sha256": "fbea44bb7f9cb49a52910f48d39d7c59347a46734695b9282a4626a0504d8b33",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.4.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.40.wav",
+          "bytes": 566036,
+          "sha256": "e9daf899037b98018fdde1877e10292600d5a1498632dafae26362bfac963e2c",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.40.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.54.wav",
+          "bytes": 697852,
+          "sha256": "23b89ba492a2e6b5e245d1b5b02c9a835e327c8cad767bf5a392daf7e5053777",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.54.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.55.wav",
+          "bytes": 477724,
+          "sha256": "f1c20945570a8b05b44758e3666de9e55dcee6286bd6b672c8969f829c806a51",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.55.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.58.wav",
+          "bytes": 721900,
+          "sha256": "1fcd9736eecdb2c198a6611edd5c277c563c9e3a6b01aa8602d4f25300094672",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.58.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.64.wav",
+          "bytes": 843508,
+          "sha256": "d5b32d10fa7966f98fa134d753ea731afb6f6e766cca09c20864bbecfe6fbec5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.64.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.69.wav",
+          "bytes": 405020,
+          "sha256": "8082ffedd6ec8871d9b4d49a41f624334904b795c1d0fc92bc9523b134f7aa4a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.69.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.73.wav",
+          "bytes": 562716,
+          "sha256": "b6e13a074597db16a69ef353c7733896e38679306c0883f5a54b8e64ce8d2145",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.73.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.74.wav",
+          "bytes": 1509108,
+          "sha256": "39c49b62f9860e50fff7343fc73908be206e3a550e7ba70741415263391ec1c2",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.74.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.80.wav",
+          "bytes": 371476,
+          "sha256": "7928824b3a634332f16c99f68811613e77447798d3cf1f7a56964b8f43be6ce8",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.80.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.90.wav",
+          "bytes": 2059396,
+          "sha256": "7ea684b5d9eff77a3f405354dbec81d80647ddb67cd836c547f07b250c951fd7",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.90.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.94.wav",
+          "bytes": 1480900,
+          "sha256": "80ab411d4e2c15f2256419fc0c3af3c3c650e55f2dc5e18db0a27b023535a687",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.94.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.95.wav",
+          "bytes": 737260,
+          "sha256": "ee29dd2782d42c3ba4c6f8a1222e14d8909f85f2632c5081f46940d463f41edf",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.95.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.99.wav",
+          "bytes": 1150180,
+          "sha256": "fd4e005f199f79023b1926f12766bf2f522b9fb1fa53dd31447e6bd95453e935",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/mms/test/audio/cs_hin_eng_n1_0.3_vfilt_vconcat_vF_feb14/concat.99.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1669_AD.wav",
+          "bytes": 270798,
+          "sha256": "58fe200bcc03783da8f46338ef98787e032983f6d80dcbd767e0139bba665735",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1669_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1676_AD.wav",
+          "bytes": 218958,
+          "sha256": "e021df8212036667b96ed16f2126537ad2899c6fb4a65e960fbc4da018618996",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1676_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1677_AD.wav",
+          "bytes": 274638,
+          "sha256": "c7c6c3e02ca6d66d3d4935804264f11518098ad376642b4adbb34d23fcd5e6ea",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1677_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1684_AD.wav",
+          "bytes": 322638,
+          "sha256": "8b69a726f8c2c07e9b38e522eb0a3ff6d743c1571e815b3087244abecc10e09c",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1684_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1685_AD.wav",
+          "bytes": 368718,
+          "sha256": "077c05fd392546d218f6e8e1d0cceb96d2df0af1e6996aaa972e567d51bc52c9",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1685_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1692_AD.wav",
+          "bytes": 278478,
+          "sha256": "863c2a794223dcbe6235d35ce7197448353c1936377b2bcbe2543d47b437b6b5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1692_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1701_AD.wav",
+          "bytes": 297678,
+          "sha256": "2d0e1bfd164d5fb718623406894d8c05ed9104e15846511024750cb5a089747f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1701_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1703_AD.wav",
+          "bytes": 257358,
+          "sha256": "708fc239ae2f4b28aad816d0a43cddfdb16887fec362809d01adcba4ddf41ad0",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1703_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1712_AD.wav",
+          "bytes": 547278,
+          "sha256": "536763a214b3bf6d538af5febaf89e4cec4ee72dd64fa2dfa5458baefeff15b9",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1712_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1714_AD.wav",
+          "bytes": 455118,
+          "sha256": "dc6f09a6218c850eca97e2478efcfb9069ed6b845c80f9fc07e141637d6a7868",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1714_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1721_AD.wav",
+          "bytes": 284238,
+          "sha256": "f9cdf7e21a5f3f0802675ce34b57dd452901b5a3c33f96aaebaef6aa35beb7bf",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1721_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1722_AD.wav",
+          "bytes": 428238,
+          "sha256": "eb1480591bd532436d6af5cefa3690a0069005ebfc25e3a33c5c36eaa7a2f6e3",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1722_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1745_AD.wav",
+          "bytes": 295758,
+          "sha256": "dca8fc33be9419d0f2442be441c8f6eff0ae6aee56b4c389b090518af225b155",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1745_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1748_AD.wav",
+          "bytes": 193998,
+          "sha256": "faea4520da786f4abc0cc4137970158c3051f46aab850d2ee601b10726c29e2b",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1748_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1752_AD.wav",
+          "bytes": 355278,
+          "sha256": "d1d98cd249f42f9bf046321f01afdd2a41944c77f1e1189fcdb4a8996aecb995",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1752_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1755_AD.wav",
+          "bytes": 136398,
+          "sha256": "ddfbffcb9ef5f54a1e8fb9f5c867cbd4cee8ec516bf2e5a343096423e84a3dcd",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1755_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1758_AD.wav",
+          "bytes": 447438,
+          "sha256": "70706a344cf7f6b12b84ea53140016a363911834a00fea61516861c593077bb4",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1758_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1761_AD.wav",
+          "bytes": 366798,
+          "sha256": "f5b8d0cc66a1e9c138c33a4dbbd63970e1c6610cff217c73273a70baac80b204",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1761_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1762_AD.wav",
+          "bytes": 236238,
+          "sha256": "70ded935c72409589bde2d0f4671627c3ea8a74a969863dede5edb80c3da7fd3",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1762_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1773_AD.wav",
+          "bytes": 556878,
+          "sha256": "6ed1c7e2bd148492a45fc2c34567ddd9c4071cc76d6cc0ea134045a932558827",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1773_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1776_AD.wav",
+          "bytes": 295758,
+          "sha256": "043fbf867913aa2ed2e9f3441e82a0aec19c72863ae8b291676650da540d9744",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1776_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1784_AD.wav",
+          "bytes": 618318,
+          "sha256": "445375559a34e865eea7059d42e9d33d4c20ed2b097314bbd636978fab8a5a3f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1784_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1790_AD.wav",
+          "bytes": 537678,
+          "sha256": "c6df254e740d4e8bb21ab1b637ad7409508e8d47ac8548d621ccbe161a7149f7",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1790_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1793_AD.wav",
+          "bytes": 343758,
+          "sha256": "ab4e5928fe6dbe8e2b6d47cdb45d20935844740a70d36deb79e9c3468fbda889",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1793_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1806_AD.wav",
+          "bytes": 491598,
+          "sha256": "7066e14b7171835b3ad8ae80d7113232afae467e69a3b40a64f2a3482f613750",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1806_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1808_AD.wav",
+          "bytes": 228558,
+          "sha256": "c09a3a4c5e62b4a3e14ccefd765e44d02584b212461f837468c59da748e1009e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1808_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1810_AD.wav",
+          "bytes": 418638,
+          "sha256": "997cd2ba30d8b6c63f3e38e8c4aea9149ac935860ac0f880d8f8e68b3c45f40f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1810_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1813_AD.wav",
+          "bytes": 443598,
+          "sha256": "7f663fa9ec5f07a4178ce7e47079661f90a5d808eb24249504d3fe38e6553159",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1813_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1817_AD.wav",
+          "bytes": 199758,
+          "sha256": "b9616f90955a67e63d8205cc482d6b4f8f1ce91a45614ac22b2dd6eec7713e14",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1817_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1818_AD.wav",
+          "bytes": 263118,
+          "sha256": "6954d9584b42ed056663d0d741183c40a9ce0efa1fe4e0dc8c7f4757304a286e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1818_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1824_AD.wav",
+          "bytes": 409038,
+          "sha256": "9bc11e3ee70a4041ab3c693fbb451dda6a7898392c4bcbc95b7a7747b1722137",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1824_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1826_AD.wav",
+          "bytes": 318798,
+          "sha256": "f7af30bbe8f29fcb6c1a6d1470392a9b9e742ee3f766a93a162e3b5ae156dda5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1826_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1840_AD.wav",
+          "bytes": 366798,
+          "sha256": "259cfdfbb36a66701b6d44def8f9bd218e758870b85da0bd37f75642113d1412",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1840_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1853_AD.wav",
+          "bytes": 247758,
+          "sha256": "5b1b774fe6353c26d8913b07855d2b79692b1c6b1847225b681f17e8f472324f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1853_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1867_AD.wav",
+          "bytes": 368718,
+          "sha256": "14a300222d57933e0a13845dc1a41fe2de9feb2368d8ac75c0083f4d74795986",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1867_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1889_AD.wav",
+          "bytes": 207438,
+          "sha256": "cd4d5f93adaa95d83ed775a8de1370202c77405b6d5c0387a59a68c1fd75f208",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1889_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1914_AD.wav",
+          "bytes": 261198,
+          "sha256": "f5f6f698071b659fabc48b4b863f699675dc77b8404dac27d5efc90013a505d7",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1914_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1921_AD.wav",
+          "bytes": 353358,
+          "sha256": "fe936646d0083f60b4a5dbde27f978451c5e471ef22e0ebc9e6cae1ecc352e2f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1921_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1925_AD.wav",
+          "bytes": 326478,
+          "sha256": "5bd614f51ae567b577ce996d8b6190b4f10bc4ba54a595d80cce1d1596034de5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1925_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1928_AD.wav",
+          "bytes": 366798,
+          "sha256": "c49f6453b3c361fac81ce742476bec625a26cf38081ce2eaf35a48dd06a576df",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1928_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1931_AD.wav",
+          "bytes": 372558,
+          "sha256": "1a29c3e55c6f691ce1b59e7b5999d165265503247578d7547cc5f345b0057fd4",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1931_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1934_AD.wav",
+          "bytes": 309198,
+          "sha256": "6110b04d80e44a70a451131051968fbb702302f5d327412b4e0346ec5c47b65a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1934_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1952_AD.wav",
+          "bytes": 361038,
+          "sha256": "a7cb99ffdde4835229b4a16b04a8a937538386cdea3df1a42cf8be51b5ace871",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1952_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1959_AD.wav",
+          "bytes": 241998,
+          "sha256": "ca9a3d837b118d87dde1d3952e405ec1ac414d0c975b4903ac57c9584c7ef5f6",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1959_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1965_AD.wav",
+          "bytes": 280398,
+          "sha256": "4a73f90f47b1dedddd2f26cb55d4cd943d837cf25090244a4e70b17c0a54fd84",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1965_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1975_AD.wav",
+          "bytes": 280398,
+          "sha256": "fcbcac4d14bdddf7a034a4aa66c0b077eec8dfff7632ee466bcf6c5ecd410a6d",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1975_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1988_AD.wav",
+          "bytes": 234318,
+          "sha256": "0339488ac7e65a9b84fca46d816bad4b7b37ee07bd051106facd416076a8683b",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1988_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1993_AD.wav",
+          "bytes": 278478,
+          "sha256": "648dac5d2230c2c9aa8bf07f5512db18fbd1674fce32fe44420f6c24fc7a9e5e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1993_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1994_AD.wav",
+          "bytes": 257358,
+          "sha256": "b33275cc6e75fffbce441a7ab8db0d1b7d881d55e881b51569848de6866fca07",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1994_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/read/test/audio/hin/hin_1998_AD.wav",
+          "bytes": 282318,
+          "sha256": "89d412471e68767a0d97162858a6f18d0b9eecce9007776552975a0cbc5e2d01",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/read/test/audio/hin/hin_1998_AD.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1025_hin-spk0_sample0.wav",
+          "bytes": 446892,
+          "sha256": "15ffbfc169ed43264ca46e7d718b977df4d0c416f17115ddccae13197c48e9d4",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1025_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1036_hin-spk1_sample0.wav",
+          "bytes": 515160,
+          "sha256": "1cf86b2e392ce25de85c92f2ad0b732f2b6f72c477b375b7617e288903c0f5c1",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1036_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1089_hin-spk1_sample0.wav",
+          "bytes": 331160,
+          "sha256": "0a3515b72a3ebd72457c1e9a52f6996215568746cce03b77cad4dca1464cbd03",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1089_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1091_hin-spk0_sample0.wav",
+          "bytes": 332866,
+          "sha256": "8f7f5be79607563e25ef06475376687efa8fc3a017098d26b3d52aa4647eeeb1",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1091_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/115_hin-spk2_sample0.wav",
+          "bytes": 569068,
+          "sha256": "498a85749e49bc60dfea189000fea83600ccfe258d41cd1721c666431842dcd8",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/115_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1183_hin-spk0_sample0.wav",
+          "bytes": 245144,
+          "sha256": "c8913e4302a43ad0911e468916651029b15d70dc49fc58df00561c99686d1ede",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1183_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1217_hin-spk0_sample0.wav",
+          "bytes": 571500,
+          "sha256": "4ddfa3be3b8d5489d0c47a43c83ffd0d0674e2c8a2d97d94e62abba3fc8848bc",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1217_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1268_hin-spk0_sample0.wav",
+          "bytes": 607640,
+          "sha256": "360d23b71f25efb2fc1834a9175d964b09aae8102c5fad0f5492a724ca6df48b",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1268_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1279_hin-spk0_sample0.wav",
+          "bytes": 380312,
+          "sha256": "222fcf4cad8d29dc914f7fcba01ade3ca065e72503d2236ee706fc6ee9dc4a6e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1279_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1295_hin-spk0_sample0.wav",
+          "bytes": 237634,
+          "sha256": "922528268b2029d44b465c0e720f11872d949ffaee0269b0a37964fe205efe2d",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1295_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/132_hin-spk1_sample0.wav",
+          "bytes": 282348,
+          "sha256": "3df7e887183629c134ae2d97f6f9e60dc66ef85dcea9eabd0fecb66cca419211",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/132_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1340_hin-spk1_sample0.wav",
+          "bytes": 426072,
+          "sha256": "0f425670f2124116debe8f2bee5cc639b94a7b30e81b90428b0cac0a1b465245",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1340_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/137_hin-spk2_sample0.wav",
+          "bytes": 252312,
+          "sha256": "bd13050def822c0fd916ae64ae18596268e2e138bc9862c07fcaf295b49c8ad4",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/137_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/13_hin-spk2_sample0.wav",
+          "bytes": 288152,
+          "sha256": "f196b93442430fa2d28bbefe0696594e57c19f0f33a5800167f4c79439900f11",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/13_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1425_hin-spk0_sample0.wav",
+          "bytes": 475544,
+          "sha256": "f9531e21403cd2dfc9dae3e55b173a0cb7b470d4afe3e4c44d649218ec7f90d5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1425_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1426_hin-spk1_sample0.wav",
+          "bytes": 338668,
+          "sha256": "e1b55b27fa94ac4adaa9a7e803cfa30454b610a98d203c0ce531114160320904",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1426_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1427_hin-spk0_sample0.wav",
+          "bytes": 353368,
+          "sha256": "0a7f0e819c4cf4a92f60248e1d1c0f7ca943ecb8375a5161a733b9f5f08beade",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1427_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1432_hin-spk0_sample0.wav",
+          "bytes": 262892,
+          "sha256": "4d2d6eb83593778370837bee438b96dad3dcf6ccf40811b2531cb74a0c3f3c30",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1432_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1475_hin-spk0_sample0.wav",
+          "bytes": 463596,
+          "sha256": "847af85c5b9b15d5e6305f9c85cfe2905e3c223418ab1af3912df2d91ea3b583",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1475_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1488_hin-spk1_sample0.wav",
+          "bytes": 279276,
+          "sha256": "5069f4c43df1787113c1cb93c2d359e0b502634f61568554152aeb349515b20a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1488_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1493_hin-spk0_sample0.wav",
+          "bytes": 537346,
+          "sha256": "ba79d12bda3f581f165bbcd8278533e5fbb5242121cf04cbd9b8ff4291067da5",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1493_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/1500_hin-spk0_sample0.wav",
+          "bytes": 289516,
+          "sha256": "edd9655e9300351e69009bbc412c4d52f038a075c50a008ad454c630155a670d",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/1500_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/156_hin-spk2_sample0.wav",
+          "bytes": 230124,
+          "sha256": "844b9ededae7c46db46e690637bef9f595e68bc383e75c8175d2625b2ea489a8",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/156_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/166_hin-spk0_sample0.wav",
+          "bytes": 559874,
+          "sha256": "f2817bd1ee97ede1359a3a839a047f64a5ab9bd722adc81f8ce4169817d1477f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/166_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/171_hin-spk2_sample0.wav",
+          "bytes": 310338,
+          "sha256": "0297633480502da5c0a9cac4b243717afed6c1b347ae353828575ecf041e8f1e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/171_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/187_hin-spk2_sample0.wav",
+          "bytes": 302828,
+          "sha256": "315b9636c7698154ab85e1b7c7de0e09f4ec4232df494e82e6c67bff3cde11a7",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/187_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/231_hin-spk0_sample0.wav",
+          "bytes": 243436,
+          "sha256": "4ac66784e56de249a64dcacbb18203657af3b0ca2f7223d91eb761ef594b1a50",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/231_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/235_hin-spk2_sample0.wav",
+          "bytes": 195992,
+          "sha256": "6cce7c7b6c9d2090ec9dacec4a28ef7a48572a1f92a9878b0faadad589708104",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/235_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/238_hin-spk1_sample0.wav",
+          "bytes": 247874,
+          "sha256": "646bce04518fa2850367e53c62eb03eafe763b9d117ce91db642d84b877b7d8b",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/238_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/248_hin-spk2_sample0.wav",
+          "bytes": 301464,
+          "sha256": "1011d1ac48dd13ed419b5c9ddd626a251bd085273bc24ed4e98064e898381f1c",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/248_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/257_hin-spk2_sample0.wav",
+          "bytes": 276204,
+          "sha256": "8ef7e311df4fe698c972a56d52216a5b152306885e13cfaddaee9c83cf56c145",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/257_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/276_hin-spk0_sample0.wav",
+          "bytes": 307608,
+          "sha256": "504c174321a636ceb76086792526a6dab697532e5957c934cefd597b62effae1",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/276_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/310_hin-spk0_sample0.wav",
+          "bytes": 234562,
+          "sha256": "85980ac8d5286504914ccfe95c113343161a03f65607c0e2eb10f693ce74360a",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/310_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/312_hin-spk0_sample0.wav",
+          "bytes": 252312,
+          "sha256": "7e04348694603e717ddd3b62f463f2372ce8ec54d35232c6b40368165873ae5d",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/312_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/377_hin-spk0_sample0.wav",
+          "bytes": 234562,
+          "sha256": "4220019d95fcff30a1452ca6d1163ea8d0c56b00c7085f654ec1d4614c97868f",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/377_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/38_hin-spk2_sample0.wav",
+          "bytes": 379992,
+          "sha256": "34319891579b961c51cef125b9dad9703595409159932c4fc729edafccefcfc3",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/38_hin-spk2_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/531_hin-spk0_sample0.wav",
+          "bytes": 243436,
+          "sha256": "7af8e25aefa6ebaedfaf23fe94f1c1a688150a0f886d964af6bf8a428b24dcaf",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/531_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/542_hin-spk0_sample0.wav",
+          "bytes": 358124,
+          "sha256": "7fb5d31a6c7e3d8c0ad5ab79bb894a77dc1c1f05025c5fce1b224f73c02308c7",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/542_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/54_hin-spk0_sample0.wav",
+          "bytes": 271768,
+          "sha256": "24bd28a4314b1ecda38776a0f15c5a79242865b1c8a3be545de29b53771c75ea",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/54_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/556_hin-spk0_sample0.wav",
+          "bytes": 259842,
+          "sha256": "4bd9829a44b3fc6dc08721ff940d5a43ca7c63862c7a803188c4bcc28d29edef",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/556_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/55_hin-spk0_sample0.wav",
+          "bytes": 411372,
+          "sha256": "36ef6c63e4eed32f45192cd57d7ec6bcad2677b8fcc7633e2cb600488b783c4e",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/55_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/59_hin-spk0_sample0.wav",
+          "bytes": 702552,
+          "sha256": "1af9b022e33edc5f91fc941f49e0fead67e34a782cda8e9211633d6f7ee6660d",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/59_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/657_hin-spk1_sample0.wav",
+          "bytes": 598786,
+          "sha256": "29652151a8cffffd336b3e0b662f645b0f5c5c69c8d5e57854bdfe1e86d49656",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/657_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/676_hin-spk1_sample0.wav",
+          "bytes": 404204,
+          "sha256": "7f6e354c9fd72283e2d27a321ae71486d47e81892bba8c9f406a96c0b3f33af0",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/676_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/739_hin-spk0_sample0.wav",
+          "bytes": 527426,
+          "sha256": "5346e9663a604c50960cad08163a3ca67f5d05c9051e2ab03e1f6984b252b556",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/739_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/742_hin-spk0_sample0.wav",
+          "bytes": 292588,
+          "sha256": "1f12d197d630de261dc08f41fa27a25c29256f55e55cdf286a55378d752f14c6",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/742_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/781_hin-spk0_sample0.wav",
+          "bytes": 392258,
+          "sha256": "add359182569083679d3783640d73aa9970807d76c6f2eb210d2057e9b7927d0",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/781_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/785_hin-spk1_sample0.wav",
+          "bytes": 280642,
+          "sha256": "64cdccb2ea0338c6b05f96453443f4c77af1147cdc69e9a70de07f6da74f745c",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/785_hin-spk1_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/844_hin-spk0_sample0.wav",
+          "bytes": 225688,
+          "sha256": "4b1132e8819f383cbe87d27e54f37c7bc4b2124794118efdd0a6a9dd23f0cb09",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/844_hin-spk0_sample0.wav"
+        },
+        {
+          "path": "raw/cs_fleurs/xtts/train/audio/cs_hin_eng_n1_resample/931_hin-spk0_sample0.wav",
+          "bytes": 564312,
+          "sha256": "8625cf758c69a89c0dff419f94db746686d8b91e59c2c4cf8cbe7e13b4ca85de",
+          "url": "https://huggingface.co/datasets/byan/cs-fleurs/resolve/0cdbf166c5517ae4b6eb1c54248522eedec53017/xtts/train/audio/cs_hin_eng_n1_resample/931_hin-spk0_sample0.wav"
+        }
+      ],
+      "summary": {
+        "n_files": 150,
+        "bytes": 83649750
+      }
     }
   ]
 }

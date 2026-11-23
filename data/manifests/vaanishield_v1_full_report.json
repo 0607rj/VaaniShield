@@ -1,0 +1,330 @@
+{
+  "manifest": "data\\manifests\\vaanishield_v1_full.csv",
+  "checks": {
+    "required_fields_present": {
+      "ok": true,
+      "rows_missing_fields": []
+    },
+    "split_complete_and_both_classes": {
+      "ok": true,
+      "counts": {
+        "train": {
+          "spoof": 23025,
+          "bonafide": 2685
+        },
+        "dev": {
+          "spoof": 22321,
+          "bonafide": 2644
+        },
+        "test": {
+          "spoof": 63952,
+          "bonafide": 7694
+        }
+      },
+      "rows_without_split": []
+    },
+    "no_duplicate_leakage": {
+      "ok": true,
+      "file_duplicate_groups": 0,
+      "audio_duplicate_groups": 0,
+      "cross_split": [],
+      "note": "exact duplicates only; near-duplicates (same text/speaker, different recording) not checked"
+    },
+    "no_speaker_leakage": {
+      "ok": true,
+      "speakers_per_split": {
+        "train": 36,
+        "dev": 27,
+        "test": 101
+      },
+      "overlaps": {}
+    },
+    "no_derived_rows_crossing_splits": {
+      "ok": true,
+      "n_derived_rows": 300,
+      "n_external_parents": 30,
+      "problems": [],
+      "note": ""
+    },
+    "generator_leakage": {
+      "ok": true,
+      "generator_input_problems": [],
+      "n_generator_input_problems": 0,
+      "transcripts_crossing_splits": 0,
+      "spoof_families_per_split": {
+        "train": {
+          "asvspoof19_A04": 3800,
+          "asvspoof19_A01": 3800,
+          "asvspoof19_A03": 3800,
+          "asvspoof19_A05": 3800,
+          "asvspoof19_A02": 3800,
+          "asvspoof19_A06": 3800,
+          "freevc": 100,
+          "xtts": 125
+        },
+        "dev": {
+          "asvspoof19_A01": 3716,
+          "asvspoof19_A05": 3716,
+          "asvspoof19_A06": 3716,
+          "asvspoof19_A04": 3716,
+          "asvspoof19_A02": 3716,
+          "asvspoof19_A03": 3716,
+          "freevc": 25
+        },
+        "test": {
+          "asvspoof19_A10": 4914,
+          "asvspoof19_A15": 4914,
+          "asvspoof19_A11": 4914,
+          "asvspoof19_A09": 4914,
+          "asvspoof19_A14": 4914,
+          "asvspoof19_A17": 4914,
+          "asvspoof19_A12": 4914,
+          "asvspoof19_A13": 4914,
+          "asvspoof19_A18": 4914,
+          "asvspoof19_A08": 4914,
+          "asvspoof19_A19": 4914,
+          "asvspoof19_A07": 4914,
+          "asvspoof19_A16": 4914,
+          "freevc": 35,
+          "xtts": 35
+        }
+      },
+      "families_unseen_in_train": {
+        "dev": [],
+        "test": [
+          "asvspoof19_A07",
+          "asvspoof19_A08",
+          "asvspoof19_A09",
+          "asvspoof19_A10",
+          "asvspoof19_A11",
+          "asvspoof19_A12",
+          "asvspoof19_A13",
+          "asvspoof19_A14",
+          "asvspoof19_A15",
+          "asvspoof19_A16",
+          "asvspoof19_A17",
+          "asvspoof19_A18",
+          "asvspoof19_A19"
+        ]
+      },
+      "note": "unseen families in dev/test are by design for ASVspoof (official eval attacks); they are an evaluation condition, not leakage"
+    }
+  },
+  "shortcuts": {
+    "warnings": [
+      "source indicsynth_hi is single-class (spoof); USED FOR TRAINING",
+      "source kathbath_hi is single-class (bonafide); USED FOR TRAINING",
+      "source openslr104_hien is single-class (bonafide); declared eval-only",
+      "language 'hi': codec perfectly separates the classes (bonafide={'aac': 240}, spoof={'pcm_s16le': 320})",
+      "language 'hi': sample_rate_orig perfectly separates the classes (bonafide={'44100': 240}, spoof={'24000': 320})",
+      "language 'hi': source_dataset perfectly separates the classes (bonafide={'kathbath_hi': 240}, spoof={'indicsynth_hi': 320})",
+      "language 'hi' train split: codec perfectly separates the classes (bonafide={'aac': 105}, spoof={'pcm_s16le': 225})",
+      "language 'hi' train split: sample_rate_orig perfectly separates the classes (bonafide={'44100': 105}, spoof={'24000': 225})",
+      "language 'hi' train split: source_dataset perfectly separates the classes (bonafide={'kathbath_hi': 105}, spoof={'indicsynth_hi': 225})"
+    ],
+    "attribute_by_label": {
+      "en:codec": {
+        "bonafide": {
+          "flac": 12483
+        },
+        "spoof": {
+          "flac": 108978
+        }
+      },
+      "en:sample_rate_orig": {
+        "bonafide": {
+          "16000": 12483
+        },
+        "spoof": {
+          "16000": 108978
+        }
+      },
+      "en:source_dataset": {
+        "bonafide": {
+          "asvspoof2019_la": 12483
+        },
+        "spoof": {
+          "asvspoof2019_la": 108978
+        }
+      },
+      "en:train:split:codec": {
+        "bonafide": {
+          "flac": 2580
+        },
+        "spoof": {
+          "flac": 22800
+        }
+      },
+      "en:train:split:sample_rate_orig": {
+        "bonafide": {
+          "16000": 2580
+        },
+        "spoof": {
+          "16000": 22800
+        }
+      },
+      "en:train:split:source_dataset": {
+        "bonafide": {
+          "asvspoof2019_la": 2580
+        },
+        "spoof": {
+          "asvspoof2019_la": 22800
+        }
+      },
+      "hi:codec": {
+        "bonafide": {
+          "aac": 240
+        },
+        "spoof": {
+          "pcm_s16le": 320
+        }
+      },
+      "hi:sample_rate_orig": {
+        "bonafide": {
+          "44100": 240
+        },
+        "spoof": {
+          "24000": 320
+        }
+      },
+      "hi:source_dataset": {
+        "bonafide": {
+          "kathbath_hi": 240
+        },
+        "spoof": {
+          "indicsynth_hi": 320
+        }
+      },
+      "hi:train:split:codec": {
+        "bonafide": {
+          "aac": 105
+        },
+        "spoof": {
+          "pcm_s16le": 225
+        }
+      },
+      "hi:train:split:sample_rate_orig": {
+        "bonafide": {
+          "44100": 105
+        },
+        "spoof": {
+          "24000": 225
+        }
+      },
+      "hi:train:split:source_dataset": {
+        "bonafide": {
+          "kathbath_hi": 105
+        },
+        "spoof": {
+          "indicsynth_hi": 225
+        }
+      }
+    },
+    "mean_duration_s": {
+      "en:bonafide": 3.42,
+      "en:spoof": 3.23,
+      "hi:bonafide": 6.02,
+      "hi:spoof": 6.02
+    }
+  },
+  "distributions": {
+    "class_by_split": {
+      "train": {
+        "spoof": 23025,
+        "bonafide": 2685
+      },
+      "dev": {
+        "spoof": 22321,
+        "bonafide": 2644
+      },
+      "test": {
+        "spoof": 63952,
+        "bonafide": 7694
+      }
+    },
+    "class_by_source": {
+      "asvspoof2019_la": {
+        "spoof": 108978,
+        "bonafide": 12483
+      },
+      "indicsynth_hi": {
+        "spoof": 320
+      },
+      "kathbath_hi": {
+        "bonafide": 240
+      },
+      "openslr104_hien": {
+        "bonafide": 300
+      }
+    },
+    "language_by_split": {
+      "train": {
+        "en": 25380,
+        "hi": 330
+      },
+      "dev": {
+        "en": 24844,
+        "hi": 121
+      },
+      "test": {
+        "en": 71237,
+        "hi": 109,
+        "hi-en": 300
+      }
+    },
+    "language_by_class": {
+      "bonafide": {
+        "en": 12483,
+        "hi": 240,
+        "hi-en": 300
+      },
+      "spoof": {
+        "en": 108978,
+        "hi": 320
+      }
+    },
+    "source_by_split": {
+      "train": {
+        "asvspoof2019_la": 25380,
+        "indicsynth_hi": 225,
+        "kathbath_hi": 105
+      },
+      "dev": {
+        "asvspoof2019_la": 24844,
+        "indicsynth_hi": 25,
+        "kathbath_hi": 96
+      },
+      "test": {
+        "asvspoof2019_la": 71237,
+        "indicsynth_hi": 70,
+        "kathbath_hi": 39,
+        "openslr104_hien": 300
+      }
+    },
+    "codec_by_source": {
+      "asvspoof2019_la": {
+        "flac": 121461
+      },
+      "indicsynth_hi": {
+        "pcm_s16le": 320
+      },
+      "kathbath_hi": {
+        "aac": 240
+      },
+      "openslr104_hien": {
+        "pcm_s16le": 300
+      }
+    },
+    "speakers_by_split": {
+      "train": 36,
+      "dev": 27,
+      "test": 101
+    },
+    "hours_by_split": {
+      "train": 24.71,
+      "dev": 24.2,
+      "test": 62.21
+    },
+    "total_clips": 122321
+  }
+}

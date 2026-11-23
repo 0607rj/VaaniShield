@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — VaaniShield</title>
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+
+<section class="page-head">
+  <div class="wrap" style="align-items:start">
+    <div>
+      <span class="eyebrow">Contact</span>
+      <h1>Say hello.</h1>
+      <p class="lead">Found a fake we missed? Want to collaborate or share Hindi voice data? Tell us.</p>
+      <svg viewBox="0 0 420 260" aria-hidden="true" style="margin-top:40px;max-width:420px">
+        <circle cx="210" cy="140" r="110" fill="#f3eee5"/>
+        <rect x="80" y="70" width="260" height="160" rx="18" fill="#fff" stroke="#16133a" stroke-width="3"/>
+        <path d="M84 78l126 88 126-88" fill="none" stroke="#16133a" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M330 30l18 7v13c0 12-8 20-18 24-10-4-18-12-18-24V37z" fill="#3b3bd6"/>
+        <g fill="none" stroke="#ff8a1f" stroke-width="4" stroke-linecap="round"><path d="M40 120h26M28 150h38M44 180h22"/></g>
+      </svg>
+    </div>
+    <form id="contact" style="background:#fff;border-radius:24px;padding:36px;box-shadow:0 1px 0 var(--line)">
+      <div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+      <div class="field"><label for="topic">About</label>
+        <select id="topic" name="topic"><option>Report a fake voice</option><option>Collaboration / research</option><option>Hindi / Hinglish data</option><option>Something else</option></select></div>
+      <div class="field"><label for="msg">Message</label><textarea id="msg" name="message" required></textarea></div>
+      <button class="btn" type="submit">Send message <span class="arrow">→</span></button>
+      <div class="sent" id="sent">✓ Thanks — we’ll get back to you.</div>
+    </form>
+  </div>
+</section>
+
+<script src="/static/site.js"></script>
+<script>
+document.getElementById("contact").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const data = Object.fromEntries(new FormData(e.target));
+  try { await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) }); } catch {}
+  e.target.reset(); document.getElementById("sent").style.display = "flex";
+});
+</script>
+</body>
+</html>

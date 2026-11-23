@@ -7264,6 +7264,1917 @@
         "n_files": 553,
         "bytes": 54571314
       }
+    },
+    {
+      "recorded_at": "2026-10-11T04:30:13.109074+00:00",
+      "git_commit": "413002f03503840b6a3dc837e6533377b8c5b067",
+      "git_dirty": false,
+      "script": "scripts/acquire_kathbath.py",
+      "source_url": "https://github.com/AI4Bharat/IndicSUPERB",
+      "dataset_version": "objectstore tar Last-Modified 2025-04-09; HF mirror revision 5b9e92849222026d9141acba4e8434fe816396bf",
+      "licence": "\\\"CONFLICT:CC0-1.0|CC-BY-4.0\\\"",
+      "terms_acknowledged": true,
+      "log_file": "acquire_kathbath_20261011T042501Z.log",
+      "mode": "subset",
+      "partial": true,
+      "route": "A (AI4Bharat objectstore tar, ungated)",
+      "archive": {
+        "name": "clean/testkn_audio.tar",
+        "url": "https://objectstore.e2enetworks.net/indic-superb/kathbath/clean/testkn_audio.tar",
+        "bytes": 3587717120,
+        "etag": "\"ae6de144c95b7a0b1f2fe26eaf4293fa-214\"",
+        "last_modified": "Wed, 09 Apr 2025 20:08:19 GMT",
+        "sha256": null,
+        "note": "members read by byte range from their own tar headers; archive not hashed"
+      },
+      "selection": {
+        "language": "hindi",
+        "requested": 300,
+        "points": 30,
+        "per_point": 10,
+        "rule": "evenly spaced points over the language region; consecutive members at each point"
+      },
+      "language_map": [
+        {
+          "offset": 0,
+          "language": "punjabi"
+        },
+        {
+          "offset": 74765824,
+          "language": "punjabi"
+        },
+        {
+          "offset": 149518336,
+          "language": "punjabi"
+        },
+        {
+          "offset": 224253440,
+          "language": "punjabi"
+        },
+        {
+          "offset": 299037184,
+          "language": "punjabi"
+        },
+        {
+          "offset": 373768192,
+          "language": "urdu"
+        },
+        {
+          "offset": 448590848,
+          "language": "urdu"
+        },
+        {
+          "offset": 523266048,
+          "language": "urdu"
+        },
+        {
+          "offset": 598026752,
+          "language": "urdu"
+        },
+        {
+          "offset": 672797184,
+          "language": "hindi"
+        },
+        {
+          "offset": 747456512,
+          "language": "hindi"
+        },
+        {
+          "offset": 822366720,
+          "language": "hindi"
+        },
+        {
+          "offset": 896981504,
+          "language": "hindi"
+        },
+        {
+          "offset": 971774976,
+          "language": "marathi"
+        },
+        {
+          "offset": 1046462464,
+          "language": "marathi"
+        },
+        {
+          "offset": 1121257984,
+          "language": "marathi"
+        },
+        {
+          "offset": 1195909120,
+          "language": "marathi"
+        },
+        {
+          "offset": 1270754304,
+          "language": "odia"
+        },
+        {
+          "offset": 1345435648,
+          "language": "odia"
+        },
+        {
+          "offset": 1420158464,
+          "language": "odia"
+        },
+        {
+          "offset": 1494939648,
+          "language": "odia"
+        },
+        {
+          "offset": 1569642496,
+          "language": "gujarati"
+        },
+        {
+          "offset": 1644394496,
+          "language": "gujarati"
+        },
+        {
+          "offset": 1719154688,
+          "language": "gujarati"
+        },
+        {
+          "offset": 1793936384,
+          "language": "gujarati"
+        },
+        {
+          "offset": 1868664832,
+          "language": "malayalam"
+        },
+        {
+          "offset": 1943447040,
+          "language": "malayalam"
+        },
+        {
+          "offset": 2018159616,
+          "language": "malayalam"
+        },
+        {
+          "offset": 2092974592,
+          "language": "malayalam"
+        },
+        {
+          "offset": 2167605760,
+          "language": "tamil"
+        },
+        {
+          "offset": 2242340352,
+          "language": "tamil"
+        },
+        {
+          "offset": 2317068800,
+          "language": "tamil"
+        },
+        {
+          "offset": 2391837184,
+          "language": "tamil"
+        },
+        {
+          "offset": 2466589184,
+          "language": "sanskrit"
+        },
+        {
+          "offset": 2541430784,
+          "language": "sanskrit"
+        },
+        {
+          "offset": 2616125440,
+          "language": "sanskrit"
+        },
+        {
+          "offset": 2690940416,
+          "language": "sanskrit"
+        },
+        {
+          "offset": 2765592576,
+          "language": "bengali"
+        },
+        {
+          "offset": 2840357376,
+          "language": "bengali"
+        },
+        {
+          "offset": 2915066880,
+          "language": "bengali"
+        },
+        {
+          "offset": 2989765632,
+          "language": "bengali"
+        },
+        {
+          "offset": 3139265536,
+          "language": "kannada"
+        },
+        {
+          "offset": 3214103552,
+          "language": "kannada"
+        },
+        {
+          "offset": 3288779776,
+          "language": "kannada"
+        },
+        {
+          "offset": 3363565568,
+          "language": "telugu"
+        },
+        {
+          "offset": 3438250496,
+          "language": "telugu"
+        },
+        {
+          "offset": 3512984064,
+          "language": "telugu"
+        }
+      ],
+      "n_speakers": 20,
+      "transfer": {
+        "bytes_fetched": 60268346,
+        "range_requests": 637
+      },
+      "files": [
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930716620-929-m.m4a",
+          "bytes": 88301,
+          "sha256": "62bbf9f45e2486e5456f7632cf4c708a51b8f8b02ede424aa96f6e8d81842ce5",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930716620-929-m.m4a",
+          "tar_offset": 604364288
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932427015-384-f.m4a",
+          "bytes": 87578,
+          "sha256": "c91af0b77671742736ee0b4104c8364127820aab5688a4938c956b9ea5db80d9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932427015-384-f.m4a",
+          "tar_offset": 604453376
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932710174-3-f.m4a",
+          "bytes": 80783,
+          "sha256": "f2d41c205da5c3f21f1eb179f811a72d9fdc6269d1e3b086cfb3b6cc7f4e99b9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932710174-3-f.m4a",
+          "tar_offset": 604541952
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932924994-727-f.m4a",
+          "bytes": 62689,
+          "sha256": "315ba83e71746dd61718e4282ac360d41473a9858e241de687e2bc3442518bd2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932924994-727-f.m4a",
+          "tar_offset": 604623360
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930941752-326-f.m4a",
+          "bytes": 94319,
+          "sha256": "f8d9b28ba197a6b6add6b323548155bd24feac52b7a174721aeb72148db1268a",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930941752-326-f.m4a",
+          "tar_offset": 604686848
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932793850-645-f.m4a",
+          "bytes": 67888,
+          "sha256": "cc21e3f5ba3acb4c419652008ac8f098b31074ce25f20039f5edd6a5314496a2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932793850-645-f.m4a",
+          "tar_offset": 604782080
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932349733-384-f.m4a",
+          "bytes": 124363,
+          "sha256": "b3a3b90ba869ca94d086bb101759faa25888fd5b9ce8d77ab4f8a2741a52b41d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932349733-384-f.m4a",
+          "tar_offset": 604850688
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930667784-929-m.m4a",
+          "bytes": 108363,
+          "sha256": "ba45eefe71a175dcf5111e2af9976ca804365d462809374cfc3430dd327671c9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930667784-929-m.m4a",
+          "tar_offset": 604975616
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932428698-888-f.m4a",
+          "bytes": 73468,
+          "sha256": "1a015a3dc6955c991a26ea786a8822088cd2b7e30f67885ea5d0764d430bc38e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932428698-888-f.m4a",
+          "tar_offset": 605084672
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933477476-572-m.m4a",
+          "bytes": 80921,
+          "sha256": "90ee222e9411eef5c3cff13a7db43eec5c60c16c8da3effe8f383bb0ee2b1594",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933477476-572-m.m4a",
+          "tar_offset": 605158912
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933457035-266-m.m4a",
+          "bytes": 103314,
+          "sha256": "833864b35f40f2182c5bc716a6b51e51f6006e1f9b10504817d503ac1d33142f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933457035-266-m.m4a",
+          "tar_offset": 616787968
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931227837-977-m.m4a",
+          "bytes": 104291,
+          "sha256": "16b550636e7dc582c4fd18de16bbb99126d106decb717c65aff6becd284fe573",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931227837-977-m.m4a",
+          "tar_offset": 616891904
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932899639-3-f.m4a",
+          "bytes": 54915,
+          "sha256": "40865f99e651c1c433ce8305a34cdc121ff917d811e0705a8dcec028fb9a311b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932899639-3-f.m4a",
+          "tar_offset": 616996864
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933527275-1179-m.m4a",
+          "bytes": 118812,
+          "sha256": "987631998fb6bc7b6bcb4910ea6740a47a32f44a81ef42c3ece04256eaef60a9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933527275-1179-m.m4a",
+          "tar_offset": 617052672
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932335066-384-f.m4a",
+          "bytes": 114329,
+          "sha256": "f0337d1032dc26eded921a54ad42597d8635baa93d02f58679db221246298474",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932335066-384-f.m4a",
+          "tar_offset": 617172480
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930774676-888-f.m4a",
+          "bytes": 91293,
+          "sha256": "74d675d70edd9e219c1770c7b1361bbda26800d2e27d83270a81b221d368fd46",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930774676-888-f.m4a",
+          "tar_offset": 617287680
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932385505-384-f.m4a",
+          "bytes": 109850,
+          "sha256": "0c1f047081f26f6ace0d7795143c909320c15a2b451ee7cbc73c0066d8c886d7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932385505-384-f.m4a",
+          "tar_offset": 617379840
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933486564-266-m.m4a",
+          "bytes": 95044,
+          "sha256": "ac9bd55cf06d4b97b400fb8c82e810a91ca9eedc9f9ed9e6a5eee3ce1e9658c2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933486564-266-m.m4a",
+          "tar_offset": 617490432
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475207-705-m.m4a",
+          "bytes": 119170,
+          "sha256": "b2c11cd2ac7bf4998fd696941538a35f5cbf40812fd1c5a2ddbb6a7aeb602924",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475207-705-m.m4a",
+          "tar_offset": 617586176
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933459312-572-m.m4a",
+          "bytes": 93908,
+          "sha256": "5d206042622f33b5d178d3dba3eac66040c13fac83c6999bda34c98c664354eb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933459312-572-m.m4a",
+          "tar_offset": 617705984
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930704888-326-f.m4a",
+          "bytes": 77588,
+          "sha256": "cf553ec1732559bdebc99ab5df65342b522da83e39208c8fcffb4d46f5e547c6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930704888-326-f.m4a",
+          "tar_offset": 629228032
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930690593-277-f.m4a",
+          "bytes": 76297,
+          "sha256": "d5d5cb7d8a623d6309fa5c2008279a601636819b9783bf6171727f20909b45e7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930690593-277-f.m4a",
+          "tar_offset": 629306368
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933483655-705-m.m4a",
+          "bytes": 88708,
+          "sha256": "b35f634132eafd9c026378790c4fc2782a6f92a2a317accdc5b6dc980a1e6094",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933483655-705-m.m4a",
+          "tar_offset": 629383680
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932385495-384-f.m4a",
+          "bytes": 115444,
+          "sha256": "2eb4fec2bde7e326eb35f643b5653dbabec43203f379da740f54f41346b24bef",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932385495-384-f.m4a",
+          "tar_offset": 629473280
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932835408-1102-f.m4a",
+          "bytes": 62324,
+          "sha256": "a91c5c8af0bfa14cd0fd745f47f2ce5384d0dc64c17646329f380702eae9e5b2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932835408-1102-f.m4a",
+          "tar_offset": 629589504
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930801273-277-f.m4a",
+          "bytes": 93179,
+          "sha256": "a38496fe0c672e6cfc2c9973a77ce80db58758a4166ecf3fa9ea68148967f18d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930801273-277-f.m4a",
+          "tar_offset": 629652480
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933477032-266-m.m4a",
+          "bytes": 89045,
+          "sha256": "b789b27f02cfcc13404aeafdc6f56d0f4b7f4037e984520a6b7d28154156960c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933477032-266-m.m4a",
+          "tar_offset": 629746176
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933524411-1052-m.m4a",
+          "bytes": 182339,
+          "sha256": "23246e806fa57837d35cc7a8d5a32408238d5a9304e884df5ae8cb85053a822a",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933524411-1052-m.m4a",
+          "tar_offset": 629835776
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930648317-384-f.m4a",
+          "bytes": 93889,
+          "sha256": "9bee4a1385c7fe94b5aac9ef8f8a62921380eed5f2edc0ae527d0389a1caf164",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930648317-384-f.m4a",
+          "tar_offset": 630019072
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932475735-1160-m.m4a",
+          "bytes": 81290,
+          "sha256": "0a95fe75c1c0fae06cbc14971f38302616c2ad083914f09737da08da43f9fc1f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932475735-1160-m.m4a",
+          "tar_offset": 630113792
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933530242-1052-m.m4a",
+          "bytes": 117721,
+          "sha256": "baf2e4358ad383d0a2b584609521999ba9bb0ac7c903a9a5d13bcb86967c280b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933530242-1052-m.m4a",
+          "tar_offset": 641656320
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931010533-229-f.m4a",
+          "bytes": 80185,
+          "sha256": "2020dcb27a0ecba89ad5cba1e6fb24e27c9f674f02b500aa815a61833412aa0f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931010533-229-f.m4a",
+          "tar_offset": 641774592
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932336403-1160-m.m4a",
+          "bytes": 83524,
+          "sha256": "55e82acd720a59625128312253f91571bb7b8f9c414b03ad0af4fbf4e04587e2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932336403-1160-m.m4a",
+          "tar_offset": 641855488
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933459454-38-m.m4a",
+          "bytes": 144980,
+          "sha256": "f327827450038a06816c6b28d2954265cc97ef3dfbef0d901e039b43f1c60b9c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933459454-38-m.m4a",
+          "tar_offset": 641939968
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930594722-929-m.m4a",
+          "bytes": 91645,
+          "sha256": "065552461d5aaeb6b4340072c04a3d34cfd5f4b298aea8e35a78512cc09f1608",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930594722-929-m.m4a",
+          "tar_offset": 642085888
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931245471-977-m.m4a",
+          "bytes": 82002,
+          "sha256": "023607f7654e20f9619123d54a086799fc8ba98efbca1529dc91b0471b3a5c9d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931245471-977-m.m4a",
+          "tar_offset": 642178048
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933486527-266-m.m4a",
+          "bytes": 81149,
+          "sha256": "18ececc60238b7a73863ac617931f6f02af8bfe13db0572ebc7ce5068b5c5351",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933486527-266-m.m4a",
+          "tar_offset": 642260992
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932802354-468-f.m4a",
+          "bytes": 152587,
+          "sha256": "2daf578dd599fe90e53ac3800237fb8d969137070ad9277d687b31f2cc673ebd",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932802354-468-f.m4a",
+          "tar_offset": 642342912
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933484638-390-m.m4a",
+          "bytes": 86856,
+          "sha256": "9f7067d80f04e39717595ea75e5182890d740419c8dbe3f11858d3837145b322",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933484638-390-m.m4a",
+          "tar_offset": 642496512
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930801214-277-f.m4a",
+          "bytes": 109360,
+          "sha256": "7701833502f07dd8896c09bce34be734d7bd2e000f16528939e9518439332c9d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930801214-277-f.m4a",
+          "tar_offset": 642584064
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932418601-888-f.m4a",
+          "bytes": 66048,
+          "sha256": "189eb5da82311513bf8a580c064d53584514872f4db18183d3947777703be2c5",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932418601-888-f.m4a",
+          "tar_offset": 654110720
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932333049-1160-m.m4a",
+          "bytes": 72515,
+          "sha256": "9f0ce1a7928505e4253f9cee005aa098ddf98426054b52d879117cc3c98100eb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932333049-1160-m.m4a",
+          "tar_offset": 654177280
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932802333-468-f.m4a",
+          "bytes": 154079,
+          "sha256": "2f90419bdbe74bbe7108152e012a691fa41d1f175dd70ec3d5221739588920ec",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932802333-468-f.m4a",
+          "tar_offset": 654250496
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932816012-1102-f.m4a",
+          "bytes": 90185,
+          "sha256": "8def630961ba47ff7d191e2315d4c98fd6e1d5367daea445936b4922fc6f23fa",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932816012-1102-f.m4a",
+          "tar_offset": 654405120
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933478501-390-m.m4a",
+          "bytes": 103575,
+          "sha256": "4e5a5436c3b427d6927eea6b19611aded952e5a28a51770a7b18bfd60b19bff5",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933478501-390-m.m4a",
+          "tar_offset": 654496256
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933459301-572-m.m4a",
+          "bytes": 60483,
+          "sha256": "bf4c595d895ccc7dc4b744a088660e158b59012c710dd9655d0a4e94cc780682",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933459301-572-m.m4a",
+          "tar_offset": 654600704
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933461084-1179-m.m4a",
+          "bytes": 69031,
+          "sha256": "5d60d29cc8a7670868a47b7d33bb1d53b22616aa1aa251f07ce5d73b2780655d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933461084-1179-m.m4a",
+          "tar_offset": 654662144
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932348787-384-f.m4a",
+          "bytes": 165597,
+          "sha256": "d94e9ac7f2de43bf47a06093d31b9227989e54e798112021b76c8c1bb20da290",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932348787-384-f.m4a",
+          "tar_offset": 654731776
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933508885-1052-m.m4a",
+          "bytes": 153348,
+          "sha256": "b605c119e8ce6d57fdaf84c66ac192c4afc31ba7762b455b826bbce16512dce6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933508885-1052-m.m4a",
+          "tar_offset": 654898176
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932763301-727-f.m4a",
+          "bytes": 65295,
+          "sha256": "bbca0c0654b703198f9a133a86876c9b3441abe541fc87c63f4d7f348ae464b4",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932763301-727-f.m4a",
+          "tar_offset": 655052288
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932746965-645-f.m4a",
+          "bytes": 83488,
+          "sha256": "1a107039b5c866bebe99a0735a6918bbb13e15211ac7bae881b26b41fbe941e7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932746965-645-f.m4a",
+          "tar_offset": 666570240
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932400823-384-f.m4a",
+          "bytes": 110613,
+          "sha256": "5fe267e15cdb6b705fdc9506902981c266e92b4a04886672b4c09ac4399151d8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932400823-384-f.m4a",
+          "tar_offset": 666654720
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932323661-1160-m.m4a",
+          "bytes": 65710,
+          "sha256": "d5e28a1179e9cf675a2bd39225fba34b3fbe7ad808a0040d809ebabcc14c8d14",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932323661-1160-m.m4a",
+          "tar_offset": 666766336
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931281518-277-f.m4a",
+          "bytes": 83787,
+          "sha256": "690506687b50ee78ad40419b18d7890678725a634b953cec30d0412feb4f3b04",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931281518-277-f.m4a",
+          "tar_offset": 666832896
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932905833-727-f.m4a",
+          "bytes": 102830,
+          "sha256": "b60f5ed8190ab4da5d4dece1ca804264fdd1481a0956b433472caebdc11770c8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932905833-727-f.m4a",
+          "tar_offset": 666917376
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930948807-277-f.m4a",
+          "bytes": 73651,
+          "sha256": "ed815fcf502f58bc4f02453042bb1a1145772db7520b5a8be3a87b03c66daf8a",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930948807-277-f.m4a",
+          "tar_offset": 667020800
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933476359-390-m.m4a",
+          "bytes": 172307,
+          "sha256": "8a3626f04edab206c62d7bd6cd4694a4c69a862064cb45cde97498bfe581ecb2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933476359-390-m.m4a",
+          "tar_offset": 667095040
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933487420-38-m.m4a",
+          "bytes": 91328,
+          "sha256": "1587b09b9532c1b2b3002f098e941da954bb57a813e619cbdd05834c6ce402a6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933487420-38-m.m4a",
+          "tar_offset": 667268096
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930600843-229-f.m4a",
+          "bytes": 143432,
+          "sha256": "468ec49758aa46522af3d24816587dcd8562e224716f6efba427f7b5e9d23603",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930600843-229-f.m4a",
+          "tar_offset": 667360256
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933482871-266-m.m4a",
+          "bytes": 97678,
+          "sha256": "7555a9c658e49d49c0ffe45b546f9482110dc9b6b94c39f9ca5b05450b157d74",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933482871-266-m.m4a",
+          "tar_offset": 667504640
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933477850-1179-m.m4a",
+          "bytes": 83865,
+          "sha256": "3cae830f63d7e1281fdde8d7acdb92e92a4982adcbfadc140a5cba631c8ca53a",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933477850-1179-m.m4a",
+          "tar_offset": 679053824
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932402014-1160-m.m4a",
+          "bytes": 81310,
+          "sha256": "432f311a17c21236181f29123ea848183d3b8fe76a6e09d2179a054e51f7ad2f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932402014-1160-m.m4a",
+          "tar_offset": 679138304
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932314531-1160-m.m4a",
+          "bytes": 60125,
+          "sha256": "ec706b2e4f20917ea7b104029926e97f5cf56704262f5f195cb402de1fbe7525",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932314531-1160-m.m4a",
+          "tar_offset": 679220224
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933454296-1052-m.m4a",
+          "bytes": 145918,
+          "sha256": "b9e368b8b6994c22640bad2fa1c4726099f5003483d29774256d21daa28de338",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933454296-1052-m.m4a",
+          "tar_offset": 679281152
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932905035-468-f.m4a",
+          "bytes": 86838,
+          "sha256": "b068d58d446621f0f86ccdec7a3d9832381a2c58a2ed673b1d672b5ca4c2d0e1",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932905035-468-f.m4a",
+          "tar_offset": 679427584
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930704972-929-m.m4a",
+          "bytes": 82357,
+          "sha256": "248ce2689ac7cd4cbf7ee6fddc707ca3fdc9bff386ddf1f7db1e83a6f63d06ee",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930704972-929-m.m4a",
+          "tar_offset": 679515136
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932574736-645-f.m4a",
+          "bytes": 77556,
+          "sha256": "a32ec943f6f43da217d1ad4b3fb3ad43ad65ecf718247e7764474396c535996e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932574736-645-f.m4a",
+          "tar_offset": 679598080
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932387761-384-f.m4a",
+          "bytes": 101686,
+          "sha256": "5dd2644665cbb6bdd6b4f961860e190ff03cb3e7477d3cd7453dfb4728394bee",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932387761-384-f.m4a",
+          "tar_offset": 679676416
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475701-390-m.m4a",
+          "bytes": 154456,
+          "sha256": "917524a7e06b01cfcba17fcb5c0aa77ffed55dcf461c2bb9628a8e4181d3a8ab",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475701-390-m.m4a",
+          "tar_offset": 679778816
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933476615-572-m.m4a",
+          "bytes": 89463,
+          "sha256": "5805d33e0b46a41c9385362046f13bd314992e83fb575c562f9bc2f883688724",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933476615-572-m.m4a",
+          "tar_offset": 679933952
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931189579-229-f.m4a",
+          "bytes": 144054,
+          "sha256": "fa632274f17b2e46d7b83ed3b5892dc2348d870beee7a4061107e4daa782d9cf",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931189579-229-f.m4a",
+          "tar_offset": 691483648
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933491199-390-m.m4a",
+          "bytes": 125505,
+          "sha256": "d1fff67bb5fd555a88df8f33867e81892fb549b7f6a3c490c84dacf65da9d146",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933491199-390-m.m4a",
+          "tar_offset": 691628544
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931280943-277-f.m4a",
+          "bytes": 73271,
+          "sha256": "8cc0654c49a75776bfda055ec13130b0eca731e09151bf2d492d9b15a6bcb923",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931280943-277-f.m4a",
+          "tar_offset": 691755008
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931239296-977-m.m4a",
+          "bytes": 97639,
+          "sha256": "630e1aba6ed4024d584737de3a8f4c854ba4c6ebdde7a09659991607ac43fb14",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931239296-977-m.m4a",
+          "tar_offset": 691829248
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933509473-1052-m.m4a",
+          "bytes": 110281,
+          "sha256": "5e6909b0e6686353c79a353ecbe253d92fe9024b7a8a5e7ed7a736d5485cfa6b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933509473-1052-m.m4a",
+          "tar_offset": 691927552
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930656675-929-m.m4a",
+          "bytes": 96519,
+          "sha256": "8749689117847696f6174d6e0e84ce3a11e32baddcfb38763693f8352d98f4c2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930656675-929-m.m4a",
+          "tar_offset": 692038656
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932793846-645-f.m4a",
+          "bytes": 76800,
+          "sha256": "b6a840d21415b515335f2ce864a6de38a6d740215edaccfadc3160e462c42540",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932793846-645-f.m4a",
+          "tar_offset": 692135936
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930749067-326-f.m4a",
+          "bytes": 95421,
+          "sha256": "2d108479d27bc37ca5209faa8e0b765de483cbcf5179f9a96613fee1019cc247",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930749067-326-f.m4a",
+          "tar_offset": 692213248
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931194956-977-m.m4a",
+          "bytes": 136243,
+          "sha256": "7ea15dfaec18ad73c5a30e904f92540826955fd3cf0260fbd694ce76f7c05d69",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931194956-977-m.m4a",
+          "tar_offset": 692309504
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932907646-3-f.m4a",
+          "bytes": 106688,
+          "sha256": "a5eb43839e7820fa27ec06589bfabb6da94d58915a3222f1337de934acb2c072",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932907646-3-f.m4a",
+          "tar_offset": 692446720
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931245419-977-m.m4a",
+          "bytes": 171164,
+          "sha256": "1e060a1f8c96eb5247f9b1be977489d65a48d19589a1fe3d5fa2b5b4d79463cc",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931245419-977-m.m4a",
+          "tar_offset": 704032768
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932851547-3-f.m4a",
+          "bytes": 101811,
+          "sha256": "ea69ea1fdc5cc7788e95724fde59e7b6bc00218ea5e80665c89ff587a6a6c699",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932851547-3-f.m4a",
+          "tar_offset": 704204800
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933545602-1179-m.m4a",
+          "bytes": 97321,
+          "sha256": "08761a762007a872a2ad50f4ce2b82c222fb401875d94ea145422a084138e812",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933545602-1179-m.m4a",
+          "tar_offset": 704307200
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930609758-3-f.m4a",
+          "bytes": 83042,
+          "sha256": "48c565bcaa5e65e95fc4acac088a59d2d636c5b15fe9a53545e3605a37d65774",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930609758-3-f.m4a",
+          "tar_offset": 704405504
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931225798-977-m.m4a",
+          "bytes": 116942,
+          "sha256": "ccd139921062e14bb51b2451a84a39ea4a534628b23a82fc1076cdf2b67c8985",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931225798-977-m.m4a",
+          "tar_offset": 704489472
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930931238-384-f.m4a",
+          "bytes": 73488,
+          "sha256": "dea32e20ed0a345e88249cd5c2832b128208a2a876a5216c0d83eb6a54a2a49b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930931238-384-f.m4a",
+          "tar_offset": 704607232
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930656686-929-m.m4a",
+          "bytes": 90531,
+          "sha256": "a04ab2ead3c73cc2749b47009c0bde7a623f7b4db213b26137252bc1d8daa589",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930656686-929-m.m4a",
+          "tar_offset": 704681472
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932815570-1102-f.m4a",
+          "bytes": 69375,
+          "sha256": "e88a55fdd4a72938a63c4f88314ff21894a0ae2e96ac6fb50258e54df7f7e256",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932815570-1102-f.m4a",
+          "tar_offset": 704772608
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931004049-326-f.m4a",
+          "bytes": 76103,
+          "sha256": "e220fcfc2e487d7964b2b5d926f13d2642e9f6ca5c0c8d26582bd5e61d4250b6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931004049-326-f.m4a",
+          "tar_offset": 704842752
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933485933-38-m.m4a",
+          "bytes": 78161,
+          "sha256": "01bd0565080b52950c161f0642773e4d6ffb851424eb8eb6807434142fe323a4",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933485933-38-m.m4a",
+          "tar_offset": 704919552
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931112441-229-f.m4a",
+          "bytes": 73520,
+          "sha256": "f243ac356b426badda888a858637934e6adfe7f174fde91207ab98dedfdae691",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931112441-229-f.m4a",
+          "tar_offset": 716428288
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930667572-229-f.m4a",
+          "bytes": 69780,
+          "sha256": "dcd930a416a6e374c04b1b504e8ef3bb9f388ee0e2246dd7ef0824efda54a168",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930667572-229-f.m4a",
+          "tar_offset": 716502528
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932483547-1102-f.m4a",
+          "bytes": 63782,
+          "sha256": "7d53e5652f1bd92b173867c9ee4eee4a3630b5dee68029e780910b549a239030",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932483547-1102-f.m4a",
+          "tar_offset": 716573184
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930549635-229-f.m4a",
+          "bytes": 94705,
+          "sha256": "0f2dde86a2d62bf1f2e559b312e48cc0a3b816b719c9aab32fd9290781985616",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930549635-229-f.m4a",
+          "tar_offset": 716637696
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933476938-572-m.m4a",
+          "bytes": 101750,
+          "sha256": "1d9061468d557c3cc9a6b5fbff9030156d51557525018876949cfeff8011b718",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933476938-572-m.m4a",
+          "tar_offset": 716732928
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932348764-384-f.m4a",
+          "bytes": 116558,
+          "sha256": "f855144218382c43aaf8968c3f6da7bce494350ca8bf5058f77e50fda4cebcb6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932348764-384-f.m4a",
+          "tar_offset": 716835328
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933484283-266-m.m4a",
+          "bytes": 73652,
+          "sha256": "4843702c2f5c83a3ff641b8ed6a76dbd79738ff58b163483930fe1259aa06d4e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933484283-266-m.m4a",
+          "tar_offset": 716952576
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932766112-468-f.m4a",
+          "bytes": 119557,
+          "sha256": "90bcfd747abc75c0795d3d6c2b083f668c45cce261c16dda7501ceca53eb6a97",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932766112-468-f.m4a",
+          "tar_offset": 717026816
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932898589-727-f.m4a",
+          "bytes": 56384,
+          "sha256": "0c79a664c71cb5a86babee08410c443bccb783040614af500c7d3ddc46d1655c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932898589-727-f.m4a",
+          "tar_offset": 717147136
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933459983-390-m.m4a",
+          "bytes": 118061,
+          "sha256": "895e976395e5a1dae740da8b6c64bbc4b1b43c7f2dc84c08dfdc1e02e7d14c9e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933459983-390-m.m4a",
+          "tar_offset": 717204480
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932603708-645-f.m4a",
+          "bytes": 83544,
+          "sha256": "a2b74a425fae1341cb02f1c62a92fd906243758769d03b18ee74970362d93600",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932603708-645-f.m4a",
+          "tar_offset": 728841216
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932866952-468-f.m4a",
+          "bytes": 95391,
+          "sha256": "9cf93b8ea591b9754908f6f1d99643ebb406ddf5b7dc98a5175e8d6789f431d2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932866952-468-f.m4a",
+          "tar_offset": 728925696
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933474190-705-m.m4a",
+          "bytes": 106189,
+          "sha256": "248a6663ef67b09f205c56768997a5070f882cc20675a93a096469cf6a3ee677",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933474190-705-m.m4a",
+          "tar_offset": 729021952
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930648226-384-f.m4a",
+          "bytes": 129555,
+          "sha256": "ec35da758e9cb3984799d7a979e988c46fb8745b3385143fe311610dff2419ff",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930648226-384-f.m4a",
+          "tar_offset": 729128960
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933530199-1052-m.m4a",
+          "bytes": 193848,
+          "sha256": "689c3999fe235754d50f3b4ccc99ed2377ecad9430201cbce579d1350f6f8cdd",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933530199-1052-m.m4a",
+          "tar_offset": 729259520
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933480101-705-m.m4a",
+          "bytes": 85724,
+          "sha256": "5642b0dccde5105cfa6c04f4f45ba07dc573e0b49ae5a66af0c415a966468d75",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933480101-705-m.m4a",
+          "tar_offset": 729454080
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930672670-929-m.m4a",
+          "bytes": 112450,
+          "sha256": "6a55eec38892c5beb35e92b7a077572582a8bc5dded11425dfe6242a0d0970dc",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930672670-929-m.m4a",
+          "tar_offset": 729540608
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932429612-384-f.m4a",
+          "bytes": 108389,
+          "sha256": "44cb7f34b79b5606385e7373e839a290e99fd1284dc9b6303be0d04af07b23f3",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932429612-384-f.m4a",
+          "tar_offset": 729653760
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933062713-888-f.m4a",
+          "bytes": 57868,
+          "sha256": "3387ca5bec5beafdffd2d74d68d00488507aade4ae285c43ae459410e20e2357",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933062713-888-f.m4a",
+          "tar_offset": 729762816
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931048138-384-f.m4a",
+          "bytes": 127824,
+          "sha256": "ba61052d55d0d6319b886d2ac6880dc5ed2d3e26c8011b7b6e3ad951f2666b02",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931048138-384-f.m4a",
+          "tar_offset": 729821696
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930614631-229-f.m4a",
+          "bytes": 71295,
+          "sha256": "e586086bc749ffbd6d00326e13cf574cd441b3173689c1ae04678fec3b6366b5",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930614631-229-f.m4a",
+          "tar_offset": 741299712
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931230212-977-m.m4a",
+          "bytes": 150385,
+          "sha256": "5a9c2fa9e2be8449e5c5600196d0f0b146971679b2b2826ecd444d9d575c6917",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931230212-977-m.m4a",
+          "tar_offset": 741371904
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932860165-727-f.m4a",
+          "bytes": 68702,
+          "sha256": "73f57f66c8a6c2dfe7e0a5ddb46a9cfb741ef639679a466d05a8e80813f41c05",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932860165-727-f.m4a",
+          "tar_offset": 741522944
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931225797-977-m.m4a",
+          "bytes": 112080,
+          "sha256": "478f5b277a1e9acc7dda323a35201f499e63aed0a4ecdeac34c02c9d162788c7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931225797-977-m.m4a",
+          "tar_offset": 741592576
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933539897-266-m.m4a",
+          "bytes": 66136,
+          "sha256": "35c78253c77eeb96a430645c81f0517a0932e4c77e84e494bf852d939ac98bd7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933539897-266-m.m4a",
+          "tar_offset": 741705216
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933462222-38-m.m4a",
+          "bytes": 118337,
+          "sha256": "76033074f94b0dcf15e4c31af9a838566fd973a29c1751b244fdcfe7cfab91dc",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933462222-38-m.m4a",
+          "tar_offset": 741772288
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932429604-384-f.m4a",
+          "bytes": 80518,
+          "sha256": "48729c6945ec434021a8a1e5d9d06476aa7834762597260da77d7b442b43768b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932429604-384-f.m4a",
+          "tar_offset": 741891584
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930685538-326-f.m4a",
+          "bytes": 114719,
+          "sha256": "beb04b7ef5d3e0091f5d4da8e4f206fe10334afec107d6b96fb5253b19d40e09",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930685538-326-f.m4a",
+          "tar_offset": 741972992
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933509484-1052-m.m4a",
+          "bytes": 141478,
+          "sha256": "735348d62ed9811d6e52bd2f74b1dab07340d56a6daa441bc92ef4e455851741",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933509484-1052-m.m4a",
+          "tar_offset": 742088704
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933484641-390-m.m4a",
+          "bytes": 163788,
+          "sha256": "3efa41c0d34aa6dc19ae19136548e36061c8b816910182d6294feaf44e42b51c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933484641-390-m.m4a",
+          "tar_offset": 742231040
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931048188-384-f.m4a",
+          "bytes": 103186,
+          "sha256": "fa9d474264c7220e16fd329da6e084c7db8cb299cbb41986a942af8c267359e9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931048188-384-f.m4a",
+          "tar_offset": 753828352
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932709995-468-f.m4a",
+          "bytes": 95373,
+          "sha256": "86aa91aa68a5b59401b5d70ae94b1c21ca000cafc8ba537153310c509c49e25e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932709995-468-f.m4a",
+          "tar_offset": 753932288
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933492472-705-m.m4a",
+          "bytes": 130310,
+          "sha256": "a6c1fc97bf34fbce02d2da320420f3f0635123f5ac8a018736076cd551b15277",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933492472-705-m.m4a",
+          "tar_offset": 754028544
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931064461-1160-m.m4a",
+          "bytes": 55680,
+          "sha256": "4787a9f845864df6be806510079e355a6cf21970b0f51ed4a6508bdd73431752",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931064461-1160-m.m4a",
+          "tar_offset": 754159616
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930660883-929-m.m4a",
+          "bytes": 84586,
+          "sha256": "3d0e08216d959da33d035046abbb2270014e7b5e0acc0a493c150e3c0912b889",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930660883-929-m.m4a",
+          "tar_offset": 754215936
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931112439-229-f.m4a",
+          "bytes": 79075,
+          "sha256": "ec5283c2a5978792c02178bb9b7b46cb6fa664790cfefabdf4a3c3631b99cd7f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931112439-229-f.m4a",
+          "tar_offset": 754301440
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933474263-705-m.m4a",
+          "bytes": 110287,
+          "sha256": "8e7492cd148c75882db99c3f64a53b2204afe24b42a6f8d9e8ddbd62992ddc18",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933474263-705-m.m4a",
+          "tar_offset": 754381312
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932401966-1160-m.m4a",
+          "bytes": 66094,
+          "sha256": "b855892b008df819d56fdd067531c32cac569202738b06a6d4bc7a0ebe8d3cf8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932401966-1160-m.m4a",
+          "tar_offset": 754492416
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932426144-1160-m.m4a",
+          "bytes": 70476,
+          "sha256": "db5caac84683969734d13bcf5e1cd10aec775e33645af36eff16112b14ed6752",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932426144-1160-m.m4a",
+          "tar_offset": 754559488
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933476993-266-m.m4a",
+          "bytes": 90190,
+          "sha256": "e0f0094eb116d13c7bc3a0633e6b2cf14432c442d7cde593fb408edaa631cb36",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933476993-266-m.m4a",
+          "tar_offset": 754630656
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933458819-572-m.m4a",
+          "bytes": 70515,
+          "sha256": "66b388d9e69c1f0a8b2e04106bdc19190995f0a665b47e8f3666b3a0e2cb3599",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933458819-572-m.m4a",
+          "tar_offset": 766244864
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930913921-326-f.m4a",
+          "bytes": 72757,
+          "sha256": "9bc269d8f2f1be4f50ab0c961b8944b00223c9b9e46cf80b420a4eee2c5df656",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930913921-326-f.m4a",
+          "tar_offset": 766316032
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933545559-1179-m.m4a",
+          "bytes": 127359,
+          "sha256": "0823454a485103ee34e91a4e331456bfc24d3060ac6d9a1f0d7464a543f2c496",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933545559-1179-m.m4a",
+          "tar_offset": 766389760
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931281784-277-f.m4a",
+          "bytes": 111225,
+          "sha256": "aca088b24248d27bdeb984fe1a5f3c543a1bc6ca1bcecc4b51037e734b0c8c0f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931281784-277-f.m4a",
+          "tar_offset": 766517760
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933463492-572-m.m4a",
+          "bytes": 51548,
+          "sha256": "f9660adcd3df95ae3929134ab1af1790a4fcb634efbb1d8ad19969d6b82dc467",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933463492-572-m.m4a",
+          "tar_offset": 766629888
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931108246-229-f.m4a",
+          "bytes": 72747,
+          "sha256": "0910f4fbd5dc55a9ae1ee240237b920182156e74be4aaab9439ad9284ab473b8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931108246-229-f.m4a",
+          "tar_offset": 766682112
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930758916-277-f.m4a",
+          "bytes": 77042,
+          "sha256": "ffde2df40203c7dfde357b32665d4710c3211fd53111fd0547fe12303887c736",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930758916-277-f.m4a",
+          "tar_offset": 766755840
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932901981-727-f.m4a",
+          "bytes": 65699,
+          "sha256": "b1a6e64ec7e8b13c9d8eeeeaebd763ac47004d3b1997330db7972960167910d8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932901981-727-f.m4a",
+          "tar_offset": 766833664
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930656625-929-m.m4a",
+          "bytes": 103221,
+          "sha256": "5f4393cb48dbcae0391afb213a98e6c43220f4ef0fac257db9b1f2d643642458",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930656625-929-m.m4a",
+          "tar_offset": 766900224
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932907225-1102-f.m4a",
+          "bytes": 73458,
+          "sha256": "26f9bdf4b3fe8d82fad9bde50d56a15f5bb43e63c553c75d88e7f2e6b44b5c14",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932907225-1102-f.m4a",
+          "tar_offset": 767004160
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933493968-266-m.m4a",
+          "bytes": 66141,
+          "sha256": "6afb99d3db855479e5911540c5b2e2ec6f0c936f2bc46e6b5fef129a431a45fd",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933493968-266-m.m4a",
+          "tar_offset": 778750464
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932349725-384-f.m4a",
+          "bytes": 105397,
+          "sha256": "de8255f9ffc93c24bd2f7be4fd5af35cbe2802b05b1783722eb65eee44923e68",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932349725-384-f.m4a",
+          "tar_offset": 778817536
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930704998-929-m.m4a",
+          "bytes": 80500,
+          "sha256": "4b23d3b7546f609b40c9fc4f388cadb78d21bfc3344494a8ccaa42a524e76447",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930704998-929-m.m4a",
+          "tar_offset": 778923520
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933478532-390-m.m4a",
+          "bytes": 92806,
+          "sha256": "1a8a9f27cb24f8a18f5b19c1537991f7ceabaa8105f12dbdb3b19ec24bbec090",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933478532-390-m.m4a",
+          "tar_offset": 779004928
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932394301-1160-m.m4a",
+          "bytes": 65711,
+          "sha256": "597c35aa6bd07bdfaa938f5a170cebd446654aca168dff0f4cf8f37301a7201e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932394301-1160-m.m4a",
+          "tar_offset": 779098624
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932927277-3-f.m4a",
+          "bytes": 60931,
+          "sha256": "0f86ccbd12443fe2973aef61f4e29dfa54a8cf2a7bc39f9eef749adbef35f22d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932927277-3-f.m4a",
+          "tar_offset": 779165184
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933484683-390-m.m4a",
+          "bytes": 98472,
+          "sha256": "e51978eca50dc1c2eee251e300b31f678ea67f075173f5bd2bafa9265299c352",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933484683-390-m.m4a",
+          "tar_offset": 779227136
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933525089-390-m.m4a",
+          "bytes": 73873,
+          "sha256": "f9427ab0db3b6e4d8987c51144ab39b51622ba3ecec1097d1b1f224dd96d2617",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933525089-390-m.m4a",
+          "tar_offset": 779326464
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930829742-326-f.m4a",
+          "bytes": 97269,
+          "sha256": "ea3a643ea77a918e592bb8a0af2e21bee956565bec10e4607eda787734055162",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930829742-326-f.m4a",
+          "tar_offset": 779401216
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930978137-1102-f.m4a",
+          "bytes": 93886,
+          "sha256": "5020e31d6c4d7799b9a7b04e4e4291dfbe9d2727699971112cd4f822194e43d9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930978137-1102-f.m4a",
+          "tar_offset": 779499008
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932396627-384-f.m4a",
+          "bytes": 100207,
+          "sha256": "ee322b6df0b72d586d5959f8db6fd13e3b2d77bbdabfbf3b5b86e7658e4bb095",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932396627-384-f.m4a",
+          "tar_offset": 791139840
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933459916-390-m.m4a",
+          "bytes": 126241,
+          "sha256": "0da7861ee5cbdc715b80e9c1a7b12005d4cc306768dac20007b74f17211db48a",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933459916-390-m.m4a",
+          "tar_offset": 791240704
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933476932-572-m.m4a",
+          "bytes": 74232,
+          "sha256": "d59872130fbd34f9a95a5207674c9060fbabff44f63c5992fc6e8da651f8c681",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933476932-572-m.m4a",
+          "tar_offset": 791367680
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933474189-705-m.m4a",
+          "bytes": 124395,
+          "sha256": "e951170cce77df4bd436a4ab33dbb5d7d84d44c5de67312dda63c6107deca6d8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933474189-705-m.m4a",
+          "tar_offset": 791442432
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475683-390-m.m4a",
+          "bytes": 133655,
+          "sha256": "42ed9aaa7230c98794112ce7356b516ee93e7c827e81497d5b46fbd80d26cf73",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475683-390-m.m4a",
+          "tar_offset": 791567360
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933482828-266-m.m4a",
+          "bytes": 95053,
+          "sha256": "114494eca12b77ae6d7fae308a1ae6861f3d46ccb963d27b4e69c539526138a2",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933482828-266-m.m4a",
+          "tar_offset": 791702016
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930964292-1102-f.m4a",
+          "bytes": 61580,
+          "sha256": "bf800ba8df7dd7298c1a475bf951625247e33ce6fa0b6e9de1d2822b4c673ee5",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930964292-1102-f.m4a",
+          "tar_offset": 791797760
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932779137-3-f.m4a",
+          "bytes": 74785,
+          "sha256": "3688d315e1bcd7fa45df1a70741be3abe28a8da0749b8705d5095b2a0bc9face",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932779137-3-f.m4a",
+          "tar_offset": 791860224
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932899553-3-f.m4a",
+          "bytes": 75153,
+          "sha256": "f04bcfa9d5a3531322ba2da082311925c21da07c74643dae0e458528ae4b5907",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932899553-3-f.m4a",
+          "tar_offset": 791936000
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475844-38-m.m4a",
+          "bytes": 182552,
+          "sha256": "76bf53e25be7692122736596e05b109a3d6fdf92f651c3fb21459ecea2550bf6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475844-38-m.m4a",
+          "tar_offset": 792011776
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932745921-3-f.m4a",
+          "bytes": 86513,
+          "sha256": "4771c4a3c3bc887996ccd2985398a73f9683d3c0b5598523011d3137f8ebe552",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932745921-3-f.m4a",
+          "tar_offset": 803626496
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932333026-1160-m.m4a",
+          "bytes": 69407,
+          "sha256": "041b33deb334aff95eba323ef4c4db212853a0371c5525b8153ce6e5b6d7e154",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932333026-1160-m.m4a",
+          "tar_offset": 803713536
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933495540-705-m.m4a",
+          "bytes": 100596,
+          "sha256": "a650f53a7b6bb25fd5b70415641c830068097c23c34a098af317a20259f8ec21",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933495540-705-m.m4a",
+          "tar_offset": 803783680
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475808-38-m.m4a",
+          "bytes": 110451,
+          "sha256": "36f39799bdce931f6a3ba4eeb1457e13b8158c79402a8ffad5e7d0e8d050b5c7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475808-38-m.m4a",
+          "tar_offset": 803885056
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933458085-572-m.m4a",
+          "bytes": 93918,
+          "sha256": "ed4fce08ca93d4a0574a6f717999c55ea4e22b2bd93b44ed0c73b2d61c0e917c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933458085-572-m.m4a",
+          "tar_offset": 803996160
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932869027-727-f.m4a",
+          "bytes": 49720,
+          "sha256": "6c94facbd32435743d320529e4f06f4acef1123cd3ab86e95f817ce575c6b0c9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932869027-727-f.m4a",
+          "tar_offset": 804090880
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932745997-3-f.m4a",
+          "bytes": 90172,
+          "sha256": "c03428e091890937c232758d200ad0ec440bce8e9859a8875d2a687302a1a19b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932745997-3-f.m4a",
+          "tar_offset": 804141568
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930791903-229-f.m4a",
+          "bytes": 102501,
+          "sha256": "6bf39ef5edba6ed01204ab7514437c0156f0f160b55f2dc111e5f54f750800af",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930791903-229-f.m4a",
+          "tar_offset": 804232704
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930599277-3-f.m4a",
+          "bytes": 96552,
+          "sha256": "3172db7ca1b31da932781635e8d47558b3566d0c2dd168617dc04265d167bb9c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930599277-3-f.m4a",
+          "tar_offset": 804336128
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932779122-3-f.m4a",
+          "bytes": 93545,
+          "sha256": "cb5d4165bb975fe43db758ee2adc90a0c8932d1ed674e1be9f96d57ff5d6b4f6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932779122-3-f.m4a",
+          "tar_offset": 804433408
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933459358-572-m.m4a",
+          "bytes": 71244,
+          "sha256": "02c98c18a4e8a6a9a5b8789d27e0431af7958ab6ee80c7576cd1bbe435494f6e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933459358-572-m.m4a",
+          "tar_offset": 816111616
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933486591-266-m.m4a",
+          "bytes": 97682,
+          "sha256": "a126bdc42d637b9c72b5715c72410ed73ac93e9b1e048740c68951fe49e476d1",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933486591-266-m.m4a",
+          "tar_offset": 816183808
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932310004-1160-m.m4a",
+          "bytes": 95423,
+          "sha256": "a9b3c599dfdaeef2d8bc7e3be734c2157d8aef8246deda7c41af66bc0c413426",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932310004-1160-m.m4a",
+          "tar_offset": 816282112
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930609775-3-f.m4a",
+          "bytes": 103324,
+          "sha256": "77943770826e0a5995e2bf9a51945a6cc97b1b4fd06f9a19217671c2567baaeb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930609775-3-f.m4a",
+          "tar_offset": 816378368
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932807595-468-f.m4a",
+          "bytes": 131832,
+          "sha256": "8f83b95d0ae3793831ec72e57528f9da16b11fd9915a0b9a51e14b3fc1d2fdf7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932807595-468-f.m4a",
+          "tar_offset": 816482304
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932709704-3-f.m4a",
+          "bytes": 103380,
+          "sha256": "266a1a5f61d6495646c3c276120085290dc291b76c4e0c4f2f2483721067fc16",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932709704-3-f.m4a",
+          "tar_offset": 816614912
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930667794-929-m.m4a",
+          "bytes": 109106,
+          "sha256": "614701fcac0b8d8aafaf7c7c923d0be66156d3c1005a095b428a638386dadba0",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930667794-929-m.m4a",
+          "tar_offset": 816718848
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930600481-888-f.m4a",
+          "bytes": 76826,
+          "sha256": "e9810ad17f7ab53e812a5d061c6a43acafe94a1ed5163a21dce4add66eb0fafa",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930600481-888-f.m4a",
+          "tar_offset": 816828928
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932766185-468-f.m4a",
+          "bytes": 154460,
+          "sha256": "0c6aa721e82be78967f3d71d80595f22235b33a7d0d47b74d2e2bad29fcae5c6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932766185-468-f.m4a",
+          "tar_offset": 816906752
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930660895-929-m.m4a",
+          "bytes": 70097,
+          "sha256": "99e3959897a2ce498c90e34969b4c9ad5b8a65fe3480d82fd3996fa1e11693dc",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930660895-929-m.m4a",
+          "tar_offset": 817061888
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931282640-277-f.m4a",
+          "bytes": 109455,
+          "sha256": "9776af02f6b9d702cb7d964dd954f701a9d7ebf7d039eb4e901f8b112266edd4",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931282640-277-f.m4a",
+          "tar_offset": 828601344
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933545391-1179-m.m4a",
+          "bytes": 82767,
+          "sha256": "93e91fe912705c573ce219d0e5d5c508aa76ffaea1528a8ee30b8b467b56b333",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933545391-1179-m.m4a",
+          "tar_offset": 828711424
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932368358-1160-m.m4a",
+          "bytes": 66456,
+          "sha256": "2bea0cd966f000c58d58b5fe75eed2a53bd048cbbe252634a3116094d77a5d32",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932368358-1160-m.m4a",
+          "tar_offset": 828794880
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931180230-326-f.m4a",
+          "bytes": 49350,
+          "sha256": "3ce6ae3f0a006af240ea335847b5eb34e715006e694aa4cbcab11914c50ff78c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931180230-326-f.m4a",
+          "tar_offset": 828861952
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930716666-929-m.m4a",
+          "bytes": 101676,
+          "sha256": "19f2b5c5e2e951197f65ceb2282b821d8ed2497ac9958933eaa3618162d4d0bd",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930716666-929-m.m4a",
+          "tar_offset": 828912128
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930656645-929-m.m4a",
+          "bytes": 92833,
+          "sha256": "b82270b6ecf39667988d47ee3a056bc6008a6c1e069b4fa2fa1fed752e7ceeeb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930656645-929-m.m4a",
+          "tar_offset": 829014528
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930603059-326-f.m4a",
+          "bytes": 109560,
+          "sha256": "e9dbb2ada2d1c174eb126fe83ba68964d2905f14b1e2b5ce96da88d20ed8f8c3",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930603059-326-f.m4a",
+          "tar_offset": 829108224
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933474267-705-m.m4a",
+          "bytes": 87616,
+          "sha256": "2810581d1a0ad2d5e98eac2b2fa2c546d180e23198f2f598e47e2f7036e8bf10",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933474267-705-m.m4a",
+          "tar_offset": 829218304
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932709395-468-f.m4a",
+          "bytes": 145251,
+          "sha256": "d84249591dad386340abe4c4914335d4b4d6278516fc1b1b45ee31e0402cab85",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932709395-468-f.m4a",
+          "tar_offset": 829306880
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932793863-645-f.m4a",
+          "bytes": 51903,
+          "sha256": "f038f8730f9db2be758aac911ea2b63452b78976f3c9a91e90f8aac0101424c9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932793863-645-f.m4a",
+          "tar_offset": 829452800
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933494988-1052-m.m4a",
+          "bytes": 181554,
+          "sha256": "77181c09d77b72a898020e5e2164cffac9810ec1d11ed9097e4cb3f28cc7ff31",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933494988-1052-m.m4a",
+          "tar_offset": 840979456
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933530217-1052-m.m4a",
+          "bytes": 187155,
+          "sha256": "f49e54d5f291dda2f7703bc9ae63eaad72323ec9b98bf9cdfdbf99a46e6af9a1",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933530217-1052-m.m4a",
+          "tar_offset": 841161728
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933533806-1179-m.m4a",
+          "bytes": 116201,
+          "sha256": "0631b98d894c78833bd68df585eab148d7501c378ca99bf5378f639eba1494ba",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933533806-1179-m.m4a",
+          "tar_offset": 841349632
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933474212-705-m.m4a",
+          "bytes": 91691,
+          "sha256": "23ea8648aa6b48750c6ad3217227225e49482006cfcc3b68f20e7df7230a3f0d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933474212-705-m.m4a",
+          "tar_offset": 841466368
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930660829-929-m.m4a",
+          "bytes": 112822,
+          "sha256": "be907f4a1fe0a49a88fbbadec9fb9a47b2458c13346b2b9b7a2e85b03d120078",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930660829-929-m.m4a",
+          "tar_offset": 841559040
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932751800-727-f.m4a",
+          "bytes": 82426,
+          "sha256": "013c1f18c4551a17109fd7381bdc6c49267738a102b6a75bc86b7f493579dceb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932751800-727-f.m4a",
+          "tar_offset": 841672704
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475201-705-m.m4a",
+          "bytes": 66824,
+          "sha256": "fd9123b6d457b114551074de5bc0f295563279dba63107b0e55f08624e93ad14",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475201-705-m.m4a",
+          "tar_offset": 841755648
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932802340-468-f.m4a",
+          "bytes": 171544,
+          "sha256": "19f70cd85e31c077443b60c712873e7e1a9e6257a95b4c4b5c0f84f20be1519d",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932802340-468-f.m4a",
+          "tar_offset": 841823232
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930501837-229-f.m4a",
+          "bytes": 144592,
+          "sha256": "0c8a4f58ee3fe7c3e1613acab5efed4bda3c19f9cca8469aa144aeed0a9b47db",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930501837-229-f.m4a",
+          "tar_offset": 841995776
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932405282-384-f.m4a",
+          "bytes": 115446,
+          "sha256": "b3f1ee3721cb0a3ec1e093930949cf567f40f033c3f8b0c2e4a0e521502f3114",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932405282-384-f.m4a",
+          "tar_offset": 842141184
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933460116-572-m.m4a",
+          "bytes": 111772,
+          "sha256": "5b8c5cd68967af4286933fa5ef8d78573e4071c79470ab13e764e2873bdd4f25",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933460116-572-m.m4a",
+          "tar_offset": 853424128
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931013086-1102-f.m4a",
+          "bytes": 72711,
+          "sha256": "e9bace8992955ce7d340505852d85198a560271a38f9d7eb8bae0231acfc1f3c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931013086-1102-f.m4a",
+          "tar_offset": 853536768
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933460158-572-m.m4a",
+          "bytes": 70524,
+          "sha256": "227d9b9117b1aab400d6b71c466cd303a5f6e9f2aff0df3df60c1b696589d1bb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933460158-572-m.m4a",
+          "tar_offset": 853610496
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930583403-326-f.m4a",
+          "bytes": 104362,
+          "sha256": "5b3236163a99cd549df470a969c856372ff72178d9ac4883e21a9f92baa1a242",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930583403-326-f.m4a",
+          "tar_offset": 853681664
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931239359-977-m.m4a",
+          "bytes": 98017,
+          "sha256": "df7ed830579f2bb0b95356b7dd0e3bf78689ba2c22d4144fcb09694a3130e1ba",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931239359-977-m.m4a",
+          "tar_offset": 853786624
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933530265-1052-m.m4a",
+          "bytes": 107648,
+          "sha256": "22d3b5ce970363b2b6d208f93d61e3c9cf07b045b608fc6c45d09bcecc751845",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933530265-1052-m.m4a",
+          "tar_offset": 853885440
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932852338-3-f.m4a",
+          "bytes": 75570,
+          "sha256": "165d4465e02c0f7665110c90b6f93e9a197219a467dbf6d74de45cb96c842a29",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932852338-3-f.m4a",
+          "tar_offset": 853993984
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933481812-705-m.m4a",
+          "bytes": 82804,
+          "sha256": "480cb408dc3eea0ab5157258f50a6374fd072385743e03fb19e54b71e9768906",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933481812-705-m.m4a",
+          "tar_offset": 854070272
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931194930-977-m.m4a",
+          "bytes": 132142,
+          "sha256": "d1f5fe17510dfc7152ec0dbe3aea5a374fee34410bdd86f961431ff0ada095c0",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931194930-977-m.m4a",
+          "tar_offset": 854153728
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932336379-1160-m.m4a",
+          "bytes": 56038,
+          "sha256": "b476e85daa2a73675a39fe39ea961a7e30e5636bcede7663f64f88e2474413dc",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932336379-1160-m.m4a",
+          "tar_offset": 854286848
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932916091-1102-f.m4a",
+          "bytes": 84991,
+          "sha256": "5d12fb4e1cc9c02a93d88dc6048deaa964bf8e0c91040466b3ef8b0d64e18e38",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932916091-1102-f.m4a",
+          "tar_offset": 865853952
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933489170-390-m.m4a",
+          "bytes": 90939,
+          "sha256": "d2f474e790eee17f11277581d419577c12a1a65f5f94afaa00205443b93be44a",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933489170-390-m.m4a",
+          "tar_offset": 865939456
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932870214-468-f.m4a",
+          "bytes": 132916,
+          "sha256": "6b2ef7f070cea26579af20d2ddc67e8384436cf4ca3291b45d4c12016cac459b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932870214-468-f.m4a",
+          "tar_offset": 866031104
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930931285-384-f.m4a",
+          "bytes": 99872,
+          "sha256": "e41a45aed4d16e7a59fa184740db8b49952c77ef684403dbb2a5626079ace26e",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930931285-384-f.m4a",
+          "tar_offset": 866164736
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933532741-1052-m.m4a",
+          "bytes": 118073,
+          "sha256": "590df14ea4656209bb48db1d4836e665d08f133a2454fd61f87a63f7a54247d9",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933532741-1052-m.m4a",
+          "tar_offset": 866265600
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933539868-266-m.m4a",
+          "bytes": 117217,
+          "sha256": "1655e16333acf7746e5cc53d78d1a26131be2277db599c8b31f5be10c5db1f57",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933539868-266-m.m4a",
+          "tar_offset": 866384384
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475769-390-m.m4a",
+          "bytes": 125477,
+          "sha256": "a71f6725d9f4e2a2c9e091d6d764538b54f9e78a52125944ce190e5aa065a1b4",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475769-390-m.m4a",
+          "tar_offset": 866502144
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933478544-390-m.m4a",
+          "bytes": 154450,
+          "sha256": "0e3eba2818d23a9d2a3467dec12e9bc5fc4d3040cc081a294e001419f6c46b20",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933478544-390-m.m4a",
+          "tar_offset": 866628608
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930651464-929-m.m4a",
+          "bytes": 100190,
+          "sha256": "f681fef55e6c53aedd01be8a724effc85eae2e5c59b1f187d18fe208d3b1b1b7",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930651464-929-m.m4a",
+          "tar_offset": 866783744
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933477362-266-m.m4a",
+          "bytes": 77813,
+          "sha256": "602a061cca2830f128367b3f398a7f493c2a1443cfaafa27540240c192a4aecc",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933477362-266-m.m4a",
+          "tar_offset": 866884608
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930659611-727-f.m4a",
+          "bytes": 111365,
+          "sha256": "077ace848e9347de3cc8a99bde06669d1792dbb033c8379fc4926a932471c440",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930659611-727-f.m4a",
+          "tar_offset": 878364160
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933454368-1052-m.m4a",
+          "bytes": 242047,
+          "sha256": "f73e7554a3df6b95ccdef4be1b010c68d95afc57082a6525fd1ee11c97d48d7b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933454368-1052-m.m4a",
+          "tar_offset": 878476288
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932802382-468-f.m4a",
+          "bytes": 100966,
+          "sha256": "c8df15a3ff99a5c5b7e6de4a2a80855f0d3a9748ea75ade135263dd74c6744b1",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932802382-468-f.m4a",
+          "tar_offset": 878718976
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931048220-384-f.m4a",
+          "bytes": 150739,
+          "sha256": "11d780db3eae8e6883c2e39ebbfd4e4ac1e27133b1dc75dfcaf974d63a8d5fcb",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931048220-384-f.m4a",
+          "tar_offset": 878820864
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930708117-277-f.m4a",
+          "bytes": 81161,
+          "sha256": "54bf8cd0a3bbb7fe1408e76bf6652187957b5d3cd8a2b9e7e0ceb14767f5aea8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930708117-277-f.m4a",
+          "tar_offset": 878972416
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932394275-1160-m.m4a",
+          "bytes": 54550,
+          "sha256": "37321ca45d5a4d485aa145e52ea8c0c62c0230912ca66a65a8f17126967bdb78",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932394275-1160-m.m4a",
+          "tar_offset": 879054336
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931026196-229-f.m4a",
+          "bytes": 104025,
+          "sha256": "7bf00f997399d464fedc51c6dec8d489feb55a37a0b6dca3a99071ad8e7c30be",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931026196-229-f.m4a",
+          "tar_offset": 879109632
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930891372-326-f.m4a",
+          "bytes": 72003,
+          "sha256": "68e4ce80986fae05c67da7a4947dbd55f0c4f1ad5af9e32c959588c1fd78ab78",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930891372-326-f.m4a",
+          "tar_offset": 879214592
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930802570-277-f.m4a",
+          "bytes": 66529,
+          "sha256": "a3c5af0d5dfd58685ae5d74e3b6fac88f494dac37585ad1ee2bd99bb7ed5ec6f",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930802570-277-f.m4a",
+          "tar_offset": 879287296
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933525766-1052-m.m4a",
+          "bytes": 151508,
+          "sha256": "99d6b9724d72d23e4bc1caeccbce9a4354ebeb84f3d15fe13b21cfb1b882b2ee",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933525766-1052-m.m4a",
+          "tar_offset": 879354368
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933463420-572-m.m4a",
+          "bytes": 87219,
+          "sha256": "bc4ec616ec702d9a90ebcd0495ee306ebb01c5d1364574ae651bad63e437d477",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933463420-572-m.m4a",
+          "tar_offset": 890855424
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424931066545-326-f.m4a",
+          "bytes": 90956,
+          "sha256": "dd33bffab4621213e74aae892def44846aead5ce2ae6cf02402e0ae4df2187d8",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424931066545-326-f.m4a",
+          "tar_offset": 890943488
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933489357-38-m.m4a",
+          "bytes": 72537,
+          "sha256": "49bd366bd6df09d34d1a85b6cf8c4183c85ebc2d67a28766138612d0162f10c4",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933489357-38-m.m4a",
+          "tar_offset": 891035136
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930651494-929-m.m4a",
+          "bytes": 104648,
+          "sha256": "fd2f7baaa16041b73d4ab0598da89ffba917f64144a0a75c76bb7010f885d2a5",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930651494-929-m.m4a",
+          "tar_offset": 891108352
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933475744-390-m.m4a",
+          "bytes": 212067,
+          "sha256": "0fc8aed1b54184775efeef387d6a0317294624c23a2cbc2c6e9a6f903e95484c",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933475744-390-m.m4a",
+          "tar_offset": 891213824
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424933456997-266-m.m4a",
+          "bytes": 78891,
+          "sha256": "f1f6e2b2de807c4c0ba78e44f80add46525c898d5f88fd1cf1b1da42b661128b",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424933456997-266-m.m4a",
+          "tar_offset": 891426816
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932385457-384-f.m4a",
+          "bytes": 136247,
+          "sha256": "23a3299b5dd44150df155a7d06ec6ecdac7f20dd13fa3048db550e30cbd4b5dd",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932385457-384-f.m4a",
+          "tar_offset": 891506688
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930704931-929-m.m4a",
+          "bytes": 77156,
+          "sha256": "672c06b1e429f4f742e2eda9f0a434803d3d278143a93b6e991d1f6741b1b6a3",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930704931-929-m.m4a",
+          "tar_offset": 891643904
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424932581813-645-f.m4a",
+          "bytes": 77555,
+          "sha256": "17b66f88447411da89fa315a011862e625628de8b81e552b19c12b93045ff6e6",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424932581813-645-f.m4a",
+          "tar_offset": 891721728
+        },
+        {
+          "path": "raw/kathbath_hi/kb_data_clean_m4a/hindi/test_known/audio/844424930917590-229-f.m4a",
+          "bytes": 103209,
+          "sha256": "af5ddf8f1adfaf701d5d41dafaed4845957e4b64edf904d8e88c7f2f6edd2840",
+          "member": "kb_data_clean_m4a/hindi/test_known/audio/844424930917590-229-f.m4a",
+          "tar_offset": 891800064
+        }
+      ],
+      "summary": {
+        "n_files": 240,
+        "bytes": 23805035
+      }
     }
   ]
 }

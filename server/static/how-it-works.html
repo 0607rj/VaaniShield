@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How it works — VaaniShield</title>
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+
+<section class="page-head">
+  <div class="wrap" style="grid-template-columns:1fr">
+    <div class="center">
+      <span class="eyebrow">How it works</span>
+      <h1>From sound to verdict<br>in under a second.</h1>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <!-- pipeline -->
+    <svg class="reveal" viewBox="0 0 1100 300" role="img" aria-label="Pipeline: audio, 4-second windows, AASIST neural network, score, verdict">
+      <g font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-weight="700" font-size="20" fill="#16133a" text-anchor="middle">
+        <text x="110" y="268">Voice</text><text x="330" y="268">Short slices</text><text x="560" y="268">Neural network</text>
+        <text x="790" y="268">Fake score</text><text x="990" y="268">Verdict</text>
+      </g>
+      <g font-family="Inter, Segoe UI, sans-serif" font-size="14" fill="#8a87a8" text-anchor="middle">
+        <text x="110" y="290">any format → 16 kHz</text><text x="330" y="290">6 s each, long clips split</text><text x="560" y="290">multilingual wav2vec 2.0</text>
+        <text x="790" y="290">0 – 100 %</text><text x="990" y="290">REAL or FAKE</text>
+      </g>
+      <!-- arrows -->
+      <g stroke="#ff8a1f" stroke-width="4" stroke-linecap="round" fill="none">
+        <path d="M204 130h28M224 120l10 10-10 10"/><path d="M432 130h28M452 120l10 10-10 10"/>
+        <path d="M664 130h28M684 120l10 10-10 10"/><path d="M884 130h28M904 120l10 10-10 10"/>
+      </g>
+      <!-- 1 waveform -->
+      <g class="wave-anim" fill="#3b3bd6">
+        <rect x="30" y="110" width="8" height="40" rx="4"/><rect x="46" y="88" width="8" height="84" rx="4"/><rect x="62" y="100" width="8" height="60" rx="4"/>
+        <rect x="78" y="70" width="8" height="120" rx="4"/><rect x="94" y="96" width="8" height="68" rx="4"/><rect x="110" y="80" width="8" height="100" rx="4"/>
+        <rect x="126" y="104" width="8" height="52" rx="4"/><rect x="142" y="86" width="8" height="88" rx="4"/><rect x="158" y="108" width="8" height="44" rx="4"/>
+        <rect x="174" y="96" width="8" height="68" rx="4"/><rect x="190" y="114" width="8" height="32" rx="4"/>
+      </g>
+      <!-- 2 slices -->
+      <g>
+        <rect x="248" y="70" width="70" height="120" rx="12" fill="#e6e6fb" stroke="#3b3bd6" stroke-width="3"/>
+        <rect x="296" y="82" width="70" height="120" rx="12" fill="#e6e6fb" stroke="#3b3bd6" stroke-width="3" opacity=".9"/>
+        <rect x="344" y="94" width="70" height="120" rx="12" fill="#fff" stroke="#3b3bd6" stroke-width="3"/>
+        <g fill="#3b3bd6"><rect x="356" y="140" width="6" height="28" rx="3"/><rect x="368" y="128" width="6" height="52" rx="3"/><rect x="380" y="136" width="6" height="36" rx="3"/><rect x="392" y="146" width="6" height="16" rx="3"/></g>
+      </g>
+      <!-- 3 network graph -->
+      <g stroke="#16133a" stroke-width="2.5" opacity=".55">
+        <line x1="500" y1="70" x2="560" y2="110"/><line x1="500" y1="70" x2="540" y2="170"/><line x1="560" y1="110" x2="620" y2="80"/>
+        <line x1="560" y1="110" x2="610" y2="180"/><line x1="540" y1="170" x2="610" y2="180"/><line x1="500" y1="140" x2="560" y2="110"/>
+        <line x1="500" y1="140" x2="540" y2="170"/><line x1="620" y1="80" x2="610" y2="180"/><line x1="500" y1="70" x2="500" y2="140"/>
+      </g>
+      <g><circle cx="500" cy="70" r="14" fill="#3b3bd6"/><circle cx="560" cy="110" r="20" fill="#ff8a1f"/><circle cx="620" cy="80" r="13" fill="#3b3bd6"/>
+        <circle cx="540" cy="170" r="15" fill="#3b3bd6"/><circle cx="610" cy="180" r="14" fill="#16133a"/><circle cx="500" cy="140" r="11" fill="#16133a"/></g>
+      <!-- 4 gauge -->
+      <path d="M720 170a70 70 0 0 1 140 0" fill="none" stroke="#e4ddd0" stroke-width="18" stroke-linecap="round"/>
+      <path d="M720 170a70 70 0 0 1 128-39" fill="none" stroke="#e5484d" stroke-width="18" stroke-linecap="round"/>
+      <line x1="790" y1="170" x2="840" y2="128" stroke="#16133a" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="790" cy="170" r="10" fill="#16133a"/>
+      <text x="790" y="78" text-anchor="middle" font-family="Bricolage Grotesque, Segoe UI, sans-serif" font-size="26" font-weight="800" fill="#e5484d">94%</text>
+      <!-- 5 verdict -->
+      <path d="M990 52l60 23v42c0 38-26 66-60 78-34-12-60-40-60-78V75z" fill="#e5484d"/>
+      <path d="M970 108l40 40M1010 108l-40 40" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+    </svg>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <div class="reveal" style="max-width:720px">
+      <span class="eyebrow">Measured, not claimed</span>
+      <h2>Tested in English, Hindi and Hinglish.</h2>
+      <p class="lead" style="margin-top:18px">Error rate of the multilingual detector on clips it never trained on. Lower is better.</p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="big">2%</div><p><b style="color:#fff">English</b> · ASVspoof 2019 evaluation clips, 13 cloning attacks</p></div>
+      <div class="stat"><div class="big">1.0%</div><p><b style="color:#fff">Hindi</b> · real FLEURS speakers vs AI voices reading the same sentences</p></div>
+      <div class="stat"><div class="big">0%</div><p><b style="color:#fff">Hinglish</b> · code-switched pilot set, 120 clips (small set)</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="split reveal">
+      <img class="chart-img" src="/static/img/roc.png" alt="ROC curve of AASIST and LFCC-CNN on the ASVspoof 2019 LA evaluation set" onerror="this.style.display='none'">
+      <div>
+        <span class="eyebrow">Two detectors</span>
+        <h3>English benchmark: 0.8% error.</h3>
+        <p>On the official test, the AASIST network matches its published result (0.83%). Our own compact LFCC-CNN, trained from scratch on 25,380 clips, is the baseline.</p>
+      </div>
+    </div>
+    <div class="split flip reveal">
+      <img class="chart-img" src="/static/img/eer_by_attack.png" alt="Error per voice-cloning attack" onerror="this.style.display='none'">
+      <div>
+        <span class="eyebrow">Every attack</span>
+        <h3>Checked against 13 cloning methods.</h3>
+        <p>Text-to-speech and voice conversion systems, each tested separately.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="hinglish">
+  <div class="wrap">
+    <div class="split reveal">
+      <div>
+        <span class="eyebrow">Our research: Hinglish</span>
+        <h3>English-only detectors stumble on Hinglish.</h3>
+        <p>The English champion (0.8% error) falls to coin-toss level on Hindi and Hinglish. VaaniShield's multilingual model, trained on speech in 100+ languages, stays near 1%.</p>
+      </div>
+      <img class="chart-img" src="/static/img/language_gap.png" alt="Error rate by language for three detectors" onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+
+<script src="/static/site.js"></script>
+</body>
+</html>
